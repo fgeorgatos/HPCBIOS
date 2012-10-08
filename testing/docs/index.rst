@@ -10,6 +10,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   test.rst
+
 Indices and tables
 ==================
 
