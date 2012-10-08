@@ -1,46 +1,45 @@
 HPCBIOS_06-01: Common Set of Open Source Math Libraries
 =======================================================
 
-{tip}
-This policy defines a set of open source math libraries and their
-consistent maintenance (same version and same configuration) across the
-resources at the participating centers. Same configuration is dependent
-on system compatibility, and also, some libraries may have slightly
-different configurations due to architectural differences. These
-differences, however, will not affect the use of the libraries. A user
-moving from one resource to another will notice no difference between
-the installations and it is expected to find an optimized version of
-that library.
+.. note::
+  This policy defines a set of open source math libraries and their
+  consistent maintenance (same version and same configuration) across the
+  resources at the participating centers. Same configuration is dependent
+  on system compatibility, and also, some libraries may have slightly
+  different configurations due to architectural differences. These
+  differences, however, will not affect the use of the libraries. A user
+  moving from one resource to another will notice no difference between
+  the installations and it is expected to find an optimized version of
+  that library.
 
-BC Project LS206-01
-Date of policy: 1st November 2011
-First Update: 15th July 2011
-Second Update: 23rd September 2011
-{tip}
+  BC Project LS206-01
+  Date of policy: 1st November 2011
+  First Update: 15th July 2011
+  Second Update: 23rd September 2011
 
 The suite of maintained packages consists of:
 
-\|\| Library API \|\| Purpose \|\| Compliance level \|\| References \|\|
-\| ARPACK \| Solution of Eigenvalues/Eigenvectors \| SHOULD \|
-[`http://www.caam.rice.edu/software/ARPACK/`_\ ] \|
-\| FFTW \| Library for computing Discrete Fourier Transforms Both MPI
-and non-MPI versions are maintained \| MUST \|
-[`http://www.fftw.org/`_\ ] \|
-\| PETSc \| Suite of scientific computing routines \| MUST \|
-[`http://www.mcs.anl.gov/petsc/`_\ ] \|
-\| SuperLU \| Direct solution of sparse linear systems of equations \|
-SHOULD \| [`http://crd.lbl.gov/~xiaoye/SuperLU`_\ ] \|
-\| LAPACK \| Software library of numerical linear algebra routines \|
-MUST \| [`http://www.netlib.org/lapack/`_\ ] \|
-\| ScaLAPACK \| Subset of parallelized LAPACK routines \| MUST \|
-[`http://www.netlib.org/scalapack/`_\ ]
-\| BLAS \| Basic linear algebra routines ATLAS GotoBLAS \| MUST \|
-[`http://www.netlib.org/blas/`_\ ] \|
-\| SPRNG \| Pseudo-Random Number Generators for Stochastic computation
-via Monte Carlo methods et al \| MUST \| [`http://sprng.cs.fsu.edu/`_\ ]
-\|
-\| GSL \| C/C+ library with a wide variety of mathematical routines \|
-MUST \| [`http://www.gnu.org/s/gsl/`_\ ] \|
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| Library API   | Purpose                                                                                            | Compliance level   | References                                    |
++===============+====================================================================================================+====================+===============================================+
+| ARPACK        | Solution of Eigenvalues/Eigenvectors                                                               | SHOULD             | [http://www.caam.rice.edu/software/ARPACK/]   |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| FFTW          | Library for computing Discrete Fourier Transforms ; Both MPI and non-MPI versions are maintained   | MUST               | [http://www.fftw.org/]                        |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| PETSc         | Suite of scientific computing routines                                                             | MUST               | [http://www.mcs.anl.gov/petsc/]               |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| SuperLU       | Direct solution of sparse linear systems of equations                                              | SHOULD             | [http://crd.lbl.gov/~xiaoye/SuperLU]          |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| LAPACK        | Software library of numerical linear algebra routines                                              | MUST               | [http://www.netlib.org/lapack/]               |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| ScaLAPACK     | Subset of parallelized LAPACK routines                                                             | MUST               | [http://www.netlib.org/scalapack/]            |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| BLAS          | Basic linear algebra routines ; ATLAS ; GotoBLAS                                                   | MUST               | [http://www.netlib.org/blas/]                 |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| SPRNG         | Pseudo-Random Number Generators for Stochastic computation via Monte Carlo methods et al           | SHOULD             | [http://sprng.cs.fsu.edu/]                    |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| GSL           | C/C+ library with a wide variety of mathematical routines                                          | MUST               | [http://www.gnu.org/s/gsl/]                   |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 
 Change notification
 ===================
