@@ -11,6 +11,9 @@ Contents:
    :maxdepth: 2
 
    test.rst
+   HPCBIOS_05-01.rst
+   HPCBIOS_05-05.rst
+   HPCBIOS_05-06.rst
 
 Indices and tables
 ==================
