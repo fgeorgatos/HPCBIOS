@@ -1,5 +1,5 @@
-Baseline Set of Login Shells
-============================
+HPCBIOS_05-06: Baseline Set of Login Shells
+===========================================
 
 {tip}
 A user MAY specify any login shell of the login shell baseline as the

@@ -1,5 +1,5 @@
-Common Queue Names
-==================
+HPCBIOS_05-05: Common Queue Names
+=================================
 
 {tip}
 Common queue names will allow users to understand HPCBIOS HPC
