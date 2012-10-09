@@ -1,0 +1,56 @@
+HPCBIOS_07-02: Common Open Source Performance and Profiling Tools
+=================================================================
+
+.. note::
+  This policy defines a set of performance and profiling tools and their
+  consistent maintenance (same version and configuration) across all
+  systems of participating centers. Same configuration is dependent on
+  system compatibility, and also, some libraries may have slightly
+  different configurations due to architectural differences. These
+  differences, however, will not affect the use of the libraries. A user
+  moving from one resource to another will notice no difference between
+  the installations.
+
+  * BC Policy: LS2_07-02
+  * Date of Policy: 1st November 2012
+
+The suite of maintained packages consists of:
+
++------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
+| Tool                   | Description                                            | Compliance level   | Reference                                                               |
++========================+========================================================+====================+=========================================================================+
+| UNITE                  | UNiform Integrated Tool Environment                    | MUST               | `http://apps.fz-juelich.de/unite`_                                      |
++------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
+| gprof                  | The GNU Profiler                                       | MUST               | `http://www.gnu.org/software/binutils/`_                                |
++------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
+| PAPI                   | Consistent interface to hardware counters and events   | SHOULD             | `http://icl.cs.utk.edu/papi`_                                           |
++------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
+| Valgrind               | Memory management analysis and profiling               | SHOULD             | `http://valgrind.org/`_                                                 |
++------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
+| PerfSuite              | software performance analysis                          | SHOULD             | `http://perfsuite.ncsa.illinois.edu/`_                                  |
++------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
+| Intel Vtune Analyzer   | performance optimization tool                          | SHOULD             | `http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/`_   |
++------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
+
+.. seealso::
+  The goal of UNITE is to provide a robust, portable, and integrated
+  environment for the debugging and performance analysis of parallel MPI,
+  OpenMP, and hybrid MPI/OpenMP programs on high-performance compute
+  clusters. It consists of a set of well-accepted portable, mostly
+  open-source tools. UNITE itself includes:
+
+  +------------+-------------------------------------------------+---------------------------------------------+
+  | mpiP       | Lightweight, Scalable MPI Profiling             | `http://mpip.sourceforge.net/`_             |
+  +------------+-------------------------------------------------+---------------------------------------------+
+  | SCALASCA   | Scalable trace analysis package                 | `http://www.scalasca.org/`_                 |
+  +------------+-------------------------------------------------+---------------------------------------------+
+  | Vampir     | Performance Optimization                        | `http://www.vampir.eu/`_                    |
+  +------------+-------------------------------------------------+---------------------------------------------+
+  | TAU        | Performance analysis of parallel applications   | `http://www.cs.uoregon.edu/Research/tau`_   |
+  |            | * Support for PAPI and SCALASCA                 |                                             |
+  |            | * PDT: Source-level auto-instrumentation        |                                             |
+  +------------+-------------------------------------------------+---------------------------------------------+
+
+The packages will be installed and maintained as part of a consistent
+computational environment.
+
