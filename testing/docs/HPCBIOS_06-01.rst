@@ -40,7 +40,7 @@ The suite of maintained packages consists of:
 +---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 
 Change notification
-===================
+-------------------
 
 New versions of supported libraries will initially be installed as
 non-default. Notification will be sent to the project helpdesk
