@@ -12,10 +12,8 @@ HPCBIOS_06-01: Common Set of Open Source Math Libraries
   the installations and it is expected to find an optimized version of
   that library.
 
-  BC Project LS206-01
-  Date of policy: 1st November 2011
-  First Update: 15th July 2011
-  Second Update: 23rd September 2011
+  * BC Project: HPCBIOS_06-01
+  * Date of Policy: 1st November 2012
 
 The suite of maintained packages consists of:
 
@@ -34,11 +32,11 @@ The suite of maintained packages consists of:
 +---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | ScaLAPACK     | Subset of parallelized LAPACK routines                                                             | MUST               | [http://www.netlib.org/scalapack/]            |
 +---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| BLAS          | Basic linear algebra routines ; ATLAS ; GotoBLAS                                                   | MUST               | [http://www.netlib.org/blas/]                 |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| SPRNG         | Pseudo-Random Number Generators for Stochastic computation via Monte Carlo methods et al           | SHOULD             | [http://sprng.cs.fsu.edu/]                    |
+| BLAS          | Basic linear algebra routines * ATLAS * GotoBLAS                                                   | MUST               | [http://www.netlib.org/blas/]                 |
 +---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | GSL           | C/C+ library with a wide variety of mathematical routines                                          | MUST               | [http://www.gnu.org/s/gsl/]                   |
++---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| SPRNG         | Pseudo-Random Number Generators for Stochastic computation via Monte Carlo methods et al           | SHOULD             | [http://sprng.cs.fsu.edu/]                    |
 +---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 
 Change notification
@@ -56,26 +54,23 @@ notification is in the absence of any baseline configuration change
 notification policy that may exist. Any baseline configuration policy on
 change notification supersedes the change notification listed in this
 policy. The minimum of versions that will be kept, MUST follow BC
-[LS2\_05-01\|LS2\_05-01] policy. Old versions MAY be deleted when there
+[HPCBIOS_05-01|HPCBIOS_05-01] policy. Old versions MAY be deleted when there
 are three newer versions available.
 
-{note}
-Native Libraries
+.. seealso::
+  Native Libraries
 
-The packages ScaLAPACK, LAPACK and/or ATLAS will not be installed
-whenever a system includes native libraries such as PESSL (Parallel
-ESSL) ACML or, MKL (Math kernel Libraries) that fully provide the same
-functionality and interface. However, if an explicit request is made to
-have ScaLAPACK, LAPACK and/or ATLAS available on a system, then these
-packages will also be installed.
-{note}
+  The packages ScaLAPACK, LAPACK and/or ATLAS will not be installed
+  whenever a system includes native libraries such as PESSL (Parallel
+  ESSL) ACML or, MKL (Math kernel Libraries) that fully provide the same
+  functionality and interface. However, if an explicit request is made to
+  have ScaLAPACK, LAPACK and/or ATLAS available on a system, then these
+  packages will also be installed.
 
-{tip}
 Support
 
 The helpdesk team (User Support) maintains the suite of software listed
 in this policy, and it also provides the needed support channels.
-{tip}
 
 .. _`http://www.caam.rice.edu/software/ARPACK/`: http://www.caam.rice.edu/software/ARPACK/
 .. _`http://www.fftw.org/`: http://www.fftw.org/
