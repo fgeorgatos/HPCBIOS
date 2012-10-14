@@ -1,28 +1,29 @@
 HPC Baseline Configuration
 ==========================
 
-.. note::
-  HPC-BC is an effort to setup a common well-documented environment
-  across multiple HPC sites.
+.. topic:: Introduction
+
+  HPCBIOS is an effort to setup a common, well-documented and reproducible,
+  environment spanning across multiple HPC systems & sites.
 
   HPC Baseline Configuration (BC) is an effort to define a common set of
   capabilities and functions so that users can work more productively and
   collaboratively when using the HPC resources at multiple computing
   centers within the HPCBIOS project context. This will be accomplished by
   defining and developing a common set of capabilities and functions so
-  that users can focus energy on their research as opposed to wrestling
-  with center-specific policies and procedures.
+  that users can focus energy on their research effort,
+  as opposed to wrestling with center-specific policies and procedures.
 
-  It is modeled after a similar effort taking place elsewhere among 6 HPC
-  sites and in effect it is an extension upon it: `HPC-BC <http://www.ccac.hpc.mil/consolidated/bc>`_
-  The effort of that BC team keeps marching on helping users work more
-  productivity by updating existing policies to accommodate new users,
-  integrating new capabilities that must be consistent across the
+  It is modeled after a similar effort taking place elsewhere among 6 HPC sites in the US and,
+  in effect, it is an extension upon it: `HPC-BC <http://www.ccac.hpc.mil/consolidated/bc>`_.
+
+  The effort of this project keeps marching on helping users work more
+  productivity by updating existing policies to accommodate new needs,
+  integrating new capabilities that must be consistent across the HPC
   enterprise, or just providing a sounding board for users experiencing
   difficulties with an HPC environment.
 
-  * Keywords like MUST, MAY, SHOULD, RECOMMENDED are used in accordance
-  with `RFC2119 <http://www.ietf.org/rfc/rfc2119.txt>`_
+  * Keywords like MUST, MAY, SHOULD, RECOMMENDED are well-defined and used in accordance with `RFC2119 <http://www.ietf.org/rfc/rfc2119.txt>`_.
 
 About the Baseline Configuration
 --------------------------------
@@ -40,53 +41,53 @@ resources at multiple computing centers.
 Compliance Matrix
 -----------------
 
-.. |k| image:: images: check.gif
-.. |x| image:: images: error.gif
-.. |y| image:: images: thumbs_up.gif
-.. |n| image:: images: thumbs_down.gif
-.. |i| image:: images: information.gif
-.. |w| image:: images: warning.gif
+.. |y| image:: images/check.gif
+.. |n| image:: images/error.gif
+.. |a| image:: images/thumbs_up.gif
+.. |d| image:: images/thumbs_down.gif
+.. |i| image:: images/information.gif
+.. |w| image:: images/warning.gif
 
-Use notation |k| |x| |y| |n| |i| |w| respectively standing for: yes, no, agree, disagree, information notice, attention notice.
+Use notation |y| |n| |a| |d| |i| |w| respectively standing for: yes, no, agree, disagree, information notice, warning notice.
 
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | Policy tag #       | Policy Topics                                    | Chaos   | Gaia   | G5K   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_05-01]   | Multiple-Version Software                        | (/)     | (/)    | (y)   |
+| HPCBIOS_05-01      | Multiple-Version Software                        | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_05-05]   | Queue Names                                      | (/)     | (/)    |       |
+| [HPCBIOS\_05-05]   | Queue Names                                      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_05-06]   | Login Shells                                     | (/)     | (/)    | (y)   |
+| [HPCBIOS\_05-06]   | Login Shells                                     | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-01]   | Open Source Math Libraries                       | (/)     | (y)    | (y)   |
+| [HPCBIOS\_06-01]   | Open Source Math Libraries                       | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-04]   | Editors and Scripting Tools                      | (/)     | (/)    | (y)   |
+| [HPCBIOS\_06-04]   | Editors and Scripting Tools                      | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-05]   | Set of Debuggers                                 | (/)     | (/)    |       |
+| [HPCBIOS\_06-05]   | Set of Debuggers                                 | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-15]   | Sample Code Repository                           | (/)     | (/)    | (y)   |
+| [HPCBIOS\_06-15]   | Sample Code Repository                           | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-17]   | Multiple-Version Software Access via Modules     | (/)     | (/)    | (y)   |
+| [HPCBIOS\_06-17]   | Multiple-Version Software Access via Modules     | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-19]   | Open Source Utilities                            | (/)     | (/)    | (y)   |
+| [HPCBIOS\_06-19]   | Open Source Utilities                            | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_07-02]   | Open Source Performance and Profiling Tools      | (/)     | (/)    | (y)   |
+| [HPCBIOS\_07-02]   | Open Source Performance and Profiling Tools      | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_07-03]   | Common Set of Open Source Compilers              | (/)     | (/)    | (y)   |
+| [HPCBIOS\_07-03]   | Common Set of Open Source Compilers              | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_10-01]   | New/Returning User Welcome Letter                | (/)     | (/)    | (y)   |
+| [HPCBIOS\_10-01]   | New/Returning User Welcome Letter                | |a|     | |a|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_10-02]   | Common Open Source High Productivity Languages   | (y)     | (y)    | (y)   |
+| [HPCBIOS\_10-02]   | Common Open Source High Productivity Languages   | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-99]   | GPU Productivity Environment                     | N/A     | (y)    | N/A   |
+| [HPCBIOS\_11-99]   | GPU Productivity Environment                     | |n|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-98]   | Common Set of Environment Variables              | (/)     | (/)    |       |
+| [HPCBIOS\_11-98]   | Common Set of Environment Variables              | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-97]   | Climate Science Productivity Environment         |         | (y)    |       |
+| [HPCBIOS\_11-97]   | Climate Science Productivity Environment         | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-96]   | Common Set of Commercial Compilers               | (/)     | (/)    |       |
+| [HPCBIOS\_11-96]   | Common Set of Commercial Compilers               | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-95]   | Molecular Dynamics Productivity Environment      |         | (y)    |       |
+| [HPCBIOS\_11-95]   | Molecular Dynamics Productivity Environment      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
 
 .. note::
@@ -99,10 +100,10 @@ Use notation |k| |x| |y| |n| |i| |w| respectively standing for: yes, no, agree, 
   Periodic checks will be performed to ensure compliance is maintained.
 
   Note, there may be valid reasons for not being compliant with a policy.
-  For example, non-compliance may be acceptable if it prevents removal of
-  an existing capability or function from the Center’s systems or if the
-  HPC system affected is scheduled for decommissioning in the near future.
+  For example, non-compliance may be acceptable especially if it implies removal of
+  an existing capability or function from a given system; also, for generic operational reasons
+  or, if the HPC system affected is scheduled for decommissioning in the near future.
 
   **Non-compliance is fine, as long as the documentation above is correct
-  and the users are informed.**
+  and the users are informed about it.**
 

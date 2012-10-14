@@ -19,17 +19,17 @@ The suite of maintained packages consists of:
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 | Tool                   | Description                                            | Compliance level   | Reference                                                               |
 +========================+========================================================+====================+=========================================================================+
-| UNITE                  | UNiform Integrated Tool Environment                    | MUST               | `http://apps.fz-juelich.de/unite`_                                      |
+| UNITE                  | UNiform Integrated Tool Environment                    | MUST               | http://apps.fz-juelich.de/unite                                         |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| gprof                  | The GNU Profiler                                       | MUST               | `http://www.gnu.org/software/binutils/`_                                |
+| gprof                  | The GNU Profiler                                       | MUST               | http://www.gnu.org/software/binutils/                                   |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| PAPI                   | Consistent interface to hardware counters and events   | SHOULD             | `http://icl.cs.utk.edu/papi`_                                           |
+| PAPI                   | Consistent interface to hardware counters and events   | SHOULD             | http://icl.cs.utk.edu/papi                                              |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| Valgrind               | Memory management analysis and profiling               | SHOULD             | `http://valgrind.org/`_                                                 |
+| Valgrind               | Memory management analysis and profiling               | SHOULD             | http://valgrind.org/                                                    |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| PerfSuite              | software performance analysis                          | SHOULD             | `http://perfsuite.ncsa.illinois.edu/`_                                  |
+| PerfSuite              | software performance analysis                          | SHOULD             | http://perfsuite.ncsa.illinois.edu/                                     |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| Intel Vtune Analyzer   | performance optimization tool                          | SHOULD             | `http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/`_   |
+| Intel Vtune Analyzer   | performance optimization tool                          | SHOULD             | http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/      |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 
 .. seealso::
@@ -40,13 +40,13 @@ The suite of maintained packages consists of:
   open-source tools. UNITE itself includes:
 
   +------------+-------------------------------------------------+---------------------------------------------+
-  | mpiP       | Lightweight, Scalable MPI Profiling             | `http://mpip.sourceforge.net/`_             |
+  | mpiP       | Lightweight, Scalable MPI Profiling             | http://mpip.sourceforge.net/                |
   +------------+-------------------------------------------------+---------------------------------------------+
-  | SCALASCA   | Scalable trace analysis package                 | `http://www.scalasca.org/`_                 |
+  | SCALASCA   | Scalable trace analysis package                 | http://www.scalasca.org/                    |
   +------------+-------------------------------------------------+---------------------------------------------+
-  | Vampir     | Performance Optimization                        | `http://www.vampir.eu/`_                    |
+  | Vampir     | Performance Optimization                        | http://www.vampir.eu/                       |
   +------------+-------------------------------------------------+---------------------------------------------+
-  | TAU        | Performance analysis of parallel applications   | `http://www.cs.uoregon.edu/Research/tau`_   |
+  | TAU        | Performance analysis of parallel applications   | http://www.cs.uoregon.edu/Research/tau      |
   |            | * Support for PAPI and SCALASCA                 |                                             |
   |            | * PDT: Source-level auto-instrumentation        |                                             |
   +------------+-------------------------------------------------+---------------------------------------------+

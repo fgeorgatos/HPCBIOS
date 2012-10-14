@@ -8,11 +8,11 @@ Welcome to HPCBIOS's documentation!
 Contents:
 
 .. toctree::
-   :glob:
-   :maxdepth: 2
+    :glob:
+    :maxdepth: 2
 
-   HPC_Baseline_Configuration
-   HPCBIOS_*
+    HPC_Baseline_Configuration
+    HPCBIOS_*
 
 Indices and tables
 ==================
