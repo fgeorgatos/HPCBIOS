@@ -36,21 +36,21 @@ master_doc = 'index'
 
 # General substitutions.
 project = 'HPCBIOS'
-copyright = '2012, Fotis Georgatos'
+copyright = '2012, Fotis Georgatos, University of Luxembourg, CC-BY-SA'
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
 #
 # The short X.Y version.
-version = '0.1'
+version = '0.2'
 # The full version, including alpha/beta/rc tags.
-release = '0.1'
+release = '0.2rc'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
 #today = ''
 # Else, today_fmt is used as the format for a strftime call.
-today_fmt = '%B %d, %Y'
+today_fmt = '%d %B %Y'
 
 # List of documents that shouldn't be included in the build.
 #unused_docs = []
@@ -108,7 +108,7 @@ html_static_path = ['.static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%d %b %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -150,6 +150,7 @@ htmlhelp_basename = 'HPCBIOSdoc'
 
 # The paper size ('letter' or 'a4').
 #latex_paper_size = 'letter'
+latex_paper_size = 'a4'
 
 # The font size ('10pt', '11pt' or '12pt').
 #latex_font_size = '10pt'

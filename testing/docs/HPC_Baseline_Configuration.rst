@@ -23,7 +23,7 @@ HPC Baseline Configuration
   enterprise, or just providing a sounding board for users experiencing
   difficulties with an HPC environment.
 
-  * Keywords like MUST, MAY, SHOULD, RECOMMENDED are well-defined and used in accordance with `RFC2119 <http://www.ietf.org/rfc/rfc2119.txt>`_.
+  * Keywords like *MUST*, *MAY*, *SHOULD*, *RECOMMENDED* are well-defined and used in accordance with :rfc:`2119`.
 
 About the Baseline Configuration
 --------------------------------
@@ -53,7 +53,7 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: yes, no, agree, 
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | Policy tag #       | Policy Topics                                    | Chaos   | Gaia   | G5K   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| HPCBIOS_05-01      | Multiple-Version Software                        | |y|     | |y|    |       |
+| [HPCBIOS_\05-01]   | Multiple-Version Software                        | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | [HPCBIOS\_05-05]   | Queue Names                                      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
@@ -106,4 +106,6 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: yes, no, agree, 
 
   **Non-compliance is fine, as long as the documentation above is correct
   and the users are informed about it.**
+
+This document was last rebuilt on: |today|.
 

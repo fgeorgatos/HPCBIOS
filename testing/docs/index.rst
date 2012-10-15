@@ -9,7 +9,7 @@ Contents:
 
 .. toctree::
     :glob:
-    :maxdepth: 2
+    :maxdepth: 1
 
     HPC_Baseline_Configuration
     HPCBIOS_*
@@ -19,5 +19,20 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
+
+Reference Pages
+===============
+
+.. toctree::
+    :maxdepth: 1
+
+    HTML snippets <HTML-snippets>
+    CSS style objects <CSS-styles>
+    Glossary <glossary>
+
+* :ref:`Search <search>`
+
+--------
+
+This document was last rebuilt on: |today|.
 

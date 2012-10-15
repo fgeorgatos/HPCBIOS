@@ -17,33 +17,34 @@ HPCBIOS_06-01: Common Set of Open Source Math Libraries
 
 The suite of maintained packages consists of:
 
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| Library API   | Purpose                                                                                            | Compliance level   | References                                    |
-+===============+====================================================================================================+====================+===============================================+
-| ARPACK        | Solution of Eigenvalues/Eigenvectors                                                               | SHOULD             | [http://www.caam.rice.edu/software/ARPACK/]   |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| FFTW          | Library for computing Discrete Fourier Transforms ; Both MPI and non-MPI versions are maintained   | MUST               | [http://www.fftw.org/]                        |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| PETSc         | Suite of scientific computing routines                                                             | MUST               | [http://www.mcs.anl.gov/petsc/]               |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| SuperLU       | Direct solution of sparse linear systems of equations                                              | SHOULD             | [http://crd.lbl.gov/~xiaoye/SuperLU]          |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| LAPACK        | Software library of numerical linear algebra routines                                              | MUST               | [http://www.netlib.org/lapack/]               |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| ScaLAPACK     | Subset of parallelized LAPACK routines                                                             | MUST               | [http://www.netlib.org/scalapack/]            |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| BLAS          | Basic linear algebra routines * ATLAS * GotoBLAS                                                   | MUST               | [http://www.netlib.org/blas/]                 |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| GSL           | C/C+ library with a wide variety of mathematical routines                                          | MUST               | [http://www.gnu.org/s/gsl/]                   |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| SPRNG         | Pseudo-Random Number Generators for Stochastic computation via Monte Carlo methods et al           | SHOULD             | [http://sprng.cs.fsu.edu/]                    |
-+---------------+----------------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| Library API   | Purpose                                                                                  | Compliance level   | References                                    |
++===============+==========================================================================================+====================+===============================================+
+| ARPACK        | Solution of Eigenvalues/Eigenvectors                                                     | SHOULD             | http://www.caam.rice.edu/software/ARPACK/     |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| FFTW          | Library for computing Discrete Fourier Transforms ; Both MPI and non-MPI versions        | MUST               | http://www.fftw.org/                          |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| PETSc         | Suite of scientific computing routines                                                   | MUST               | http://www.mcs.anl.gov/petsc/                 |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| SuperLU       | Direct solution of sparse linear systems of equations                                    | SHOULD             | http://crd.lbl.gov/~xiaoye/SuperLU            |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| LAPACK        | Software library of numerical linear algebra routines                                    | MUST               | http://www.netlib.org/lapack/                 |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| ScaLAPACK     | Subset of parallelized LAPACK routines                                                   | MUST               | http://www.netlib.org/scalapack/              |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| BLAS          | Basic linear algebra routines * ATLAS * GotoBLAS                                         | MUST               | http://www.netlib.org/blas/                   |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| GSL           | C/C+ library with a wide variety of mathematical routines                                | MUST               | http://www.gnu.org/s/gsl/                     |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
+| SPRNG         | Pseudo-Random Number Generators for Stochastic computation via Monte Carlo methods et al | SHOULD             | http://sprng.cs.fsu.edu/                      |
++---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 
 Change notification
 -------------------
 
-New versions of supported libraries will initially be installed as
-non-default. Notification will be sent to the project helpdesk
+This policy should be the default implementation for LINPACK/BLAS functions.
+Any new versions of supported libraries will initially be installed as
+non-default. Notification will be sent to the system's helpdesk
 announcing the new version and describing how to access it and use it.
 The helpdesk will be given a minimum of 2 weeks notice when the new
 version becomes the default version. The old version will not be
@@ -52,10 +53,9 @@ can continue to use the old version. It is the responsibility of the
 individual centers to notify their users of any changes. This change
 notification is in the absence of any baseline configuration change
 notification policy that may exist. Any baseline configuration policy on
-change notification supersedes the change notification listed in this
-policy. The minimum of versions that will be kept, MUST follow BC
-[HPCBIOS_05-01|HPCBIOS_05-01] policy. Old versions MAY be deleted when there
-are three newer versions available.
+change notification supersedes the change notification listed in this policy.
+The minimum of versions that will be kept, MUST follow BC [HPCBIOS_05-01] policy.
+Old versions MAY be deleted when there are three newer versions available.
 
 .. seealso::
   Native Libraries
@@ -71,13 +71,3 @@ Support
 
 The helpdesk team (User Support) maintains the suite of software listed
 in this policy, and it also provides the needed support channels.
-
-.. _`http://www.caam.rice.edu/software/ARPACK/`: http://www.caam.rice.edu/software/ARPACK/
-.. _`http://www.fftw.org/`: http://www.fftw.org/
-.. _`http://www.mcs.anl.gov/petsc/`: http://www.mcs.anl.gov/petsc/
-.. _`http://crd.lbl.gov/~xiaoye/SuperLU`: http://crd.lbl.gov/~xiaoye/SuperLU
-.. _`http://www.netlib.org/lapack/`: http://www.netlib.org/lapack/
-.. _`http://www.netlib.org/scalapack/`: http://www.netlib.org/scalapack/
-.. _`http://www.netlib.org/blas/`: http://www.netlib.org/blas/
-.. _`http://sprng.cs.fsu.edu/`: http://sprng.cs.fsu.edu/
-.. _`http://www.gnu.org/s/gsl/`: http://www.gnu.org/s/gsl/

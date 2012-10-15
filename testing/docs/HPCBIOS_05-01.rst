@@ -9,9 +9,9 @@ HPCBIOS_05-01: Multiple-Version Software Policy
   * Date of Policy: 1st November 2012
 
 These versions are:
-* A primary production version; (MUST)
-* A previous production version for validation and verification purposes; (SHOULD)
-* Beta or Release-Candidate version to be made available within first month of that release. (RECOMMENDED)
+  * A primary production version; (MUST)
+  * A previous production version for validation and verification purposes; (SHOULD)
+  * Beta or Release-Candidate version to be made available within first month of that release. (RECOMMENDED)
 
 These three versions will vary by package and system, but users should
 have the ability to test newer versions as they become available and
