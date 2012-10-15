@@ -39,6 +39,7 @@ Insert “Project Reference code” as appropriate.
 b. Each registered project member should request a user account on the allocated HPC resource(s) by completing the following form:
 (URL)
 
+
 Please note:
 * You will not be granted a user account on a HPC resource if you have not completed this form.
 * If accepted project is allocated on a specific HPC site, you will be allowed access to your project allocated site(s)
