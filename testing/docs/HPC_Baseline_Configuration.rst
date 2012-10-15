@@ -48,7 +48,7 @@ Compliance Matrix
 .. |i| image:: images/information.gif
 .. |w| image:: images/warning.gif
 
-Use notation |y| |n| |a| |d| |i| |w| respectively standing for:
+Use notation |y|, |n|, |a|, |d|, |i|, |w|, respectively standing for:
 yes, no, agree, disagree, information notice, warning notice.
 
 +--------------------+--------------------------------------------------+---------+--------+-------+
