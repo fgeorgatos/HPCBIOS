@@ -13,7 +13,7 @@ HPCBIOS_07-02: Common Open Source Performance and Profiling Tools
   moving from one resource to another will notice no difference between
   the installations.
 
-  * BC Policy: LS2_07-02
+  * BC Policy: HPCBIOS_07-02
   * Date of Policy: 1st November 2012
 
 The suite of maintained packages consists of:
