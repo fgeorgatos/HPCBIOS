@@ -12,8 +12,7 @@ HPCBIOS_2011-98: Common Set of Environment Variables
 The current list of variables has as follows:
 
 BC_CORES_PER_NODE (MUST)
-
-This variable contains the number of cores per node for the compute node type to which a job is being submitted.
+  This variable contains the number of cores per node for the compute node type to which a job is being submitted.
 
 BC_MEM_PER_NODE (MUST)
   This variable contains the approximate maximum memory per node available to an end user program (in integer MBs) for the compute node type to which a job is being submitted.
