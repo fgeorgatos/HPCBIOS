@@ -1,3 +1,5 @@
+.. _HPCBIOS_07-02:
+
 HPCBIOS_07-02: Common Open Source Performance and Profiling Tools
 =================================================================
 

@@ -1,3 +1,5 @@
+.. _HPCBIOS_06-15:
+
 HPCBIOS_06-15: Sample Code Repository
 ========================================
 

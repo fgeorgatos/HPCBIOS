@@ -1,3 +1,5 @@
+.. _HPCBIOS_06-19:
+
 HPCBIOS_06-19: Common Set of Open Source Utilities
 ==================================================
 

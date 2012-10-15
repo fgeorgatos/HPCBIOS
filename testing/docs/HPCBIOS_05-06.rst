@@ -1,3 +1,5 @@
+.. _HPCBIOS_05-06:
+
 HPCBIOS_05-06: Baseline Set of Login Shells
 ===========================================
 

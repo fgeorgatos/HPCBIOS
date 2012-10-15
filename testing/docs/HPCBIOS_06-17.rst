@@ -1,3 +1,5 @@
+.. _HPCBIOS_06-17:
+
 HPCBIOS_06-17: Use of Modules for Accessing Multiple Versions of Software
 =========================================================================
 

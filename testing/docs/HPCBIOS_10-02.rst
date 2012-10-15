@@ -1,3 +1,5 @@
+.. _HPCBIOS_10-02:
+
 HPCBIOS_10-02: Common Open Source High Productivity Languages
 =============================================================
 

@@ -1,4 +1,6 @@
-HPCBIOS_07-02: Common Set of Open Source Compilers
+.. _HPCBIOS_07-03:
+
+HPCBIOS_07-03: Common Set of Open Source Compilers
 ==================================================
 
 .. note::

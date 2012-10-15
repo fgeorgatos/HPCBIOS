@@ -1,3 +1,5 @@
+.. _HPCBIOS_06-01:
+
 HPCBIOS_06-01: Common Set of Open Source Math Libraries
 =======================================================
 

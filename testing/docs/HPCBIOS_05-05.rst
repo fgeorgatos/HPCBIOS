@@ -1,3 +1,5 @@
+.. _HPCBIOS_05-05:
+
 HPCBIOS_05-05: Common Queue Names
 =================================
 

@@ -1,3 +1,5 @@
+.. _HPCBIOS_06-05:
+
 HPCBIOS_06-05: Baseline Set of Debuggers
 ========================================
 

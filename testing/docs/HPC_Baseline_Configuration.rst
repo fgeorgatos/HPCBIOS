@@ -53,41 +53,41 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: yes, no, agree, 
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | Policy tag #       | Policy Topics                                    | Chaos   | Gaia   | G5K   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS_\05-01]   | Multiple-Version Software                        | |y|     | |y|    |       |
+| |HPCBIOS_05_01|    | Multiple-Version Software                        | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_05-05]   | Queue Names                                      | |a|     | |a|    |       |
+| |HPCBIOS_05-05|    | Queue Names                                      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_05-06]   | Login Shells                                     | |y|     | |y|    | |y|   |
+| |HPCBIOS_05-06|    | Login Shells                                     | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-01]   | Open Source Math Libraries                       | |y|     | |y|    |       |
+| |HPCBIOS_06-01|    | Open Source Math Libraries                       | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-04]   | Editors and Scripting Tools                      | |y|     | |y|    | |y|   |
+| |HPCBIOS_06-04|    | Editors and Scripting Tools                      | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-05]   | Set of Debuggers                                 | |y|     | |y|    |       |
+| |HPCBIOS_06-05|    | Set of Debuggers                                 | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-15]   | Sample Code Repository                           | |a|     | |a|    |       |
+| |HPCBIOS_06-15|    | Sample Code Repository                           | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-17]   | Multiple-Version Software Access via Modules     | |y|     | |y|    |       |
+| |HPCBIOS_06-17|    | Multiple-Version Software Access via Modules     | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_06-19]   | Open Source Utilities                            | |y|     | |y|    | |y|   |
+| |HPCBIOS_06-19|    | Open Source Utilities                            | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_07-02]   | Open Source Performance and Profiling Tools      | |y|     | |y|    |       |
+| |HPCBIOS_07-02|    | Open Source Performance and Profiling Tools      | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_07-03]   | Common Set of Open Source Compilers              | |y|     | |y|    | |y|   |
+| |HPCBIOS_07-03|    | Common Set of Open Source Compilers              | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_10-01]   | New/Returning User Welcome Letter                | |a|     | |a|    | |y|   |
+| |HPCBIOS_10-01|    | New/Returning User Welcome Letter                | |a|     | |a|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_10-02]   | Common Open Source High Productivity Languages   | |y|     | |y|    | |y|   |
+| |HPCBIOS_10-02|    | Common Open Source High Productivity Languages   | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-99]   | GPU Productivity Environment                     | |n|     | |a|    |       |
+| |HPCBIOS_2011-95|  | Molecular Dynamics Productivity Environment      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-98]   | Common Set of Environment Variables              | |a|     | |a|    |       |
+| |HPCBIOS_2011-96|  | Common Set of Commercial Compilers               | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-97]   | Climate Science Productivity Environment         | |a|     | |a|    |       |
+| |HPCBIOS_2011-97|  | Climate Science Productivity Environment         | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-96]   | Common Set of Commercial Compilers               | |a|     | |a|    |       |
+| |HPCBIOS_2011-98|  | Common Set of Environment Variables              | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| [HPCBIOS\_11-95]   | Molecular Dynamics Productivity Environment      | |a|     | |a|    |       |
+| |HPCBIOS_2011-99|  | GPU Productivity Environment                     | |n|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
 
 .. note::
@@ -108,4 +108,23 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: yes, no, agree, 
   and the users are informed about it.**
 
 This document was last rebuilt on: |today|.
+
+.. |HPCBIOS_05_01| replace:: [:ref:`HPCBIOS_05-01 <HPCBIOS_05-01>`]
+.. |HPCBIOS_05-05| replace:: [:ref:`HPCBIOS_05-05 <HPCBIOS_05-05>`]
+.. |HPCBIOS_05-06| replace:: [:ref:`HPCBIOS_05-06 <HPCBIOS_05-06>`]
+.. |HPCBIOS_06-01| replace:: [:ref:`HPCBIOS_06-01 <HPCBIOS_06-01>`]
+.. |HPCBIOS_06-04| replace:: [:ref:`HPCBIOS_06-04 <HPCBIOS_06-04>`]
+.. |HPCBIOS_06-05| replace:: [:ref:`HPCBIOS_06-05 <HPCBIOS_06-05>`]
+.. |HPCBIOS_06-15| replace:: [:ref:`HPCBIOS_06-15 <HPCBIOS_06-15>`]
+.. |HPCBIOS_06-17| replace:: [:ref:`HPCBIOS_06-17 <HPCBIOS_06-17>`]
+.. |HPCBIOS_06-19| replace:: [:ref:`HPCBIOS_06-19 <HPCBIOS_06-19>`]
+.. |HPCBIOS_07-02| replace:: [:ref:`HPCBIOS_07-02 <HPCBIOS_07-02>`]
+.. |HPCBIOS_07-03| replace:: [:ref:`HPCBIOS_07-03 <HPCBIOS_07-03>`]
+.. |HPCBIOS_10-01| replace:: [:ref:`HPCBIOS_10-01 <HPCBIOS_10-01>`]
+.. |HPCBIOS_10-02| replace:: [:ref:`HPCBIOS_10-02 <HPCBIOS_10-02>`]
+.. |HPCBIOS_2011-95| replace:: [:ref:`HPCBIOS_2011-95 <HPCBIOS_2011-95>`]
+.. |HPCBIOS_2011-96| replace:: [:ref:`HPCBIOS_2011-96 <HPCBIOS_2011-96>`]
+.. |HPCBIOS_2011-97| replace:: [:ref:`HPCBIOS_2011-97 <HPCBIOS_2011-97>`]
+.. |HPCBIOS_2011-98| replace:: [:ref:`HPCBIOS_2011-98 <HPCBIOS_2011-98>`]
+.. |HPCBIOS_2011-99| replace:: [:ref:`HPCBIOS_2011-99 <HPCBIOS_2011-99>`]
 

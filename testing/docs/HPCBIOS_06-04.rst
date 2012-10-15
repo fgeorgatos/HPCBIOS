@@ -1,3 +1,5 @@
+.. _HPCBIOS_06-04:
+
 HPCBIOS_06-04: Baseline Editors and Scripting Tools
 ===================================================
 

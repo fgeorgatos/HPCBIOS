@@ -1,3 +1,5 @@
+.. _HPCBIOS_05-01:
+
 HPCBIOS_05-01: Multiple-Version Software Policy
 ===============================================
 
