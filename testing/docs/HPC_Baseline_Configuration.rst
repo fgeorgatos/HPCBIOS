@@ -48,7 +48,8 @@ Compliance Matrix
 .. |i| image:: images/information.gif
 .. |w| image:: images/warning.gif
 
-Use notation |y|, |n|, |a|, |d|, |i|, |w|, respectively standing for:
+Use notation |y| |n| |a| |d| |i| |w| respectively standing for:
+
 yes, no, agree, disagree, information notice, warning notice.
 
 +--------------------+--------------------------------------------------+---------+--------+-------+
@@ -74,11 +75,11 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_07-02|    | Open Source Performance and Profiling Tools      | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_07-03|    | Common Set of Open Source Compilers              | |y|     | |y|    | |y|   |
+| |HPCBIOS_07-03|    | Common Set of Open Source Compilers              | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_10-01|    | New/Returning User Welcome Letter                | |a|     | |a|    | |y|   |
+| |HPCBIOS_10-01|    | New/Returning User Welcome Letter                | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_10-02|    | Common Open Source High Productivity Languages   | |y|     | |y|    | |y|   |
+| |HPCBIOS_10-02|    | Common Open Source High Productivity Languages   | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2011-95|  | Molecular Dynamics Productivity Environment      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
