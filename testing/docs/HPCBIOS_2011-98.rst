@@ -34,6 +34,8 @@ SOFT_HOME (MUST)
   This variable contains the path to the base directory for the application codes installed on a system.
 
 WORK (MUST) 
+  Same as WORKDIR, see below
+
 WORKDIR (SHOULD)
   This is an individual user’s directory on the local temporary file system (i.e., local high speed disk) that is available on all HPCBIOS high performance computing (HPC) systems. WORK is intended to be used by executing programs to perform file I/O that is local to that system in order to avoid slower file I/O across a network mounted file system, such as a user's HOME or ARCHIVE directories. It is not intended to be used as a permanent file storage area by users, rather as working area between tasks. Accordingly, this file system MAY NOT be backed up or exported to any other system. In the event of file or directory structure deletion or a catastrophic disk failure, such files and directory structures are lost. Thus, it is the user’s responsibility to transfer files that need to be saved to a location that allows for permanent file storage, such as the user’s archival or home directory locations - if they are permanent via a backup policy or, another external system.
 
