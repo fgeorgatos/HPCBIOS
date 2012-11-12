@@ -28,9 +28,9 @@ The login shells baseline and user selection policy MAY vary;
 in that case it MUST be documented at each center’s website or system.
 
 Default Login Shell Baseline Set
-* Bourne (sh)
-* Korn (ksh)
-* C shell (csh)
-* Extended C-shell (tcsh)
-* GNU Bourne-again shell (bash)
-* Z shell (zsh)
+  * Bourne (sh)
+  * Korn (ksh)
+  * C shell (csh)
+  * Extended C-shell (tcsh)
+  * GNU Bourne-again shell (bash)
+  * Z shell (zsh)
