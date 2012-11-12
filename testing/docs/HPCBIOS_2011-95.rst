@@ -5,7 +5,9 @@ HPCBIOS_2011-95: Molecular Dynamics Productivity Environment
 
 .. note::
 
-  Molecular Dynamics productivity environment includes a set of tools which are need for scientific computing and visualization in the respective domain. The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
+  Molecular Dynamics productivity environment includes a set of tools
+  which are needed for scientific computing and visualization in the respective domain.
+  The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
   * BC Policy: HPCBIOS_2011-95
   * Date of Policy: 1st November 2012

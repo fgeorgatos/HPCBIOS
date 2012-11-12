@@ -6,7 +6,7 @@ HPCBIOS_2011-97: Climate Science Productivity Environment
 .. note::
 
   Climate Science productivity environment includes a set of tools which
-  are need for scientific computing and visualization in the respective
+  are needed for scientific computing and visualization in the respective
   domain. The following is an attempt to define which ones may be relevant
   for HPCBIOS sites.
   
