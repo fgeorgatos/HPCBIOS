@@ -83,6 +83,8 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_10-02|    | Common Open Source High Productivity Languages                           | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
+| |HPCBIOS_2011-90|  | Software Development Environment                                         | |a|     | |a|    |       |
++--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2011-94|  | Bioinformatics and Computational Biology Productivity Environment        | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2011-95|  | Molecular Dynamics Productivity Environment                              | |a|     | |a|    |       |
@@ -128,6 +130,7 @@ This document was last rebuilt on: |today|.
 .. |HPCBIOS_07-03| replace:: [:ref:`HPCBIOS_07-03 <HPCBIOS_07-03>`]
 .. |HPCBIOS_10-01| replace:: [:ref:`HPCBIOS_10-01 <HPCBIOS_10-01>`]
 .. |HPCBIOS_10-02| replace:: [:ref:`HPCBIOS_10-02 <HPCBIOS_10-02>`]
+.. |HPCBIOS_2011-90| replace:: [:ref:`HPCBIOS_2011-90 <HPCBIOS_2011-90>`]
 .. |HPCBIOS_2011-94| replace:: [:ref:`HPCBIOS_2011-94 <HPCBIOS_2011-94>`]
 .. |HPCBIOS_2011-95| replace:: [:ref:`HPCBIOS_2011-95 <HPCBIOS_2011-95>`]
 .. |HPCBIOS_2011-96| replace:: [:ref:`HPCBIOS_2011-96 <HPCBIOS_2011-96>`]
