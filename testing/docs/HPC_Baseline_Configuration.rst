@@ -15,10 +15,12 @@ HPC Baseline Configuration
   as opposed to wrestling with center-specific policies and procedures.
 
   It is modeled after a similar effort taking place elsewhere among 6 HPC sites in the US and,
-  in effect, it is an extension upon it: `HPC-BC <http://www.ccac.hpc.mil/consolidated/bc>`_.
+  in effect, it is an extension upon it:
+
+  `HPC-BC <http://www.ccac.hpc.mil/consolidated/bc>`_.
 
   The effort of this project keeps marching on helping users work more
-  productivity by updating existing policies to accommodate new needs,
+  productively by updating existing policies to accommodate new needs,
   integrating new capabilities that must be consistent across the HPC
   enterprise, or just providing a sounding board for users experiencing
   difficulties with an HPC environment.
@@ -80,6 +82,8 @@ yes, no, agree, disagree, information notice, warning notice.
 | |HPCBIOS_10-01|    | New/Returning User Welcome Letter                | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_10-02|    | Common Open Source High Productivity Languages   | |a|     | |a|    | |a|   |
++--------------------+--------------------------------------------------+---------+--------+-------+
+| |HPCBIOS_2011-94|  | Bioinformatics & Computational Biology Productivity Environment          | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2011-95|  | Molecular Dynamics Productivity Environment      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------+---------+--------+-------+
