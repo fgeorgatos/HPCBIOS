@@ -15,89 +15,88 @@ The main objective of this policy is to provide the following common
 productivity environment across any HPCBIOS resources:
 
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| Name                                             | Prefered version(s)   | Compliance level   | Comments                                           |
+| Name                                             | Prefered version(s)   | Compliance level   | Subcategory                                        |
 +==================================================+=======================+====================+====================================================+
-| bash sh tcsh ksh csh zsh                         | latest                | MUST               | Unix Shells                                        |
+| bash sh tcsh ksh csh zsh                         | latest                | MUST               | 01. unix shells                                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| coreutils bc tar grep gawk                       | latest                | SHOULD             | GNU variations of common Unix tools                |
+| vim emacs nano joe ed jove                       | latest                | SHOULD             | 02. editors                                        |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| more less screen                                 | latest                | SHOULD             | user interaction                                   |
+| coreutils bc tar grep gawk                       | latest                | SHOULD             | 03. GNU variations of common Unix tools            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| vim emacs nano joe ed jove                       | latest                | SHOULD             | editors                                            |
+| more less screen                                 | latest                | SHOULD             | 04. user interaction                               |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| man help2man texinfo par                         | latest                | SHOULD             | online help                                        |
+| man help2man texinfo par                         | latest                | SHOULD             | 05. online help                                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| zlib openssl openssh                             | latest                | SHOULD             | zlib/openssl are typically required allover        |
+| zlib openssl openssh                             | latest                | SHOULD             | 10. zlib/openssl are typically required allover    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ssh ldap nfs nscd telnet                         | latest                | SHOULD             | system essentials                                  |
+| ssh ldap nfs nscd telnet                         | latest                | SHOULD             | 11. system essentials                              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| strace ltrace lsof finger pwgen                  | latest                | SHOULD             | process & user inspection                          |
+| strace ltrace lsof finger pwgen                  | latest                | SHOULD             | 12. process & user inspection                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| dstat sysstat iotop htop                         | latest                | SHOULD             | system inspection tools                            |
+| dstat sysstat iotop htop                         | latest                | SHOULD             | 13. system inspection tools                        |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| nmap tcpdump netcat                              | latest                | SHOULD             | network inspection tools                           |
+| nmap tcpdump netcat                              | latest                | SHOULD             | 14. network inspection tools                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| wget lynx links curl rsync unison                | latest                | SHOULD             | downloaders / file fetchers                        |
+| wget lynx links curl rsync unison                | latest                | SHOULD             | 15. downloaders / file fetchers                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| subversion rcs cvs git-core git git-svn          | latest                | SHOULD             | version control                                    |
+| subversion rcs cvs git-core git git-svn          | latest                | SHOULD             | 16. version control                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| patch diff diffstat m4                           | latest                | SHOULD             | patching & macros                                  |
+| patch diff diffstat m4                           | latest                | SHOULD             | 17. patching & macros                              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| bzip2 zip unzip pax arc lzip rzip                | latest                | SHOULD             | archivers                                          |
+| bzip2 zip unzip pax arc lzip rzip                | latest                | SHOULD             | 18. archivers                                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| make cmake autoconf automake libtool autotools   | latest                | SHOULD             | build tools                                        |
+| make cmake autoconf automake autotools           | latest                | SHOULD             | 20. build tools                                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| yasm nasm dev86                                  | latest                | SHOULD             | assembly tools                                     |
+| yasm nasm dev86                                  | latest                | SHOULD             | 21. assembly tools                                 |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| bison byacc flex                                 | latest                | SHOULD             | parsing tools                                      |
+| bison byacc flex                                 | latest                | SHOULD             | 22. parsing tools                                  |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| GMP MPFR MPC PPL antlr expect                    | latest                | MUST               | http://gcc.gnu.org/install/prerequisites.html      |
+| GMP MPFR MPC PPL antlr expect                    | latest                | MUST               | 23. http://gcc.gnu.org/install/prerequisites.html  |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| gcc g++                                          | v4.4.5, v4.6.3        | MUST               | gcc compiler: http://gcc.gnu.org                   |
+| gcc g++                                          | v4.4.5, v4.6.3        | MUST               | 24. gcc compiler: http://gcc.gnu.org               |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| g77 gfortran libf2c libc6-prof libgfortran3      | latest                | SHOULD             | compiler related                                   |
+| g77 gfortran libf2c libc6-prof libgfortran3      | latest                | SHOULD             | 25. compiler related                               |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| libtool libltdl-dev ia32-libs                    | latest                | SHOULD             | lib or arch related                                |
+| libtool libltdl-dev ia32-libs                    | latest                | SHOULD             | 26. lib or arch related                            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| gdb valgrind gprof oprofile time                 | latest                | SHOULD             | debugging, profiling, timing                       |
+| gdb valgrind gprof oprofile time                 | latest                | SHOULD             | 27. debugging, profiling, timing                   |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| libstdc++                                        | 5 or later            | SHOULD             | any                                                |
+| libstdc++                                        | 5 or later            | SHOULD             | 30. any                                            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ncurses ncurses-devel                            | latest                | SHOULD             | tui development                                    |
+| ncurses ncurses-devel                            | latest                | SHOULD             | 31. tui development                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| binutils-dev libssl-dev libtiff4-dev libsm-dev   | latest                | SHOULD             | devel libs                                         |
+| binutils-dev libssl-dev libtiff4-dev libsm-dev   | latest                | SHOULD             | 32. devel libs                                     |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| libmysqlclient-dev libpng12-dev libpq-dev        | latest                | SHOULD             | devel libs, part II                                |
+| libmysqlclient-dev libpng12-dev libpq-dev        | latest                | SHOULD             | 33. devel libs, part II                            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| xutils-dev libx11-dev libxt-dev                  | latest                | SHOULD             | devel, X related                                   |
+| xutils-dev libx11-dev libxt-dev                  | latest                | SHOULD             | 34. devel, X related                               |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| x11proto-xext-dev libxext-dev libqt4-dev         | latest                | SHOULD             | devel, X related, part II                          |
+| x11proto-xext-dev libxext-dev libqt4-dev         | latest                | SHOULD             | 35. devel, X related, part II                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| tk gtk2 QT                                       | latest                | SHOULD             | X related                                          |
+| tk gtk2 QT                                       | latest                | SHOULD             | 36. X related                                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| asciidoc doxygen doxygen-doc graphviz            | latest                | SHOULD             | documentation related                              |
+| asciidoc doxygen doxygen-doc graphviz            | latest                | SHOULD             | 40. documentation related                          |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| sqlite3 sqlite3-devel                            | latest                | SHOULD             | db                                                 |
+| sqlite3 sqlite3-devel                            | latest                | SHOULD             | 50. db                                             |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| python ruby ri perl ipython ocaml tcl            | latest                | SHOULD             | scripting & prototyping                            |
+| python ruby ri perl ipython ocaml tcl            | latest                | SHOULD             | 60. scripting & prototyping                        |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| pychecker pyflakes pylint                        | latest                | SHOULD             | python code checkers                               |
+| pychecker pyflakes pylint                        | latest                | SHOULD             | 61. python code checkers                           |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| python-git python-svn                            | latest                | SHOULD             | scripting integration with SCM                     |
+| python-git python-svn                            | latest                | SHOULD             | 62. scripting integration with SCM                 |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| Sun JDK                                          | v1.6.0                | SHOULD             | java sdk                                           |
+| Sun JDK                                          | v1.6.0                | SHOULD             | 70. java sdk                                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| openmpi mpich2 mpich                             | latest                | SHOULD             | mpi stacks                                         |
+| openmpi mpich2 mpich                             | latest                | SHOULD             | 80. mpi stacks                                     |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 
 This productivity environment will be supplemented with other related
 productivity tools as they become available on allocated systems.
 
-Potential sources of information for future upgrades of this list
-include:
+Potential sources of information for future upgrades of this list include:
   * http://wiki.gumstix.org/index.php?title=Build_Environment_openSUSE_11.0
   * http://www.grid5000.fr/mediawiki/index.php/FC11_Tlse
   * http://sebastien.dinot.free.fr/liens_dev_c_cpp.html
 
-Kindly notify, if this policy is inadequate for your work or can be
-amended, via the ticketing system.
+Kindly notify -if this policy is inadequate for your work-
+both your local site technical representative & HPCBIOS user-support.
