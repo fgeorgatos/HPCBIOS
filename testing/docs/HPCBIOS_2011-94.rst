@@ -148,15 +148,15 @@ This productivity environment will be supplemented with other related
 productivity tools as they become available on allocated systems.
 
 Potential sources of information for further future upgrades of this list include:
-* PRACE: The scientific case for High Performance Computing in Europe 2012-2020, From Petascale to Exascale
-* http://www.vital-it.ch/software/tools.php
-* http://www.csc.fi/english/research/sciences/bioscience/programs/index_html
-* http://bacpathgenomics.wordpress.com/software/
-* http://umbc.rnet.missouri.edu/general/software/alphabetical.html
-* http://www.broadinstitute.org/software/bsi-sig/
-* http://ncgas.org/software, genome assembly, assembly, genomics
-* http://confluence.rcs.griffith.edu.au:8080/display/GHPC/qiime#qiime-Alignment%2Ctreebuilding%2Ctaxonomyassignment%2COTUpicking%2Candotherdatagenerationsteps%28requiredforalternativepipelines%29
-* http://www.bioplexity.org/lectures/ebi-s10.pdf
+  * PRACE: The scientific case for High Performance Computing in Europe 2012-2020, From Petascale to Exascale
+  * http://www.vital-it.ch/software/tools.php
+  * http://www.csc.fi/english/research/sciences/bioscience/programs/index_html
+  * http://bacpathgenomics.wordpress.com/software/
+  * http://umbc.rnet.missouri.edu/general/software/alphabetical.html
+  * http://www.broadinstitute.org/software/bsi-sig/
+  * http://ncgas.org/software, genome assembly, assembly, genomics
+  * http://confluence.rcs.griffith.edu.au:8080/display/GHPC/qiime#qiime-Alignment%2Ctreebuilding%2Ctaxonomyassignment%2COTUpicking%2Candotherdatagenerationsteps%28requiredforalternativepipelines%29
+  * http://www.bioplexity.org/lectures/ebi-s10.pdf
 
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
