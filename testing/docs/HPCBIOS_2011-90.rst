@@ -27,7 +27,11 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | man help2man texinfo par                         | latest                | SHOULD             | 05. online help                                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| zlib openssl openssh                             | latest                | SHOULD             | 10. zlib/openssl are typically required allover    |
+| zlib openssl openssh                             | latest                | SHOULD             | 06. zlib/openssl are typically required allover    |
++--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
+| wget lynx links curl rsync unison ftp lftp       | latest                | SHOULD             | 07. downloaders / file fetchers                    |
++--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
+| subversion rcs cvs git git-core git-svn          | latest                | SHOULD             | 10. version control                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | ssh ldap nfs nscd telnet                         | latest                | SHOULD             | 11. system essentials                              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -37,9 +41,9 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | nmap tcpdump netcat                              | latest                | SHOULD             | 14. network inspection tools                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| wget lynx links curl rsync unison                | latest                | SHOULD             | 15. downloaders / file fetchers                    |
+| ping traceroute ifconfig netstat arp             | latest                | SHOULD             | 15. network diagnostics - basics                   |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| subversion rcs cvs git-core git git-svn          | latest                | SHOULD             | 16. version control                                |
+| ping6 traceroute6 ndp                            | latest                | SHOULD             | 16. network diagnostics - for IPv6                 |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | patch diff diffstat m4                           | latest                | SHOULD             | 17. patching & macros                              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
