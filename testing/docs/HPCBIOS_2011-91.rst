@@ -46,7 +46,7 @@ Scope
 The standard should capture the maximum possible compatibility across
 sites, reducing unnecessary divergence, yet being practical and allowing
 some flexibility for local HPC sites needs & policies. There is a
-deliberate effort to be compatible with existing DEISA_/PRACE_ & UNITE_/PARMA-ITEA2_ guidelines.
+deliberate effort to be compatible with existing PRACE_ , DEISA_ , UNITE_ & PARMA-ITEA2_ guidelines.
 
 Standard to follow
 ------------------
