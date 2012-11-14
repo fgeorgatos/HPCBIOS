@@ -6,13 +6,12 @@ HPCBIOS_06-01: Common Set of Open Source Math Libraries
 .. note::
   This policy defines a set of open source math libraries and their
   consistent maintenance (same version and same configuration) across the
-  resources at the participating centers. Same configuration is dependent
+  resources at the participating centers. Having same configuration is dependent
   on system compatibility, and also, some libraries may have slightly
-  different configurations due to architectural differences. These
-  differences, however, will not affect the use of the libraries. A user
-  moving from one resource to another will notice no difference between
-  the installations and it is expected to find an optimized version of
-  that library.
+  different configurations due to architectural differences.
+  These differences, however, will not affect the use of the libraries.
+  A user moving from one resource to another will notice no difference between
+  the installations and it is expected to find an optimized version of that library.
 
   * BC Project: HPCBIOS_06-01
   * Date of Policy: 1st November 2012
@@ -46,30 +45,28 @@ The suite of maintained packages consists of:
 Change notification
 -------------------
 
-This policy should be the default implementation for LINPACK/BLAS functions.
-Any new versions of supported libraries will initially be installed as
-non-default. Notification will be sent to the system's helpdesk
-announcing the new version and describing how to access it and use it.
-The helpdesk will be given a minimum of 2 weeks notice when the new
-version becomes the default version. The old version will not be
-deleted, but notice will be sent to the helpdesk describing how users
-can continue to use the old version. It is the responsibility of the
-individual centers to notify their users of any changes. This change
-notification is in the absence of any baseline configuration change
-notification policy that may exist. Any baseline configuration policy on
-change notification supersedes the change notification listed in this policy.
-The minimum of versions that will be kept, MUST follow BC [HPCBIOS_05-01] policy.
-Old versions MAY be deleted when there are three newer versions available.
+Guidelines:
+
+- This policy SHOULD provide the default implementation for LINPACK/BLAS functions
+- Any new versions of supported libraries SHOULD initially be installed as non-default
+- Notification MUST be sent to the system's helpdesk announcing the new version and describing how to access it and use it
+- The helpdesk MUST be given a minimum of 2 weeks notice when the new version becomes the default version
+- The old version MUST not be deleted, but notice will be sent to the helpdesk describing how users can continue to use the old version
+- The minimum of versions that will be kept, MUST follow BC [HPCBIOS_05-01] policy
+- Old versions MAY be deleted when there are three newer versions available
+- It is the responsibility of the individual centers to notify their users of any changes
+- This change notification is in the absence of any baseline configuration change notification policy that may exist
+- Any baseline configuration policy on change notification supersedes the change notification listed in this policy
 
 .. seealso::
   Native Libraries
 
-  The packages ScaLAPACK, LAPACK and/or ATLAS will not be installed
+  As regards packages ScaLAPACK, LAPACK and/or ATLAS, they MAY not be installed
   whenever a system includes native libraries such as PESSL (Parallel
   ESSL) ACML or, MKL (Math kernel Libraries) that fully provide the same
   functionality and interface. However, if an explicit request is made to
   have ScaLAPACK, LAPACK and/or ATLAS available on a system, then these
-  packages will also be installed.
+  packages MUST also be installed.
 
 Support
 
