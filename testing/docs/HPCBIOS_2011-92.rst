@@ -13,24 +13,35 @@ HPCBIOS_2011-92: EasyBuild Development Environment
 
 The main objective of this policy is to provide EasyBuild, for a consistent software tree and module namespace across any HPCBIOS resources.
 
-Scope
------
+Objective
+---------
 
-EasyBuild_ is a tool developed over the course of last years and released for production use during 2012.
+EasyBuild_ is a tool developed over the course of last years and released for production use during Nov. 2012.
 
 To be compliant with this policy, an HPC site MUST provide at least one production version of EasyBuild.
 This can be done either in the default $PATH or, available via modules (as per ``module load easybuild``).
-The default provided version MAY be customized as per local needs and SHOULD be working out of the box, as developers describe.
+The default provided version MAY be customized as per local needs and SHOULD be working out of the box,
+as developers describe in the documentation of the tool.
+
+.. code-block:: sh
+
+  sw@gaia-1:~$ module avail easybuild
+  
+  ------------------------ /opt/apps/default/modules/all -------------------------
+  easybuild/0.9dev              easybuild/1.0rc1
+  easybuild/1.0-uni.lu(default) easybuild/1.0rc1-uni.lu
 
 Example
 -------
 
+There is no need to provide the complete list of the following packages to be in compliance with this policy,
+this only provided for demonstration of the features of the tool.
 
 .. code-block:: sh
 
-  $ sw@gaia-1:~$ module avail
+  sw@gaia-1:~$ module avail
   
-  ------------- /opt/apps/testing/fgeorgatos/easybuild//modules/all --------------
+  ------------- /opt/apps/testing/fgeorgatos/easybuild/modules/all --------------
   AMOS/3.1.0-goalf-1.1.0-no-OFED
   ASE/3.6.0.2515-goalf-1.1.0-no-OFED-Python-2.7.3
   ATLAS/3.8.4-gompi-1.1.0-no-OFED-LAPACK-3.4.0
@@ -149,7 +160,9 @@ Example
 References
 ----------
 
-.. _EasyBuild:  http://hpcugent.github.com/easybuild/
+EasyBuild:  http://hpcugent.github.com/easybuild/
 
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
+
+.. _EasyBuild:  http://hpcugent.github.com/easybuild/
