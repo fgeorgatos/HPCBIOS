@@ -87,6 +87,8 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2011-91|  | Modules Namespace for HPC sites                                          | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
+| |HPCBIOS_2011-93|  | Life Sciences Productivity Environment                                   | |a|     | |a|    |       |
++--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2011-94|  | Bioinformatics and Computational Biology Productivity Environment        | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2011-95|  | Molecular Dynamics Productivity Environment                              | |a|     | |a|    |       |
@@ -134,6 +136,7 @@ This document was last rebuilt on: |today|.
 .. |HPCBIOS_10-02| replace:: [:ref:`HPCBIOS_10-02 <HPCBIOS_10-02>`]
 .. |HPCBIOS_2011-90| replace:: [:ref:`HPCBIOS_2011-90 <HPCBIOS_2011-90>`]
 .. |HPCBIOS_2011-91| replace:: [:ref:`HPCBIOS_2011-91 <HPCBIOS_2011-91>`]
+.. |HPCBIOS_2011-93| replace:: [:ref:`HPCBIOS_2011-93 <HPCBIOS_2011-93>`]
 .. |HPCBIOS_2011-94| replace:: [:ref:`HPCBIOS_2011-94 <HPCBIOS_2011-94>`]
 .. |HPCBIOS_2011-95| replace:: [:ref:`HPCBIOS_2011-95 <HPCBIOS_2011-95>`]
 .. |HPCBIOS_2011-96| replace:: [:ref:`HPCBIOS_2011-96 <HPCBIOS_2011-96>`]
