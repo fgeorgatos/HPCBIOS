@@ -30,7 +30,7 @@ Introduction
 
 When the users enter an HPC system, they need to tune their software
 environment variables (to find available programs, library & include
-paths etc). The most common solution for that issue has been [modules]_ ;
+paths etc). The most common solution for that issue has been modules_ ;
 In practice though, HPC sites act in isolation, with lots of
 divergence in their module namespace. This does not allow good training
 examples or working code reuse by users so, work has to be done to bring
@@ -46,7 +46,7 @@ Scope
 The standard should capture the maximum possible compatibility across
 sites, reducing unnecessary divergence, yet being practical and allowing
 some flexibility for local HPC sites needs & policies. There is a
-deliberate effort to be compatible with existing [DEISA]_/[PRACE]_ & [UNITE]_/PARMA/ITEA2 guidelines.
+deliberate effort to be compatible with existing DEISA_/PRACE_ & UNITE_/PARMA-ITEA2_ guidelines.
 
 Standard to follow
 ------------------
@@ -54,10 +54,12 @@ Standard to follow
 The following approach is being suggested:
 
 Package Lists and software guidelines:
+
 - Any Package List MUST supply Package names in a case-sensitive format
 - The case-sensitive Package name SHOULD be derived from software author's preference
 
 Conforming sites:
+
 - MUST provide EITHER the original Package name OR the lower case version
 - MUST put the Version string after the “/” separator
 - MUST document their module configuration & namespace policy
@@ -120,8 +122,9 @@ Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
 
 
-.. [modules]_: http://modules.sourceforge.net/
-.. [DEISA]_: http://www.deisa.eu/usersupport/user-documentation/deisa-common-production-environment/deisa-common-production-environment.pdf
-.. [PRACE]_: http://www.prace-ri.eu/PRACE-Common-Production
-.. [UNITE]_: http://apps.fz-juelich.de/unite/files/unite-installguide.pdf
+.. _modules: http://modules.sourceforge.net/
+.. _DEISA: http://www.deisa.eu/usersupport/user-documentation/deisa-common-production-environment/deisa-common-production-environment.pdf
+.. _PRACE: http://www.prace-ri.eu/PRACE-Common-Production
+.. _UNITE: http://apps.fz-juelich.de/unite/files/unite-installguide.pdf
+.. _PARMA-ITEA2: http://www.parma-itea2.org/
 
