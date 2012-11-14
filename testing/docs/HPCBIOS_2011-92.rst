@@ -77,6 +77,7 @@ Example
   Mercurial/2.3.2-goalf-1.1.0-no-OFED-Python-2.7.3
   MetaVelvet/1.2.01-goalf-1.1.0-no-OFED
   MrBayes/3.1.2-goalf-1.1.0-no-OFED
+  OpenFOAM/2.1.1-goalf-1.1.0-no-OFED
   OpenMPI/1.4.5-GCC-4.6.3-no-OFED
   OpenSSL/1.0.0-goalf-1.1.0-no-OFED
   PAPI/5.0.1-goalf-1.1.0-no-OFED
