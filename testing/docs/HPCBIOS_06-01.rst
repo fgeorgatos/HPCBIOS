@@ -22,17 +22,19 @@ The suite of maintained packages consists of:
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | Library API   | Purpose                                                                                  | Compliance level   | References                                    |
 +===============+==========================================================================================+====================+===============================================+
-| FFTW          | Library for computing Discrete Fourier Transforms ; Both MPI and non-MPI versions        | MUST               | http://www.fftw.org/                          |
+| **FFTW**      | Library for computing Discrete Fourier Transforms ; Both MPI and non-MPI versions        | MUST               | http://www.fftw.org/                          |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| PETSc         | Suite of scientific computing routines                                                   | MUST               | http://www.mcs.anl.gov/petsc/                 |
+| **PETSc**     | Suite of scientific computing routines                                                   | MUST               | http://www.mcs.anl.gov/petsc/                 |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| LAPACK        | Software library of numerical linear algebra routines                                    | MUST               | http://www.netlib.org/lapack/                 |
+| **LAPACK**    | Software library of numerical linear algebra routines                                    | MUST               | http://www.netlib.org/lapack/                 |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| ScaLAPACK     | Subset of parallelized LAPACK routines                                                   | MUST               | http://www.netlib.org/scalapack/              |
+| **ScaLAPACK** | Subset of parallelized LAPACK routines                                                   | MUST               | http://www.netlib.org/scalapack/              |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| BLAS          | Basic linear algebra routines * ATLAS * GotoBLAS                                         | MUST               | http://www.netlib.org/blas/                   |
+| **BLAS**      | Basic linear algebra routines; this could be any of:                                     | MUST               | http://www.netlib.org/blas/                   |
+|               | * ATLAS                                                                                  |                    |                                               |
+|               | * GotoBLAS                                                                               |                    |                                               |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| GSL           | C/C+ library with a wide variety of mathematical routines                                | MUST               | http://www.gnu.org/s/gsl/                     |
+| **GSL**       | C/C+ library with a wide variety of mathematical routines                                | MUST               | http://www.gnu.org/s/gsl/                     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | ARPACK        | Solution of Eigenvalues/Eigenvectors                                                     | SHOULD             | http://www.caam.rice.edu/software/ARPACK/     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+

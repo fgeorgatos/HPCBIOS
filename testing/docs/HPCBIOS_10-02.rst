@@ -23,17 +23,17 @@ compliant resources:
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | Package/Tool   | Description                                     | Compliance level   | Reference                                |
 +================+=================================================+====================+==========================================+
-| Python         | General Purpose Scripting Language              | MUST               | http://python.org/                       |
+| **Python**     | General Purpose Scripting Language              | MUST               | http://python.org/                       |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| NumPy          | Numerical Arrays and Linear Algebra in Python   | MUST               | http://numpy.scipy.org/                  |
+| **NumPy**      | Numerical Arrays and Linear Algebra in Python   | MUST               | http://numpy.scipy.org/                  |
++----------------+-------------------------------------------------+--------------------+------------------------------------------+
+| **SciPy**      | Scientific Python                               | MUST               | http://www.scipy.org/                    |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | PyMPI          | Python Message Passing Interface                | MUST               | http://pympi.sourceforge.net/            |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| SciPy          | Scientific Python                               | MUST               | http://www.scipy.org/                    |
-+----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | Octave         | MATLAB Clone                                    | SHOULD             | http://www.gnu.org/software/octave/      |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| Matplotlib     | Scientific 2-D and 3-D Plotting                 | SHOULD             | http://matplotlib.sourceforge.net/       |
+| **Matplotlib** | Scientific 2-D and 3-D Plotting                 | SHOULD             | http://matplotlib.sourceforge.net/       |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | NAG            | Numerical library /Numerical Algorithms Group   | SHOULD             | http://www.nag.co.uk/                    |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+

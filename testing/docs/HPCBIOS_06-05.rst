@@ -24,15 +24,14 @@ this time, only three packages are included in the baseline set:
 +-----------------+------------------------------------------------------------------------------------------------------+-----------------------+----------------------------------------------+
 | Debugger Name   | Description                                                                                          | Compliance Level      | References                                   |
 +=================+======================================================================================================+=======================+==============================================+
-| GDB             | A freeware debugger offered by the GNU project, covered by the GNU public license.                   | MUST                  | [http://www.gnu.org/software/gdb/gdb.html]   |
+| **GDB**         | A freeware debugger offered by the GNU project, covered by the GNU public license.                   | MUST                  | http://www.gnu.org/software/gdb/gdb.html   |
 +-----------------+------------------------------------------------------------------------------------------------------+-----------------------+----------------------------------------------+
-| Allinea DDT     | A popular suite for debugging in the HPC realm offered by Allinea.                                   | SHOULD (commercial)   | [http://allinea.com/ddt]                     |
+| Allinea DDT     | A popular suite for debugging in the HPC realm offered by Allinea.                                   | SHOULD (commercial)   | http://allinea.com/ddt                     |
 +-----------------+------------------------------------------------------------------------------------------------------+-----------------------+----------------------------------------------+
-| Totalview       | A long standing de-facto standard for debugging in the HPC realm offered by TotalView technologies   | SHOULD (commercial)   | [http://www.totalviewtech.com/]              |
+| Totalview       | A long standing de-facto standard for debugging in the HPC realm offered by TotalView Technologies   | SHOULD (commercial)   | http://www.totalviewtech.com/              |
 +-----------------+------------------------------------------------------------------------------------------------------+-----------------------+----------------------------------------------+
 
 In order to be compliant, a center must have at least the first of these
 debuggers installed and in the standard login path across all nodes. In
 addition, the GUI interface for TotalView, when available, must be
-operational and accessible from the compute nodes of any allocated
-system.
+operational and accessible from the compute nodes of any allocated system.
