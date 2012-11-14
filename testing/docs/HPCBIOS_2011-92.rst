@@ -1,12 +1,16 @@
 .. _HPCBIOS_2011-92:
 
-HPCBIOS_2011-92: EasyBuild Development Environment
-==================================================
+HPCBIOS_2011-92: EasyBuild HPC Software Development Environment
+===============================================================
 
 .. note::
 
   EasyBuild Development environment allows to build and use scientific computing software
   in a consistent and reproducible way: It can manage Software and Modules together.
+  Though building HPC software can be done in alternative ways, either manual or structured,
+  EasyBuild incorporates the experience across multiple HPC centers and provides a service
+  that simplistic solutions like Makefiles can never match, since good building 
+  code factorization is necessary in order to tackle the complexity of HPC systems.
 
   * BC Policy: HPCBIOS_2011-92
   * Date of Policy: 1st December 2012
