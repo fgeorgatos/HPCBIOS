@@ -67,7 +67,7 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_06-04|    | Editors and Scripting Tools                                              | |y|     | |y|    | |y|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_06-05|    | Set of Debuggers                                                         | |y|     | |y|    |       |
+| |HPCBIOS_06-05|    | Baseline Set of Debuggers                                                | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_06-15|    | Sample Code Repository                                                   | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
@@ -136,6 +136,7 @@ This document was last rebuilt on: |today|.
 .. |HPCBIOS_10-02| replace:: [:ref:`HPCBIOS_10-02 <HPCBIOS_10-02>`]
 .. |HPCBIOS_2011-90| replace:: [:ref:`HPCBIOS_2011-90 <HPCBIOS_2011-90>`]
 .. |HPCBIOS_2011-91| replace:: [:ref:`HPCBIOS_2011-91 <HPCBIOS_2011-91>`]
+.. |HPCBIOS_2011-92| replace:: [:ref:`HPCBIOS_2011-92 <HPCBIOS_2011-92>`]
 .. |HPCBIOS_2011-93| replace:: [:ref:`HPCBIOS_2011-93 <HPCBIOS_2011-93>`]
 .. |HPCBIOS_2011-94| replace:: [:ref:`HPCBIOS_2011-94 <HPCBIOS_2011-94>`]
 .. |HPCBIOS_2011-95| replace:: [:ref:`HPCBIOS_2011-95 <HPCBIOS_2011-95>`]
