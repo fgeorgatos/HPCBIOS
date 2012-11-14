@@ -32,6 +32,7 @@ The suite of maintained packages consists of:
 | PerfSuite              | software performance analysis                          | SHOULD             | http://perfsuite.ncsa.illinois.edu/                                     |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 | Intel Vtune Analyzer   | performance optimization tool                          | SHOULD             | http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/      |
+|                        |                                                        | (commercial)       |                                                                         |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 
 .. seealso::
@@ -49,10 +50,12 @@ The suite of maintained packages consists of:
   | Vampir     | Performance Optimization                        | http://www.vampir.eu/                       |
   +------------+-------------------------------------------------+---------------------------------------------+
   | TAU        | Performance analysis of parallel applications   | http://www.cs.uoregon.edu/Research/tau      |
-  |            | * Support for PAPI and SCALASCA                 |                                             |
-  |            | * PDT: Source-level auto-instrumentation        |                                             |
+  |            |                                                 |                                             |
+  |            | - Support for PAPI and SCALASCA                 |                                             |
+  |            | - PDT: Source-level auto-instrumentation        |                                             |
   +------------+-------------------------------------------------+---------------------------------------------+
 
-The packages will be installed and maintained as part of a consistent
-computational environment.
+The packages will be installed and maintained as part of a consistent computational environment.
 
+Kindly notify -if this policy is inadequate for your work-
+both your local site technical representative & HPCBIOS user-support.

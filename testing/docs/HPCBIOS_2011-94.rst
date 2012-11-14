@@ -148,7 +148,6 @@ This productivity environment will be supplemented with other related
 productivity tools as they become available on allocated systems.
 
 Potential sources of information for further future upgrades of this list include:
-  * PRACE: The scientific case for High Performance Computing in Europe 2012-2020, From Petascale to Exascale
   * http://www.vital-it.ch/software/tools.php
   * http://www.csc.fi/english/research/sciences/bioscience/programs/index_html
   * http://bacpathgenomics.wordpress.com/software/

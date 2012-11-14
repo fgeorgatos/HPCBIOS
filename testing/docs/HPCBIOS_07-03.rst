@@ -28,16 +28,19 @@ hence it has become a requirement for being compliant with this policy:
 +--------+-----------------------+--------------------+
 | Name   | Prefered version(s)   | Compliance level   |
 +========+=======================+====================+
-| gcc    | v4.1.2                | MUST               |
+| gcc    | v4.1.2                | SHOULD             |
 +--------+-----------------------+--------------------+
 | gcc    | v4.3.5                | SHOULD             |
 +--------+-----------------------+--------------------+
 | gcc    | v4.4.x                | SHOULD             |
 +--------+-----------------------+--------------------+
-| gcc    | v4.6.3                | SHOULD             |
+| gcc    | v4.6.3 or v4.7.1      | MUST               |
 +--------+-----------------------+--------------------+
 
 It is at the discretion of each center which (if any) libraries will be
 compiled to support GNU based codes. Ultimately, it will be the
 responsibility of each user of the GNU compilers to create the libraries
 that they require for their GNU compiled software.
+
+Kindly notify -if this policy is inadequate for your work-
+both your local site technical representative & HPCBIOS user-support.

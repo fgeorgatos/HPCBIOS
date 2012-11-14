@@ -18,7 +18,7 @@ The current core set of open source utilities is:
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | automake (GNU)   | Generates makefile.in files from makefile.am input files. These ini files are compliant with the GNU coding standards and build process.   |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| Bison (GNU)      | Converts a grammar description into a C program to parse that grammar.                                                                     |
+| bison (GNU)      | Converts a grammar description into a C program to parse that grammar.                                                                     |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | cvs (GNU)        | Provides a version control system for managing source files, and documents.                                                                |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
@@ -32,3 +32,6 @@ The current core set of open source utilities is:
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 
 Other software utilities can be incorporated into this core set with Baseline Configuration team consensus.
+
+Kindly notify -if this policy is inadequate for your work-
+both your local site technical representative & HPCBIOS user-support.
