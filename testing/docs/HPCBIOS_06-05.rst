@@ -4,7 +4,7 @@ HPCBIOS_06-05: Baseline Set of Debuggers
 ========================================
 
 .. note::
-This policy defines a baseline set of debuggers that can assist in HPC users for parallel codes.
+  This policy defines a baseline set of debuggers that can assist in HPC users for parallel codes.
 
   * BC Policy: HPCBIOS_06-05
   * Date of Policy: 1st November 2012
