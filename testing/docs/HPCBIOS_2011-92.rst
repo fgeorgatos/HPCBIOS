@@ -15,7 +15,9 @@ HPCBIOS_2011-92: EasyBuild HPC Software Development Environment
   * BC Policy: HPCBIOS_2011-92
   * Date of Policy: 1st December 2012
 
-The main objective of this policy is to provide EasyBuild, for a consistent software tree and module namespace across any HPCBIOS resources.
+The main objective of this policy is to provide EasyBuild, because it allows:
+* to build reproducible and rigorously defined software codes and,
+* have consistent module namespaces across any HPCBIOS resources.
 
 Objective
 ---------
@@ -43,9 +45,9 @@ Example build tree of WRF
    :scale: 25
 
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
-   You can see how it is built with its dependent modules, with EasyBuild.
+   You can see how it is built along with its multiple dependent modules, with EasyBuild.
 
-More details at [WRF]_
+More details are visible at |WRF| 's wikipedia page, including further pointers.
 
 Example module namespace
 ------------------------
@@ -182,5 +184,5 @@ Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
 
 .. _EasyBuild:  http://hpcugent.github.com/easybuild/
-.. [WRF]	http://en.wikipedia.org/wiki/Weather_Research_and_Forecasting_model
+.. |WRF|	http://en.wikipedia.org/wiki/Weather_Research_and_Forecasting_model
 
