@@ -35,8 +35,13 @@ as developers describe in the documentation of the tool.
   easybuild/0.9dev              easybuild/1.0rc1
   easybuild/1.0-uni.lu(default) easybuild/1.0rc1-uni.lu
 
-Example
--------
+Example build tree of WRF
+-------------------------
+
+|WRF|
+
+Example module namespace
+------------------------
 
 There is no need to provide the complete list of the following packages to be in compliance with this policy,
 this only provided for demonstration of the features of the tool.
@@ -170,3 +175,4 @@ Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
 
 .. _EasyBuild:  http://hpcugent.github.com/easybuild/
+.. |WRF| image:: images/WRF-example-build-by-EB.png
