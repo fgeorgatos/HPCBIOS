@@ -38,7 +38,9 @@ as developers describe in the documentation of the tool.
 Example build tree of WRF
 -------------------------
 
-|WRF|
+.. figure:: images/WRF-example-build-by-EB.png
+   :align: center
+   *The Weather Research and Forecasting (WRF) model is a reference code for Weather and Climate communities*. You can see how it is built with its dependent modules.
 
 Example module namespace
 ------------------------
@@ -175,4 +177,3 @@ Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
 
 .. _EasyBuild:  http://hpcugent.github.com/easybuild/
-.. |WRF| image:: images/WRF-example-build-by-EB.png
