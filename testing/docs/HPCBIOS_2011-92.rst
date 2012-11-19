@@ -16,18 +16,24 @@ HPCBIOS_2011-92: EasyBuild HPC Software Development Environment
   * Date of Policy: 1st December 2012
 
 The main objective of this policy is to provide EasyBuild, because it allows:
-* to build reproducible and rigorously defined software codes and,
-* have consistent module namespaces across any HPCBIOS resources.
+  * to build reproducible and rigorously defined software codes and,
+  * have consistent module namespaces across any HPCBIOS resources.
 
 Objective
 ---------
 
-EasyBuild_ is a tool developed over the course of last years and released for production use during Nov. 2012.
+EasyBuild_ is a tool developed over the course of last years and released for production use during SC'12, in Nov. 2012.
+
+The tool may not be the only way, yet, has been the most consistent at this moment in yielding
+reproducible Scientific Computing environments, transferable across multiple HPC platforms.
 
 To be compliant with this policy, an HPC site MUST provide at least one production version of EasyBuild.
 This can be done either in the default $PATH or, available via modules (as per ``module load easybuild``).
-The default provided version MAY be customized as per local needs and SHOULD be working out of the box,
+The default provided version MAY be customized as per local needs and SHOULD have out of the box functionality,
 as developers describe in the documentation of the tool.
+
+Example usage
+-------------
 
 .. code-block:: sh
 
@@ -36,6 +42,12 @@ as developers describe in the documentation of the tool.
   ------------------------ /opt/apps/default/modules/all -------------------------
   easybuild/0.9dev              easybuild/1.0rc1
   easybuild/1.0-uni.lu(default) easybuild/1.0rc1-uni.lu
+
+  sw@gaia-1:~$ module load easybuild
+  sw@gaia-1:~$ eb -version
+  == This is EasyBuild 1.0
+  sw@gaia-1:~$ which eb
+  /opt/apps/default/software/easybuild/1.0/eb
 
 Example build tree of WRF
 -------------------------
