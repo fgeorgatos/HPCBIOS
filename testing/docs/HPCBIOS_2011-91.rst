@@ -65,8 +65,9 @@ Conforming sites:
 - MUST document their module configuration & namespace policy
 - SHOULD provide a default Version when multiple ones exist (or, imply one)
 - SHOULD prefer numbered Version strings with dots notation (as opposed to _ or -)
-- MAY further expand the Version string as per local needs (-goalf, -openmpi-intel-32bit)
-- MAY create subcategories of modules as per local needs
+- MAY further expand the Version string or provide aliases, as per local needs: (``-goalf``, ``-openmpi-intel-32bit``)
+- MAY create subcategories of modules, as per local needs, eg:
+  ``bio cae chem compiler debugger devel ide lib math mpi numlib performance phys system tools vis``
 
 It is very important to adhere at the stated requirement levels and
 rigidly document any deviations, for sites planning to be conforming to this standard.
@@ -89,13 +90,14 @@ Version
   release candidates. Examples: ``2.1, 4.1.3, 3.2b2, 4.5rc1``
 
 Specialization
-  Optional constraints which limit the applicability of a version of a
-  package. Used on computing systems which provide multiple MPI libraries
-  or compiler suites (e.g., typically on Linux clusters). Takes the form
-  ``-<MPILibrary>-<Compiler>-<Precision>``. The three components MUST
-  always specified in this order, however unnecessary constraints (not
-  provided by a system) can be left out. Example: ``-openmpi-64bit``
-  These specializations MAY also be provided as module aliases.
+  Optional constraints which limit the applicability of a version of a package.
+  Example: ``WRF/3.3.1-goalf-1.1.0-no-OFED-dmpar`` (ie. the suffic after the version)
+  This is necessary on computing systems which provide multiple MPI libraries
+  or compiler suites (e.g., typically on Linux clusters). The alias of the
+  default version MAY take the form ``-<MPILibrary>-<Compiler>-<Precision>``.
+  The three components MUST always be specified in this order,
+  however unnecessary constraints (not provided by a system) can be left out.
+  Examples: ``-openmpi-64bit`` , ``-mvapich-gnu-32bit``
 
 Fully-Qualified Version (FQV)
   A fully-qualified version is the complete specification of a version
