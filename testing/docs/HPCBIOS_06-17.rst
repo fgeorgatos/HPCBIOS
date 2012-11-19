@@ -29,8 +29,8 @@ to supplement or replace the shared modulefiles.
 
 MODULES can be loaded and unloaded dynamically and atomically in a clean
 fashion. Popular shells like bash, sh, tcsh, csh MUST be supported - while
-ksh, zsh (Ref: [HPCBIOS_05-06]_) as well as some scripting languages such as
-Perl (Ref: [HPCBIOS_06-04]_) MAY be supported.
+ksh, zsh (Ref: |HPCBIOS_05-06|) as well as some scripting languages such as
+Perl (Ref: |HPCBIOS_06-04|) MAY be supported.
 
 ## Implementation
 
@@ -62,3 +62,6 @@ directories to the PATH environment variables**.
   UNITE suite provides definitions under section 1.2 of its documentation:
   http://apps.fz-juelich.de/unite/files/unite-installguide.pdf
 
+
+.. |HPCBIOS_05-06| replace:: [:ref:`HPCBIOS_05-06 <HPCBIOS_05-06>`]
+.. |HPCBIOS_06-04| replace:: [:ref:`HPCBIOS_06-04 <HPCBIOS_06-04>`]
