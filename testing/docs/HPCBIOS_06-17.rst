@@ -25,14 +25,16 @@ environment variables such as PATH, MANPATH, etc. Modulefiles may be
 shared by many users on a system and users may have their own collection
 to supplement or replace the shared modulefiles.
 
-## Scope
+Scope
+-----
 
 MODULES can be loaded and unloaded dynamically and atomically in a clean
 fashion. Popular shells like bash, sh, tcsh, csh MUST be supported - while
 ksh, zsh (Ref: |HPCBIOS_05-06|) as well as some scripting languages such as
 Perl (Ref: |HPCBIOS_06-04|) MAY be supported.
 
-## Implementation
+Implementation
+--------------
 
 The function of the modulefiles is to modify a user’s environment such
 that the user references the selected version of an application using
@@ -42,14 +44,16 @@ compliant modulefiles with existing methods (e.g. additional
 modulefiles, wrapper scripts) to select versions of applications and
 modify the user’s environment.
 
-## Dependencies
+Dependencies
+------------
 
 In the cases where the modulefiles for applications depend on other
 modulefiles (an application may require compiler and library modulefiles
 to be loaded), these dependencies should be checked. A reasonable
 default modulefile shall be loaded if the dependency is not met.
 
-## Escape path
+Escape path
+-----------
 
 An additional modulefile SHOULD exist, called OPT-OUT, which will remove the common-link
 directories from the associated **PATH environment variables. Users will
