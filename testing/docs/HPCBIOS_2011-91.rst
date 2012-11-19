@@ -65,12 +65,12 @@ Conforming sites:
 - MUST document their module configuration & namespace policy
 - SHOULD provide a default Version when multiple ones exist (or, imply one)
 - SHOULD prefer numbered Version strings with dots notation (as opposed to _ or -)
-- MAY further expand the Version string or provide aliases, as per local needs: (``-goalf``, ``-openmpi-intel-32bit``)
-- MAY create subcategories of modules, as per local needs, eg:
-  ``bio cae chem compiler debugger devel ide lib math mpi numlib performance phys system tools vis``
+- MAY further expand the Version string or provide aliases, as per local needs, examples: ``-goalf``, ``-openmpi-intel-32bit``
+- MAY provide multiple subcategories of modules, as per local needs;
+  - examples: ``bio cae chem compiler debugger devel ide lib math mpi numlib performance phys system tools vis``
 
-It is very important to adhere at the stated requirement levels and
-rigidly document any deviations, for sites planning to be conforming to this standard.
+It is very important to adhere at the stated requirement levels
+and rigidly document any deviations, for sites planning to be conforming to this standard.
 
 Definitions
 -----------
@@ -91,7 +91,7 @@ Version
 
 Specialization
   Optional constraints which limit the applicability of a version of a package.
-  Example: ``WRF/3.3.1-goalf-1.1.0-no-OFED-dmpar`` (ie. the suffic after the version)
+  Example: ``WRF/3.3.1-goalf-1.1.0-no-OFED-dmpar`` (ie. the suffix after the version)
   This is necessary on computing systems which provide multiple MPI libraries
   or compiler suites (e.g., typically on Linux clusters). The alias of the
   default version MAY take the form ``-<MPILibrary>-<Compiler>-<Precision>``.
