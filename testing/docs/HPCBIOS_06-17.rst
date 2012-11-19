@@ -25,10 +25,14 @@ environment variables such as PATH, MANPATH, etc. Modulefiles may be
 shared by many users on a system and users may have their own collection
 to supplement or replace the shared modulefiles.
 
+## Scope
+
 MODULES can be loaded and unloaded dynamically and atomically in a clean
-fashion. Popular shells like bash, sh, tcsh, csh are supported - while
-ksh, zsh (Ref: [HPCBIOS_05-06]) as well as some scripting languages such as
-Perl (Ref: [HPCBIOS_06-04]) MAY be supported.
+fashion. Popular shells like bash, sh, tcsh, csh MUST be supported - while
+ksh, zsh (Ref: [HPCBIOS_05-06]_) as well as some scripting languages such as
+Perl (Ref: [HPCBIOS_06-04]_) MAY be supported.
+
+## Implementation
 
 The function of the modulefiles is to modify a user’s environment such
 that the user references the selected version of an application using
@@ -38,18 +42,23 @@ compliant modulefiles with existing methods (e.g. additional
 modulefiles, wrapper scripts) to select versions of applications and
 modify the user’s environment.
 
+## Dependencies
+
 In the cases where the modulefiles for applications depend on other
 modulefiles (an application may require compiler and library modulefiles
 to be loaded), these dependencies should be checked. A reasonable
 default modulefile shall be loaded if the dependency is not met.
 
-An additional modulefile, OPT-OUT, will remove the common-link
+## Escape path
+
+An additional modulefile SHOULD exist, called OPT-OUT, which will remove the common-link
 directories from the associated **PATH environment variables. Users will
 then need to load individual modulefiles to add the application specific
-directories to the**\ PATH environment variables.
+directories to the PATH environment variables**.
 
 .. seealso::
-  The currently agreed namespace format is the one defined via UNITE.
-  UNITE suite provides definitions under section 1.2 of its
-  [documentation|http://apps.fz-juelich.de/unite/files/unite-installguide.pdf]
+  The currently preferred namespace format is the one provided via EasyBuild v1.0,
+  with potential aliases for default modules as defined via UNITE version May 2010.
+  UNITE suite provides definitions under section 1.2 of its documentation:
+  http://apps.fz-juelich.de/unite/files/unite-installguide.pdf
 
