@@ -22,10 +22,12 @@ The main objective of this policy is to provide EasyBuild, because it allows:
 Objective
 ---------
 
-EasyBuild_ is a tool developed over the course of last years and released for production use during SC'12, in Nov. 2012.
+EasyBuild_ is a tool developed over the course of last years and released for production use during SC'12, in Nov. 2012, by Univ. of Ghent.
 
-The tool may not be the only way, yet, has been the most consistent at this moment in yielding
+Although other alternatives to EasyBuild could eventually appear,
+so far it has been the most consistent tool in yielding
 reproducible Scientific Computing environments, transferable across multiple HPC platforms.
+Therefor it is considered necessary across HPC sites for both users and sysadmin work.
 
 To be compliant with this policy, an HPC site MUST provide at least one production version of EasyBuild.
 This can be done either in the default $PATH or, available via modules (as per ``module load easybuild``).
