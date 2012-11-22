@@ -30,8 +30,9 @@ The suite of maintained packages consists of:
 | **ScaLAPACK** | Subset of parallelized LAPACK routines                                                   | MUST               | http://www.netlib.org/scalapack/              |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **BLAS**      | Basic linear algebra routines; this could be any of:                                     | MUST               | http://www.netlib.org/blas/                   |
-|               | * ATLAS                                                                                  |                    |                                               |
-|               | * GotoBLAS                                                                               |                    |                                               |
+|               | * ATLAS                                                                                  |                    | http://math-atlas.sourceforge.net/            |
+|               | * GotoBLAS                                                                               |                    | http://www.tacc.utexas.edu/tacc-projects/#blas|
+|               | * OpenBLAS                                                                               |                    | https://github.com/xianyi/OpenBLAS            |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **GSL**       | C/C+ library with a wide variety of mathematical routines                                | MUST               | http://www.gnu.org/s/gsl/                     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
