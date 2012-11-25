@@ -19,9 +19,9 @@ productivity environment across any HPCBIOS resources:
 +==================================================+=======================+====================+====================================================+
 | bash sh tcsh ksh csh zsh                         | latest                | MUST               | 01. unix shells                                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| vim emacs nano joe ed jove                       | latest                | SHOULD             | 02. editors                                        |
+| vim emacs nano joe jove ed sed                   | latest                | SHOULD             | 02. editors / stream editors                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| coreutils bc tar grep gawk                       | latest                | SHOULD             | 03. GNU variations of common Unix tools            |
+| coreutils bc tar grep gawk findutils parallel    | latest                | SHOULD             | 03. GNU variations of common Unix tools            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | more less screen script                          | latest                | SHOULD             | 04. user interaction                               |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -33,21 +33,23 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | subversion rcs cvs git git-core git-svn          | latest                | SHOULD             | 10. version control                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ssh ldap nfs nscd telnet                         | latest                | SHOULD             | 11. system essentials                              |
+| ssh ldap nfs nscd telnet netcat                  | latest                | SHOULD             | 11. system interconnection essentials              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| strace ltrace lsof finger pwgen                  | latest                | SHOULD             | 12. process & user inspection                      |
+| strace ltrace lsof finger pwgen procps fuser     | latest                | SHOULD             | 12. process & user inspection                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | dstat sysstat iotop htop                         | latest                | SHOULD             | 13. system inspection tools                        |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| nmap tcpdump netcat host dig whois bind-utils    | latest                | SHOULD             | 14. network inspection tools                       |
+| nmap tcpdump host dig bind-utils whois icmpinfo  | latest                | SHOULD             | 14. network inspection tools                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ping traceroute ifconfig netstat arp             | latest                | SHOULD             | 15. network diagnostics - basics                   |
+| ping traceroute ifconfig netstat arp iperf       | latest                | SHOULD             | 15. network diagnostics - basics                   |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | ping6 traceroute6 ndp                            | latest                | SHOULD             | 16. network diagnostics - for IPv6                 |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | patch diff diffstat m4                           | latest                | SHOULD             | 17. patching & macros                              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| bzip2 zip unzip pax arc lzip rzip                | latest                | SHOULD             | 18. archivers                                      |
+| bzip2 zip unzip pax arc lzip rzip cpio           | latest                | SHOULD             | 18. archivers                                      |
++--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
+| dmidecode lspci blkid fdisk hdparm ethtool       | latest                | SHOULD             | 19. hardware & devices inspection                  |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | make cmake autoconf automake autotools           | latest                | SHOULD             | 20. build tools                                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -63,9 +65,9 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | libtool libltdl-dev ia32-libs                    | latest                | SHOULD             | 26. lib or arch related                            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| gdb valgrind gprof oprofile time                 | latest                | SHOULD             | 27. debugging, profiling, timing                   |
+| gdb valgrind gprof oprofile time objdump         | latest                | SHOULD             | 27. debugging, profiling, timing                   |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| libstdc++                                        | 5 or later            | SHOULD             | 30. any                                            |
+| libstdc++ boost-dev                              | 5 or later            | MAY                | 30. base c++ libraries                             |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | ncurses ncurses-dev                              | latest                | SHOULD             | 31. tui development                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -89,9 +91,9 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | python-git python-svn                            | latest                | SHOULD             | 62. scripting integration with SCM                 |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| Sun JDK                                          | v1.6.0                | SHOULD             | 70. java sdk                                       |
+| openjdk                                          | v1.6.0                | MAY                | 70. java SDK/Sun JDK                               |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| openmpi mpich2 mpich                             | latest                | SHOULD             | 80. mpi stacks                                     |
+| openmpi mpich2 mpich                             | latest                | MAY                | 80. mpi stacks                                     |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 
 This productivity environment will be supplemented with other related
