@@ -33,7 +33,7 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | subversion rcs cvs git git-core git-svn          | latest                | SHOULD             | 10. version control                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ssh ldap nfs nscd telnet netcat                  | latest                | SHOULD             | 11. system interconnection essentials              |
+| ssh ldap nfs nscd telnet netcat ntp ntpdate      | latest                | SHOULD             | 11. system interconnection essentials              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | strace ltrace lsof finger pwgen procps fuser     | latest                | SHOULD             | 12. process & user inspection                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
