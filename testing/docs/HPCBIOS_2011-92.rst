@@ -8,9 +8,9 @@ HPCBIOS_2011-92: EasyBuild HPC Software Development Environment
   EasyBuild Development environment allows to build and use scientific computing software
   in a consistent and reproducible way: It can manage Software and Modules together.
   Though building HPC software can be done in alternative ways, either manual or structured,
-  EasyBuild incorporates the experience across multiple HPC centers and provides a service
-  that simplistic solutions like Makefiles can never match, since good building 
-  code factorization is necessary in order to tackle the complexity of HPC systems.
+  EasyBuild can incorporate the experience across multiple HPC centers and provides a service
+  which simplistic solutions -such as Makefiles- can never match, since good building 
+  code factorization is necessary in order to tackle the complexity of multiple HPC systems.
 
   * BC Policy: HPCBIOS_2011-92
   * Date of Policy: 1st December 2012
@@ -22,7 +22,7 @@ The main objective of this policy is to provide EasyBuild, because it allows:
 Objective
 ---------
 
-EasyBuild_ is a tool developed over the course of last years and released for production use during SC'12, in Nov. 2012, by Univ. of Ghent.
+EasyBuild_ is a tool developed over the course of last years and released for production use during SC'12, in Nov. 2012, by the HPC group of University of Ghent.
 
 Although other alternatives to EasyBuild could eventually appear,
 so far it has been the most consistent tool in yielding
@@ -46,7 +46,7 @@ Example usage
   easybuild/1.0-uni.lu(default) easybuild/1.0rc1-uni.lu
 
   sw@gaia-1:~$ module load easybuild
-  sw@gaia-1:~$ eb -version
+  sw@gaia-1:~$ eb --version
   == This is EasyBuild 1.0
   sw@gaia-1:~$ which eb
   /opt/apps/default/software/easybuild/1.0/eb
@@ -61,7 +61,11 @@ Example build tree of WRF
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
    You can see how it is built along with its multiple dependent modules, with EasyBuild.
 
-More details are visible at WRF_ 's wikipedia page, including further pointers.
+WRF is a prime example why a tool like EasyBuild is essential in an HPC site;
+not only can it manage the set of dependencies which are necessary,
+it will also do so in a manner which is very consistent, eg. in relation to Intel compilers. See EBnWRF_.
+
+More details about WRF are visible at WRF_ 's wikipedia page, including further pointers.
 
 Example module namespace
 ------------------------
@@ -199,4 +203,5 @@ both your local site technical representative & HPCBIOS user-support.
 
 .. _EasyBuild:  http://hpcugent.github.com/easybuild/
 .. _WRF:	http://en.wikipedia.org/wiki/Weather_Research_and_Forecasting_model
+.. _EBnWRF:     https://github.com/hpcugent/easybuild-framework/issues/140
 
