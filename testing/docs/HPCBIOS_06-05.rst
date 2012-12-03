@@ -13,26 +13,41 @@ The lack of a baseline set of debuggers can compound what is arguably
 one of the most difficult tasks in scientific code development -
 debugging new algorithms. The process of tracking down bugs in large
 scientific codes is frustrating and time consuming. Having to learn a
-new tool to do so limits efficiency and productivity of valuable HPC
-programmers.
+new tool to do so limits efficiency and productivity of valuable HPC programmers.
 
 For these reasons, a baseline set of debuggers preferred to be installed
 at all centers has been identified by examining what is in use at
-different centers and what can be used across a variety of platforms. At
-this time, only three packages are included in the baseline set:
+different centers and what can be used across a variety of platforms.
+At this time, only three packages are included in the RECOMMENDED baseline set:
 
-+-----------------+---------------------------------------------------------------------------------------+-----------------------+--------------------------------------------+
-| Debugger Name   | Description                                                                           | Compliance Level      | References                                 |
-+=================+=======================================================================================+=======================+============================================+
-| **GDB**         | A freeware debugger offered by the GNU project, covered by the GNU public license.    | MUST                  | http://www.gnu.org/software/gdb/gdb.html   |
-+-----------------+---------------------------------------------------------------------------------------+-----------------------+--------------------------------------------+
-| Allinea DDT     | A popular suite for debugging in the HPC realm offered by Allinea.                    | SHOULD (commercial)   | http://allinea.com/ddt                     |
-+-----------------+---------------------------------------------------------------------------------------+-----------------------+--------------------------------------------+
-| Totalview       | A long standing de-facto standard for debugging in the HPC realm offered              | SHOULD (commercial)   | http://www.totalviewtech.com/              |
-|                 | by  TotalView Technologies                                                            |                       |                                            |
-+-----------------+---------------------------------------------------------------------------------------+-----------------------+--------------------------------------------+
++---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
+| Debugger Name | Description                                                                        | Compliance Level    | References                                         |
++===============+====================================================================================+=====================+====================================================+
+| **GDB**       | A freeware debugger offered by the GNU project, covered by the GNU public license. | MUST                | http://www.gnu.org/software/gdb/gdb.html           |
++---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
+| Eclipse PTP   | Parallel Tools Platform supports MPI, OpenMP & UPC; as well as OpenSHMEM & OpenACC | SHOULD              | http://www.eclipse.org/ptp/                        |
++---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
+| Allinea DDT   | A popular suite for debugging in the HPC realm offered by Allinea.                 | SHOULD (commercial) | http://allinea.com/ddt                             |
++---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
+| Totalview     | A long standing de-facto standard for debugging in the HPC realm offered           | SHOULD (commercial) | http://www.roguewave.com/products/totalview.aspx   |
+|               | by  TotalView Technologies                                                         |                     |                                                    |
++---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
+| MemoryScape   | Dynamic memory debugging for monitoring heap allocations, memory leaks             | MAY (commercial)    | http://www.roguewave.com/products/memoryscape.aspx |
+|               | memory overruns, and memory usage; by Rogue Wave software                          |                     |                                                    |
++---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 
-In order to be compliant, a center must have at least the first of these
-debuggers installed and in the standard login path across all nodes. In
-addition, the GUI interface for TotalView, when available, must be
-operational and accessible from the compute nodes of any allocated system.
+In order to be compliant, a center must have at least the "MUST" class of these
+debuggers installed and in the standard login path across all nodes.
+
+In addition, the GUI interface for TotalView/DDT, when available, must be
+operational and accessible from the compute nodes of the allocated system.
+
+Potential sources of information for further future upgrades of this list include:
+  * http://www.nersc.gov/users/software/debugging-and-profiling/
+  * http://user.cscs.ch/fileadmin/user_upload/customers/CSCS_Application_Data/Files/Presentations/Courses_Ws_2011/Multi-Threaded_Course_Feb11/debug.pdf
+  * http://www.scalalife.eu/book/export/html/115 
+  * http://www.acrc.a-star.edu.sg/10/code_development.html
+
+Kindly notify -if this policy is inadequate for your work-
+both your local site technical representative & HPCBIOS user-support.
+
