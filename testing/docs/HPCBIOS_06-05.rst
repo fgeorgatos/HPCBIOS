@@ -27,7 +27,7 @@ At this time, only three packages are included in the RECOMMENDED baseline set:
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 | Eclipse PTP   | Parallel Tools Platform supports MPI, OpenMP & UPC; as well as OpenSHMEM & OpenACC | SHOULD              | http://www.eclipse.org/ptp/                        |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
-| Allinea DDT   | A popular suite for debugging in the HPC realm offered by Allinea.                 | SHOULD (commercial) | http://allinea.com/ddt                             |
+| Allinea DDT   | A popular suite for debugging in the HPC realm offered by Allinea.                 | SHOULD (commercial) | http://www.allinea.com/products/ddt/               |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 | Totalview     | A long standing de-facto standard for debugging in the HPC realm offered           | SHOULD (commercial) | http://www.roguewave.com/products/totalview.aspx   |
 |               | by  TotalView Technologies                                                         |                     |                                                    |
@@ -43,7 +43,9 @@ In addition, the GUI interface for TotalView/DDT, when available, must be
 operational and accessible from the compute nodes of the allocated system.
 
 Potential sources of information for further future upgrades of this list include:
+  * http://wiki.scinethpc.ca/wiki/images/c/ce/Best-practice-debug.pdf
   * http://www.nersc.gov/users/software/debugging-and-profiling/
+  * http://sebastien.dinot.free.fr/liens_dev_c_cpp.html
   * http://user.cscs.ch/fileadmin/user_upload/customers/CSCS_Application_Data/Files/Presentations/Courses_Ws_2011/Multi-Threaded_Course_Feb11/debug.pdf
   * http://www.scalalife.eu/book/export/html/115 
   * http://www.acrc.a-star.edu.sg/10/code_development.html
