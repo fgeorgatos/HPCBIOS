@@ -10,7 +10,7 @@ HPCBIOS_2012-95: Molecular Dynamics Productivity Environment
   The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
   * BC Policy: HPCBIOS_2012-95
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 20121212
 
 The main objective of this policy is to provide the following common
 productivity environment across any HPCBIOS resources:

@@ -7,8 +7,8 @@ HPCBIOS_2012-96: Common Set of Commercial Compilers
 
   Providing commercial compilers is imperative for many user groups.
 
-  BC Policy: HPCBIOS_2012-96
-  Date of Policy: 1st November 2012
+  * BC Policy: HPCBIOS_2012-96
+  * Date of Policy: 20121212
 
 Thus, to increase user productivity and expand commonality across
 HPCBIOS sites, centers shall install the following commercial compilers,

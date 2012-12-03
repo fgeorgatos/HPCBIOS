@@ -7,7 +7,7 @@ HPCBIOS_2012-98: Common Set of Environment Variables
 
   This policy is written to define a core set of environment variables that represent the same thing at each of the HPCBIOS designated centers participating in the Baseline Configuration (BC) Initiative. These variables shall be pre-defined in all login scripts, making them automatically available to users at each center, whenever the relevant functionality is in place.
   * BC Policy: HPCBIOS_2012-98
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 20121212
 
 The current list of variables has as follows:
 

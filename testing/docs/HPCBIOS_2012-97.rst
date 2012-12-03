@@ -11,7 +11,7 @@ HPCBIOS_2012-97: Climate Science Productivity Environment
   for HPCBIOS sites.
   
   * BC Policy: HPCBIOS_2012-97
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 20121212
 
 The main objective of this policy is to provide the following common
 productivity environment across any HPCBIOS resources that need it:

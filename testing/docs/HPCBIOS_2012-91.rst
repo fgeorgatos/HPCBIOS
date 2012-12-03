@@ -9,7 +9,7 @@ HPCBIOS_2012-91: Modules Namespace for HPC sites
   The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
   * BC Policy: HPCBIOS_2012-91
-  * Date of Policy: 1st December 2012
+  * Date of Policy: 20121212
 
 The main objective of this policy is to provide a consistent module namespace across any HPCBIOS resources.
 
