@@ -1,13 +1,13 @@
-.. _HPCBIOS_2011-96:
+.. _HPCBIOS_2012-96:
 
-HPCBIOS_2011-96: Common Set of Commercial Compilers
+HPCBIOS_2012-96: Common Set of Commercial Compilers
 ===================================================
 
 .. note::
 
   Providing commercial compilers is imperative for many user groups.
 
-  BC Policy: HPCBIOS_2011-96
+  BC Policy: HPCBIOS_2012-96
   Date of Policy: 1st November 2012
 
 Thus, to increase user productivity and expand commonality across

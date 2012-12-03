@@ -1,6 +1,6 @@
-.. _HPCBIOS_2011-94:
+.. _HPCBIOS_2012-94:
 
-HPCBIOS_2011-94: Bioinformatics & Comp. Biology Productivity Environment
+HPCBIOS_2012-94: Bioinformatics & Comp. Biology Productivity Environment
 ================================================================================
 
 .. note::
@@ -9,7 +9,7 @@ HPCBIOS_2011-94: Bioinformatics & Comp. Biology Productivity Environment
   which are needed for scientific computing and visualization in the respective domain. 
   The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
-  * BC Policy: HPCBIOS_2011-94
+  * BC Policy: HPCBIOS_2012-94
   * Date of Policy: 1st December 2012
 
 The main objective of this policy is to provide the following common

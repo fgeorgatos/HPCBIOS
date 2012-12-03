@@ -1,6 +1,6 @@
-.. _HPCBIOS_2011-95:
+.. _HPCBIOS_2012-95:
 
-HPCBIOS_2011-95: Molecular Dynamics Productivity Environment
+HPCBIOS_2012-95: Molecular Dynamics Productivity Environment
 ============================================================
 
 .. note::
@@ -9,7 +9,7 @@ HPCBIOS_2011-95: Molecular Dynamics Productivity Environment
   which are needed for scientific computing and visualization in the respective domain.
   The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
-  * BC Policy: HPCBIOS_2011-95
+  * BC Policy: HPCBIOS_2012-95
   * Date of Policy: 1st November 2012
 
 The main objective of this policy is to provide the following common

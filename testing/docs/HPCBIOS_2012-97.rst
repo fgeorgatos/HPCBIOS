@@ -1,6 +1,6 @@
-.. _HPCBIOS_2011-97:
+.. _HPCBIOS_2012-97:
 
-HPCBIOS_2011-97: Climate Science Productivity Environment
+HPCBIOS_2012-97: Climate Science Productivity Environment
 =========================================================
 
 .. note::
@@ -10,7 +10,7 @@ HPCBIOS_2011-97: Climate Science Productivity Environment
   domain. The following is an attempt to define which ones may be relevant
   for HPCBIOS sites.
   
-  * BC Policy: HPCBIOS_2011-97
+  * BC Policy: HPCBIOS_2012-97
   * Date of Policy: 1st November 2012
 
 The main objective of this policy is to provide the following common

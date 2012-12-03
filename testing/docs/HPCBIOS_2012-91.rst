@@ -1,6 +1,6 @@
-.. _HPCBIOS_2011-91:
+.. _HPCBIOS_2012-91:
 
-HPCBIOS_2011-91: Modules Namespace for HPC sites
+HPCBIOS_2012-91: Modules Namespace for HPC sites
 ================================================
 
 .. note::
@@ -8,7 +8,7 @@ HPCBIOS_2011-91: Modules Namespace for HPC sites
   Software Development environment includes a set of tools which are needed for building and using scientific computing software.
   The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
-  * BC Policy: HPCBIOS_2011-91
+  * BC Policy: HPCBIOS_2012-91
   * Date of Policy: 1st December 2012
 
 The main objective of this policy is to provide a consistent module namespace across any HPCBIOS resources.

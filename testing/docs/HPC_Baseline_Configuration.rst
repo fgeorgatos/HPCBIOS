@@ -83,25 +83,25 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_10-02|    | Common Open Source High Productivity Languages                           | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-90|  | Software Development Environment                                         | |a|     | |a|    |       |
+| |HPCBIOS_2012-90|  | Software Development Environment                                         | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-91|  | Modules Namespace for HPC sites                                          | |a|     | |a|    |       |
+| |HPCBIOS_2012-91|  | Modules Namespace for HPC sites                                          | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-92|  | EasyBuild HPC Software Development Environment                           | |a|     | |a|    |       |
+| |HPCBIOS_2012-92|  | EasyBuild HPC Software Development Environment                           | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-93|  | Life Sciences Productivity Environment                                   | |a|     | |a|    |       |
+| |HPCBIOS_2012-93|  | Life Sciences Productivity Environment                                   | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-94|  | Bioinformatics and Computational Biology Productivity Environment        | |a|     | |a|    |       |
+| |HPCBIOS_2012-94|  | Bioinformatics and Computational Biology Productivity Environment        | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-95|  | Molecular Dynamics Productivity Environment                              | |a|     | |a|    |       |
+| |HPCBIOS_2012-95|  | Molecular Dynamics Productivity Environment                              | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-96|  | Common Set of Commercial Compilers                                       | |a|     | |a|    |       |
+| |HPCBIOS_2012-96|  | Common Set of Commercial Compilers                                       | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-97|  | Climate Science Productivity Environment                                 | |a|     | |a|    |       |
+| |HPCBIOS_2012-97|  | Climate Science Productivity Environment                                 | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-98|  | Common Set of Environment Variables                                      | |a|     | |a|    |       |
+| |HPCBIOS_2012-98|  | Common Set of Environment Variables                                      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2011-99|  | GPU Productivity Environment                                             | |n|     | |a|    |       |
+| |HPCBIOS_2012-99|  | GPU Productivity Environment                                             | |n|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 
 .. note::
@@ -136,14 +136,14 @@ This document was last rebuilt on: |today|.
 .. |HPCBIOS_07-03| replace:: [:ref:`HPCBIOS_07-03 <HPCBIOS_07-03>`]
 .. |HPCBIOS_10-01| replace:: [:ref:`HPCBIOS_10-01 <HPCBIOS_10-01>`]
 .. |HPCBIOS_10-02| replace:: [:ref:`HPCBIOS_10-02 <HPCBIOS_10-02>`]
-.. |HPCBIOS_2011-90| replace:: [:ref:`HPCBIOS_2011-90 <HPCBIOS_2011-90>`]
-.. |HPCBIOS_2011-91| replace:: [:ref:`HPCBIOS_2011-91 <HPCBIOS_2011-91>`]
-.. |HPCBIOS_2011-92| replace:: [:ref:`HPCBIOS_2011-92 <HPCBIOS_2011-92>`]
-.. |HPCBIOS_2011-93| replace:: [:ref:`HPCBIOS_2011-93 <HPCBIOS_2011-93>`]
-.. |HPCBIOS_2011-94| replace:: [:ref:`HPCBIOS_2011-94 <HPCBIOS_2011-94>`]
-.. |HPCBIOS_2011-95| replace:: [:ref:`HPCBIOS_2011-95 <HPCBIOS_2011-95>`]
-.. |HPCBIOS_2011-96| replace:: [:ref:`HPCBIOS_2011-96 <HPCBIOS_2011-96>`]
-.. |HPCBIOS_2011-97| replace:: [:ref:`HPCBIOS_2011-97 <HPCBIOS_2011-97>`]
-.. |HPCBIOS_2011-98| replace:: [:ref:`HPCBIOS_2011-98 <HPCBIOS_2011-98>`]
-.. |HPCBIOS_2011-99| replace:: [:ref:`HPCBIOS_2011-99 <HPCBIOS_2011-99>`]
+.. |HPCBIOS_2012-90| replace:: [:ref:`HPCBIOS_2012-90 <HPCBIOS_2012-90>`]
+.. |HPCBIOS_2012-91| replace:: [:ref:`HPCBIOS_2012-91 <HPCBIOS_2012-91>`]
+.. |HPCBIOS_2012-92| replace:: [:ref:`HPCBIOS_2012-92 <HPCBIOS_2012-92>`]
+.. |HPCBIOS_2012-93| replace:: [:ref:`HPCBIOS_2012-93 <HPCBIOS_2012-93>`]
+.. |HPCBIOS_2012-94| replace:: [:ref:`HPCBIOS_2012-94 <HPCBIOS_2012-94>`]
+.. |HPCBIOS_2012-95| replace:: [:ref:`HPCBIOS_2012-95 <HPCBIOS_2012-95>`]
+.. |HPCBIOS_2012-96| replace:: [:ref:`HPCBIOS_2012-96 <HPCBIOS_2012-96>`]
+.. |HPCBIOS_2012-97| replace:: [:ref:`HPCBIOS_2012-97 <HPCBIOS_2012-97>`]
+.. |HPCBIOS_2012-98| replace:: [:ref:`HPCBIOS_2012-98 <HPCBIOS_2012-98>`]
+.. |HPCBIOS_2012-99| replace:: [:ref:`HPCBIOS_2012-99 <HPCBIOS_2012-99>`]
 

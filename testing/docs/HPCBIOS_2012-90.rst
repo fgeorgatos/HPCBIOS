@@ -1,6 +1,6 @@
-.. _HPCBIOS_2011-90:
+.. _HPCBIOS_2012-90:
 
-HPCBIOS_2011-90: Software Development Environment
+HPCBIOS_2012-90: Software Development Environment
 =================================================
 
 .. note::
@@ -8,7 +8,7 @@ HPCBIOS_2011-90: Software Development Environment
   Software Development environment includes a set of tools which are needed for building and using scientific computing software.
   The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
-  * BC Policy: HPCBIOS_2011-90
+  * BC Policy: HPCBIOS_2012-90
   * Date of Policy: 1st December 2012
 
 The main objective of this policy is to provide the following common

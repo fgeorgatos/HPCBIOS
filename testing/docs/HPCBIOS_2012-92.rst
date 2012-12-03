@@ -1,6 +1,6 @@
-.. _HPCBIOS_2011-92:
+.. _HPCBIOS_2012-92:
 
-HPCBIOS_2011-92: EasyBuild HPC Software Development Environment
+HPCBIOS_2012-92: EasyBuild HPC Software Development Environment
 ===============================================================
 
 .. note::
@@ -12,7 +12,7 @@ HPCBIOS_2011-92: EasyBuild HPC Software Development Environment
   which simplistic solutions -such as Makefiles- can never match, since good building 
   code factorization is necessary in order to tackle the complexity of multiple HPC systems.
 
-  * BC Policy: HPCBIOS_2011-92
+  * BC Policy: HPCBIOS_2012-92
   * Date of Policy: 1st December 2012
 
 The main objective of this policy is to provide EasyBuild, because it allows:
