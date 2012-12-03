@@ -145,9 +145,9 @@ Future potential candidates for this policy:
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 | RAxML                                  | latest                      | SHOULD             | https://github.com/stamatak/standard-RAxML                 |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
-| phyml_v3                               | latest                      | SHOULD             |                                                            |
+| PhyML                                  | latest                      | SHOULD             | http://www.atgc-montpellier.fr/phyml/                      |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
-| paul                                   | latest                      | SHOULD             |                                                            |
+| T-Coffee                               | latest                      | SHOULD             | http://www.tcoffee.org/                                    |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 | galaxy                                 | >ca0c4ad2bb39               | SHOULD             | http://galaxy.psu.edu/                                     |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
@@ -158,6 +158,16 @@ Future potential candidates for this policy:
 | WU-BLAST                               | latest                      | SHOULD             | http://blast.wustl.edu/                                    |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 | BLAT                                   | latest                      | SHOULD             | http://genome.ucsc.edu/FAQ/FAQblat.html                    |
++----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
+| Clustal                                | latest                      | SHOULD             | http://www.clustal.org/                                    |
++----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
+| PAUP*                                  | latest                      | SHOULD             | http://paup.csit.fsu.edu/                                  |
++----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
+| PHYLIP                                 | latest                      | SHOULD             | http://evolution.genetics.washington.edu/phylip.html       |
++----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
+| PyMOL                                  | latest                      | SHOULD             | http://pymol.sf.net/                                       |
++----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
+| paul                                   | latest                      | SHOULD             |                                                            |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 
 This productivity environment will be supplemented with other related
@@ -173,6 +183,8 @@ Potential sources of information for further future upgrades of this list includ
   * http://confluence.rcs.griffith.edu.au:8080/display/GHPC/qiime#qiime-Alignment%2Ctreebuilding%2Ctaxonomyassignment%2COTUpicking%2Candotherdatagenerationsteps%28requiredforalternativepipelines%29
   * http://www.bioplexity.org/lectures/ebi-s10.pdf
   * http://helix.nih.gov/Applications/
+  * http://openwetware.org/wiki/Image:Tools.png
+  * http://en.wikipedia.org/wiki/List_of_sequence_alignment_software
 
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
