@@ -83,6 +83,8 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_10-02|    | Common Open Source High Productivity Languages                           | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
+| |HPCBIOS_2012-80|  | Common Set of DFT codes                                                  | |a|     | |a|    |       |
++--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-90|  | Software Development Environment                                         | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-91|  | Modules Namespace for HPC sites                                          | |a|     | |a|    |       |
@@ -136,6 +138,7 @@ This document was last rebuilt on: |today|.
 .. |HPCBIOS_07-03| replace:: [:ref:`HPCBIOS_07-03 <HPCBIOS_07-03>`]
 .. |HPCBIOS_10-01| replace:: [:ref:`HPCBIOS_10-01 <HPCBIOS_10-01>`]
 .. |HPCBIOS_10-02| replace:: [:ref:`HPCBIOS_10-02 <HPCBIOS_10-02>`]
+.. |HPCBIOS_2012-80| replace:: [:ref:`HPCBIOS_2012-80 <HPCBIOS_2012-80>`]
 .. |HPCBIOS_2012-90| replace:: [:ref:`HPCBIOS_2012-90 <HPCBIOS_2012-90>`]
 .. |HPCBIOS_2012-91| replace:: [:ref:`HPCBIOS_2012-91 <HPCBIOS_2012-91>`]
 .. |HPCBIOS_2012-92| replace:: [:ref:`HPCBIOS_2012-92 <HPCBIOS_2012-92>`]

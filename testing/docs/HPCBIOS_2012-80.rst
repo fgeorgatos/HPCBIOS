@@ -1,6 +1,6 @@
 .. _HPCBIOS_2012-80:
 
-HPCBIOS_2012-96: Common Set of DFT codes
+HPCBIOS_2012-80: Common Set of DFT codes
 ========================================
 
 .. note::
@@ -9,33 +9,22 @@ HPCBIOS_2012-96: Common Set of DFT codes
   This is an work-in-progress effort to provide the candidate list as a set.
   There is no particular level of compliance as of yet (all list is "SHOULD" status).
 
-  * BC Policy: HPCBIOS_2012-96
+  * BC Policy: HPCBIOS_2012-80
   * Date of Policy: 20121212
 
 Introduction
 ------------
 
-The following is a list of sites that document
+The following is a list of tables that document
 various density-functional theory based electronic structure codes,
 both periodic and molecular, and atomic pseudopotential codes.
-This list is no way comprehensive,
-nor makes any representation of what the codes do, beyond the most
-superficial observations (being predominantly a molecular code
-vs. being predominantly a periodic code, local orbital vs. plane wave).
-The principal distinction of items on this list is that I ran
-across the web site when looking for other things on the
-web, I had heard of them at some point in the literature, and, at the
-time I discovered them, the web site appeared to be functioning.
-We welcome suggestions of additions and corrections.
+This list is no way comprehensive.
 
 DFT production codes
 --------------------
 
-Periodic codes (mainly)
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Plane wave and related methods
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Periodic codes - Plane wave and related methods
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------------------------------------------------+------------------------+
 |  http://cms.mpi.univie.ac.at/vasp                                    | VASP                   |
@@ -75,8 +64,8 @@ Plane wave and related methods
 |  http://eslab.ucdavis.edu/software/qbox                              | QBOX                   |
 +----------------------------------------------------------------------+------------------------+
 
-Local orbital basis codes
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Periodic codes - Local orbital basis codes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------------------------------------------------+------------------------+
 |  http://dft.sandia.gov/Quest                                         | Quest                  |
@@ -85,7 +74,7 @@ Local orbital basis codes
 +----------------------------------------------------------------------+------------------------+
 |  http://www.icmab.es/siesta                                          | SIESTA                 |
 +----------------------------------------------------------------------+------------------------+
-|  http://www.cse.dl.ac.uk/Activity/CRYSTAL                            | CRYSTAL - CSE          |
+|  http://www.cse.dl.ac.uk/Activity/CRYSTAL                            | CRYSTAL/CSE            |
 +----------------------------------------------------------------------+------------------------+
 |  http://aimpro.ncl.ac.uk                                             | AIMPRO                 |
 +----------------------------------------------------------------------+------------------------+
@@ -94,8 +83,8 @@ Local orbital basis codes
 |  http://www.openmx-square.org                                        | OpenMX                 |
 +----------------------------------------------------------------------+------------------------+
 
-All-electron (augmented methods) codes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Periodic codes - All-electron (augmented methods) codes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------------------------------------------------+------------------------+
 |  http://elk.sourceforge.net                                          | ELK                    |
