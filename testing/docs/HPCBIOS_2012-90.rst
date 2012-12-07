@@ -29,7 +29,7 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | zlib openssl openssh                             | latest                | SHOULD             | 06. zlib/openssl are typically required allover    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| wget lynx links curl rsync unison ftp lftp       | latest                | SHOULD             | 07. downloaders / file fetchers                    |
+| wget lynx links curl rsync unison ftp lftp bbcp  | latest                | SHOULD             | 07. downloaders / file fetchers                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | subversion rcs cvs git git-core git-svn          | latest                | SHOULD             | 10. version control                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -37,13 +37,13 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | strace ltrace lsof finger pwgen procps fuser     | latest                | SHOULD             | 12. process & user inspection                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| dstat sysstat iotop htop                         | latest                | SHOULD             | 13. system inspection tools                        |
+| dstat sysstat iotop htop host ifconfig arp       | latest                | SHOULD             | 13. system inspection tools                        |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| nmap tcpdump host dig bind-utils whois icmpinfo  | latest                | SHOULD             | 14. network inspection tools                       |
+| nmap tcpdump dig bind-utils whois icmpinfo       | latest                | SHOULD             | 14. network inspection tools                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ping traceroute ifconfig netstat arp iperf       | latest                | SHOULD             | 15. network diagnostics - basics                   |
+| ping traceroute ping6 traceroute6 tcptrace mtr   | latest                | SHOULD             | 15. network diagnostics - basics                   |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ping6 traceroute6 ndp                            | latest                | SHOULD             | 16. network diagnostics - for IPv6                 |
+| iperf nuttcp bwctl ndp ndt thrulay               | latest                | SHOULD             | 16. network diagnostics - for IPv6                 |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | patch diff diffstat m4                           | latest                | SHOULD             | 17. patching & macros                              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
