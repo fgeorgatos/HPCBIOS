@@ -8,7 +8,7 @@ HPCBIOS_05-01: Multiple-Version Software Policy
   recommended at all HPCBIOS participating sites.
 
   * BC Policy: HPCBIOS_05-01
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 These versions are:
   * A primary production version; (MUST)

@@ -14,7 +14,7 @@ HPCBIOS_07-02: Common Open Source Performance and Profiling Tools
   the installations.
 
   * BC Policy: HPCBIOS_07-02
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 The suite of maintained packages consists of:
 

@@ -10,7 +10,7 @@ HPCBIOS_2012-93: Life Sciences Productivity Environment
   The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
 
   * BC Policy: HPCBIOS_2012-93
-  * Date of Policy: 20121212
+  * Date of Policy: 2012-12-15
 
 The main objective of this policy is to provide the following common
 productivity environment across any HPCBIOS resources:

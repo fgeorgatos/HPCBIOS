@@ -14,7 +14,7 @@ HPCBIOS_07-03: Common Set of Open Source Compilers
   compiler suites. Providing open source compilers is imperative.
 
   * BC Policy: HPCBIOS_07-03
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 Thus, to increase user productivity and expand commonality across
 HPCBIOS sites, **a center shall install the GNU compiler suite** and

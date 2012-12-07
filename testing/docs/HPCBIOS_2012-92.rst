@@ -13,7 +13,7 @@ HPCBIOS_2012-92: EasyBuild HPC Software Development Environment
   code factorization is necessary in order to tackle the complexity of multiple HPC systems.
 
   * BC Policy: HPCBIOS_2012-92
-  * Date of Policy: 20121212
+  * Date of Policy: 2012-12-15
 
 The main objective of this policy is to provide EasyBuild, because it allows:
   * to build reproducible and rigorously defined software codes and,

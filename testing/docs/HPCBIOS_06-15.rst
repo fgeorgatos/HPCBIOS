@@ -12,7 +12,7 @@ HPCBIOS_06-15: Sample Code Repository
   HPCBIOS sites or to a particular system within the project.
 
   * BC Policy: HPCBIOS_06–15
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 An environment variable named $SAMPLES_HOME will point to the
 Repository base directory. Each sample will be located in its own

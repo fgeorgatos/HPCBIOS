@@ -9,7 +9,7 @@ HPCBIOS_06-19: Common Set of Open Source Utilities
   and installed in the users default path.
 
   * BC Project HPCBIOS_06–19
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 The current core set of open source utilities is:
 

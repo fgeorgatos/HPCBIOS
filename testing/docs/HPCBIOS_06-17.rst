@@ -13,7 +13,7 @@ HPCBIOS_06-17: Use of Modules for Accessing Multiple Versions of Software
   above that are supported by the center.
 
   * BC Policy: HPCBIOS_06–17
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 The MODULES package provides for the dynamic modification of a user’s
 environment via modulefiles. Each modulefile contains the information

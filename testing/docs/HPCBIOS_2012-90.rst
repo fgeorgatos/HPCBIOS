@@ -5,11 +5,13 @@ HPCBIOS_2012-90: Software Development Environment
 
 .. note::
 
-  Software Development environment includes a set of tools which are needed for building and using scientific computing software.
-  The following is an attempt to define which ones are relevant for the HPCBIOS communities and set an action plan.
+  Software Development environment includes a set of tools which are needed
+  for building and using scientific computing software.
+  The following is an attempt to define which ones are relevant
+  for the HPCBIOS communities and set an action plan.
 
   * BC Policy: HPCBIOS_2012-90
-  * Date of Policy: 20121212
+  * Date of Policy: 2012-12-15
 
 The main objective of this policy is to provide the following common
 productivity environment across any HPCBIOS resources:

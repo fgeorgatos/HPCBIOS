@@ -8,7 +8,7 @@ HPCBIOS_05-06: Baseline Set of Login Shells
   default shell on a new user application.
 
   * BC Policy: HPCBIOS_05-06
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 Centers MAY provide their users login shell choices beyond the login
 shell baseline, but all centers SHOULD provide every login shell in the

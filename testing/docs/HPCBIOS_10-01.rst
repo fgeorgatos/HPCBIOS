@@ -4,10 +4,16 @@ HPCBIOS_10-01: New/Returning User Welcome Letter
 ================================================
 
 .. note::
-  Each compliant site shall provide new and returning users with a standard minimum amount of information about their account and the services that are being made available to them. The minimum required information includes, username, (Kerberos principle if available,) subproject ID, default group, login host names for the systems where access is granted, the email address where information will be sent, links to local documentation, and contact information for help.
+  Each compliant site shall provide new and returning users
+  with a standard minimum amount of information about their account
+  and the services that are being made available to them.
+  The minimum required information includes, username, (Kerberos principle
+  if available,) subproject ID, default group, login host names for the
+  systems where access is granted, the email address where information
+  will be sent, links to local documentation, and contact information for help.
 
   * BC Policy: HPCBIOS_10-01
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 A sample minimum welcome letter is as follows
 

@@ -14,7 +14,7 @@ HPCBIOS_06-01: Common Set of Open Source Math Libraries
   the installations and it is expected to find an optimized version of that library.
 
   * BC Project: HPCBIOS_06-01
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 The suite of maintained packages consists of:
 

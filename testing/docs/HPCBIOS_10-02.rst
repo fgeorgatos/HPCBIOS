@@ -14,7 +14,7 @@ HPCBIOS_10-02: Common Open Source High Productivity Languages
   complex data visualization.
 
   * BC Policy: HPCBIOS_10-02
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 The main objective of this policy is to provide the following common
 open source high productivity languages environment across all HPCBIOS

@@ -10,7 +10,7 @@ HPCBIOS_2012-80: Common Set of DFT codes
   There is no particular level of compliance as of yet (all list is "SHOULD" status).
 
   * BC Policy: HPCBIOS_2012-80
-  * Date of Policy: 20121212
+  * Date of Policy: 2012-12-15
 
 Introduction
 ------------

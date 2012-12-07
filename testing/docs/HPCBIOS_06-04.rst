@@ -12,7 +12,7 @@ HPCBIOS_06-04: Baseline Editors and Scripting Tools
   information and downloading these packages are included below.
 
   * BC Policy: HPCBIOS_06-04
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 Baseline shells are covered by policy [HPCBIOS_05-06]
 

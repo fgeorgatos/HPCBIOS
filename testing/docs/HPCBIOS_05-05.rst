@@ -8,7 +8,7 @@ HPCBIOS_05-05: Common Queue Names
   environment faster and move scripts across sites more easily.
 
   * BC Policy: HPCBIOS_05-05
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 A goal of this policy is to institute a core namespace of batch queues
 with the same names at each of the centers participating in the Baseline
