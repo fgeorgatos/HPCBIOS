@@ -7,7 +7,7 @@ HPCBIOS_06-05: Baseline Set of Debuggers
   This policy defines a baseline set of debuggers that can assist in HPC users for parallel codes.
 
   * BC Policy: HPCBIOS_06-05
-  * Date of Policy: 1st November 2012
+  * Date of Policy: 2012-12-15
 
 The lack of a baseline set of debuggers can compound what is arguably
 one of the most difficult tasks in scientific code development -
@@ -15,10 +15,13 @@ debugging new algorithms. The process of tracking down bugs in large
 scientific codes is frustrating and time consuming. Having to learn a
 new tool to do so limits efficiency and productivity of valuable HPC programmers.
 
-For these reasons, a baseline set of debuggers preferred to be installed
-at all centers has been identified by examining what is in use at
-different centers and what can be used across a variety of platforms.
-At this time, only three packages are included in the RECOMMENDED baseline set:
+Somebody can argue that code should be written without bugs but, until that day
+arrives there is a dire need for using debuggers and building expertise upon them.
+
+For these reasons a baseline set of debuggers, preferred to be installed
+at all systems, has been identified by examining what is in use at
+different sites and what can be used across a variety of platforms.
+At this time, these packages are included in the RECOMMENDED baseline set:
 
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 | Debugger Name | Description                                                                        | Compliance Level    | References                                         |
@@ -37,7 +40,8 @@ At this time, only three packages are included in the RECOMMENDED baseline set:
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 
 In order to be compliant, a center must have at least the "MUST" class of these
-debuggers installed and in the standard login path across all nodes.
+debuggers installed and in the standard login path across all nodes or,
+available via modules mechanism.
 
 In addition, the GUI interface for TotalView/DDT, when available, must be
 operational and accessible from the compute nodes of the allocated system.
