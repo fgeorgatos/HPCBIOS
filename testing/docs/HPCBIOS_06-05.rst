@@ -26,17 +26,22 @@ At this time, these packages are included in the RECOMMENDED baseline set:
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 | Debugger Name | Description                                                                        | Compliance Level    | References                                         |
 +===============+====================================================================================+=====================+====================================================+
-| **GDB**       | A freeware debugger offered by the GNU project, covered by the GNU public license. | MUST                | http://www.gnu.org/software/gdb/gdb.html           |
+| **GDB**       | A freeware debugger provided by the GNU project, covered by the GNU public license | MUST                | http://www.gnu.org/software/gdb/gdb.html           |
+|               | Supported architectures: any                                                       |                     |                                                    |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 | Eclipse PTP   | Parallel Tools Platform supports MPI, OpenMP & UPC; as well as OpenSHMEM & OpenACC | SHOULD              | http://www.eclipse.org/ptp/                        |
+|               | Supported architectures: any                                                       |                     |                                                    |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
-| Allinea DDT   | A popular suite for debugging in the HPC realm offered by Allinea.                 | SHOULD (commercial) | http://www.allinea.com/products/ddt/               |
+| Allinea DDT   | A popular suite for debugging in the HPC realm, provided by Allinea                | SHOULD (commercial) | http://www.allinea.com/products/ddt/               |
+|               | Supported architectures: x86_64, GPUs, ARM                                         |                     |                                                    |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
-| Totalview     | A long standing de-facto standard for debugging in the HPC realm offered           | SHOULD (commercial) | http://www.roguewave.com/products/totalview.aspx   |
-|               | by  TotalView Technologies                                                         |                     |                                                    |
+| Totalview     | A long standing de-facto standard for debugging in the HPC realm provided          | SHOULD (commercial) | http://www.roguewave.com/products/totalview.aspx   |
+|               | by TotalView Technologies                                                          |                     |                                                    |
+|               | Supported architectures: x86_64, GPUs                                              |                     |                                                    |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 | MemoryScape   | Dynamic memory debugging for monitoring heap allocations, memory leaks             | MAY (commercial)    | http://www.roguewave.com/products/memoryscape.aspx |
 |               | memory overruns, and memory usage; by Rogue Wave software                          |                     |                                                    |
+|               | Supported architectures: x86_64,                                                   |                     |                                                    |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 
 In order to be compliant, a center must have at least the "MUST" class of these
