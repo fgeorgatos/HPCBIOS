@@ -51,15 +51,9 @@ Change notification
 Guidelines:
 
 - This policy MUST provide the default implementation for LINPACK/BLAS functions
-- Any new versions of supported libraries SHOULD initially be installed as non-default
 - Notification MUST be sent to the system's helpdesk announcing the new version and describing how to access it and use it
 - The helpdesk MUST be given a minimum of 2 weeks notice when the new version becomes the default version
-- The old version MUST not be deleted, but notice will be sent to the helpdesk describing how users can continue to use the old version
-- The minimum of versions that will be kept, MUST follow BC [HPCBIOS_05-01] policy
-- Old versions MAY be deleted when there are three newer versions available
 - It is the responsibility of the individual sites to notify their users of any changes
-- This change notification is in the absence of any baseline configuration change notification policy that may exist
-- Any baseline configuration policy on change notification supersedes the change notification listed in this policy
 
 .. seealso::
   Native Libraries
@@ -68,8 +62,8 @@ Guidelines:
   whenever a system includes native libraries such as PESSL (Parallel
   ESSL) ACML or, MKL (Math kernel Libraries) that fully provide the same
   functionality and interface. However, if an explicit request is made to
-  have ScaLAPACK, LAPACK and/or ATLAS available on a system, then these
-  packages MUST also be installed.
+  have open source ScaLAPACK, LAPACK and/or ATLAS available on a system,
+  then these packages MUST also be installed.
 
 Support
 
