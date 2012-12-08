@@ -4,21 +4,20 @@ HPCBIOS_10-02: Common Open Source High Productivity Languages
 =============================================================
 
 .. note::
-  High productivity languages have recently become an important part of
-  scientific computing and visualization. Leading high productivity
-  languages include the commercially available MATLAB, open source Python
-  (with its scientific computing add-ons) and open source Octave. Each of
-  these high productivity languages forms an integral part of a standard
+  High Productivity Languages have recently become an important part of
+  scientific computing and visualization environment. Leading high productivity
+  languages include R, the commercially available MATLAB, open source Python
+  (with its scientific computing add-ons) and open source Octave.
+  Each of these high productivity languages forms an integral part of a standard
   library that includes text processing, file I/O, data compression, and a
-  host of capabilities ranging from basic numerical linear algebra to
-  complex data visualization.
+  host of capabilities ranging from basic numerical linear algebra to complex data
+  visualization. As such they are an indispensable component for a modern HPC platform.
 
   * BC Policy: HPCBIOS_10-02
   * Date of Policy: 2012-12-15
 
 The main objective of this policy is to provide the following common
-open source high productivity languages environment across all HPCBIOS
-compliant resources:
+open source high productivity languages environment across all HPCBIOS compliant resources:
 
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | Package/Tool   | Description                                     | Compliance level   | Reference                                |
@@ -29,24 +28,26 @@ compliant resources:
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | **SciPy**      | Scientific Python                               | MUST               | http://www.scipy.org/                    |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| PyMPI          | Python Message Passing Interface                | MUST               | http://pympi.sourceforge.net/            |
+| PyMPI          | Python Message Passing Interface                | SHOULD             | http://pympi.sourceforge.net/            |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| Octave         | MATLAB Clone                                    | SHOULD             | http://www.gnu.org/software/octave/      |
+| Octave         | MATLAB Clone                                    | MUST               | http://www.gnu.org/software/octave/      |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| **Matplotlib** | Scientific 2-D and 3-D Plotting                 | SHOULD             | http://matplotlib.sourceforge.net/       |
+| **Matplotlib** | Scientific 2-D and 3-D Plotting                 | MUST               | http://matplotlib.sourceforge.net/       |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| NAG            | Numerical library /Numerical Algorithms Group   | SHOULD             | http://www.nag.co.uk/                    |
+| **R**          | R language                                      | MUST               | http://www.r-project.org/                |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| R              | R language                                      | SHOULD             | http://www.r-project.org/                |
+| NAG            | Numerical library /Numerical Algorithms Group   | SHOULD (commercial)| http://www.nag.co.uk/                    |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 
-These high productivity languages environment will be supplemented with
-other open source productivity languages as they become available on
+This high productivity languages environment will be supplemented with
+more open source productivity languages as they become available on
 allocated systems.
 
-There are two key sources which MAY be used to provide support to the
+There are three key sources which MAY be used to provide support to the
 scripting language Python and its scientific add-ons NumPy, PyMPI and
-SciPy. These are:
+SciPy, as well as more tools from the above list. These are:
+
+- EasyBuild. See policy |HPCBIOS_2012-92|
 
 - Computational Science Environment (CSE). The CSE is an integrated
   production level environment developed at *ARL DSRC*. CSE consists of
@@ -65,6 +66,9 @@ SciPy. These are:
   consistent Python based environment for developing and deploying
   scientific packages that rely on a common runtime environment.
 
-Both the CSE and PToolsRTE MAY be made available on HPC systems. The CSE
-package is being maintained by the *ARL CSE* Team, while the PToolsRTE
-is being maintained through *PETTT*.
+Either EasyBuild, CSE and PToolsRTE MAY be made available on HPC systems.
+The CSE package is being maintained by the *ARL CSE* Team,
+while the PToolsRTE is being maintained through *PETTT* project.
+
+.. |HPCBIOS_2012-92| replace:: [:ref:`HPCBIOS_2012-92 <HPCBIOS_2012-92>`]
+
