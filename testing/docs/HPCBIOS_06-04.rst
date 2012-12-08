@@ -54,7 +54,8 @@ Baseline Scripting Tools
 +----------+------------------------------+----------+
 
 .. seealso::
+  Python and its scientific add-on components are fully covered in Baseline Configuration
+  policy |HPCBIOS_10-02| entitled “Common Open Source High Productivity Languages.”
 
-Python and its scientific add-on components are fully covered in Baseline Configuration
-policy [HPCBIOS_10-02] entitled “Common Open Source High Productivity Languages.”
+.. |HPCBIOS_10-02| replace:: [:ref:`HPCBIOS_10-02 <HPCBIOS_10-02>`]
 
