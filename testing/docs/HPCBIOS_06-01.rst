@@ -21,7 +21,8 @@ The suite of maintained packages consists of:
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | Library API   | Purpose                                                                                  | Compliance level   | References                                    |
 +===============+==========================================================================================+====================+===============================================+
-| **FFTW**      | Library for computing Discrete Fourier Transforms ; Both MPI and non-MPI versions        | MUST               | http://www.fftw.org/                          |
+| **FFTW**      | Library for computing Discrete Fourier Transforms                                        | MUST               | http://www.fftw.org/                          |
+|               | Both MPI and non-MPI versions should be provided.                                        |                    |                                               |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **PETSc**     | Suite of scientific computing routines                                                   | MUST               | http://www.mcs.anl.gov/petsc/                 |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
@@ -30,9 +31,10 @@ The suite of maintained packages consists of:
 | **ScaLAPACK** | Subset of parallelized LAPACK routines                                                   | MUST               | http://www.netlib.org/scalapack/              |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **BLAS**      | Basic linear algebra routines; this could be any of:                                     | MUST               | http://www.netlib.org/blas/                   |
-|               | * ATLAS                                                                                  |                    | http://math-atlas.sourceforge.net/            |
-|               | * GotoBLAS                                                                               |                    | http://www.tacc.utexas.edu/tacc-projects/#blas|
-|               | * OpenBLAS                                                                               |                    | https://github.com/xianyi/OpenBLAS            |
+|               |   * **ATLAS**                                                                            |                    | http://math-atlas.sourceforge.net/            |
+|               |   * **MKL**                                                                              |                    | http://software.intel.com/en-us/intel-mkl     |
+|               |   * GotoBLAS                                                                             |                    | http://www.tacc.utexas.edu/tacc-projects/#blas|
+|               |   * OpenBLAS                                                                             |                    | https://github.com/xianyi/OpenBLAS            |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **GSL**       | C/C+ library with a wide variety of mathematical routines                                | MUST               | http://www.gnu.org/s/gsl/                     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
@@ -48,7 +50,7 @@ Change notification
 
 Guidelines:
 
-- This policy SHOULD provide the default implementation for LINPACK/BLAS functions
+- This policy MUST provide the default implementation for LINPACK/BLAS functions
 - Any new versions of supported libraries SHOULD initially be installed as non-default
 - Notification MUST be sent to the system's helpdesk announcing the new version and describing how to access it and use it
 - The helpdesk MUST be given a minimum of 2 weeks notice when the new version becomes the default version
