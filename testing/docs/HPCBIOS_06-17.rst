@@ -64,10 +64,11 @@ then need to load individual modulefiles to add the application specific
 directories to the PATH environment variables.
 
 .. seealso::
-  The currently preferred namespace format is the one provided via EasyBuild v1.0,
+  The currently preferred namespace format is the one provided via EasyBuild v1.0 (see |HPCBIOS_2012-92|),
   and a site MAY use aliases for default modules, as defined via UNITE version May 2010.
   UNITE suite provides exact definitions under section 1.2 of its documentation:
   http://apps.fz-juelich.de/unite/files/unite-installguide.pdf
 
 .. |HPCBIOS_05-06| replace:: [:ref:`HPCBIOS_05-06 <HPCBIOS_05-06>`]
 .. |HPCBIOS_06-04| replace:: [:ref:`HPCBIOS_06-04 <HPCBIOS_06-04>`]
+.. |HPCBIOS_2012-92| replace:: [:ref:`HPCBIOS_2012-92 <HPCBIOS_2012-92>`]
