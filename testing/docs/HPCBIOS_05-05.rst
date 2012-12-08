@@ -13,7 +13,7 @@ HPCBIOS_05-05: Common Queue Names
 A goal of this policy is to institute a core namespace of batch queues
 with the same names at each of the systems participating in the Baseline
 Configuration Initiative. The queue names were chosen to align with collective
-experience from multiple HPC sites. In addition, each system or center is explicitly
+experience from multiple HPC sites. In addition, each system or site is explicitly
 allowed to offer customized batch support and service levels for specialized workloads
 or projects of each own. Systems MAY have more queues on as needed basis.
 

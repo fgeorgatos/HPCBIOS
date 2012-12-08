@@ -5,7 +5,7 @@ HPCBIOS_2012-80: Common Set of DFT codes
 
 .. note::
 
-  Providing (a subset of) popular DFT codes is nearly imperative for most HPC centers.
+  Providing (a subset of) popular DFT codes is nearly imperative for most HPC sites.
   This is an work-in-progress effort to provide the candidate list as a set.
   There is no particular level of compliance as of yet (all list is "SHOULD" status).
 

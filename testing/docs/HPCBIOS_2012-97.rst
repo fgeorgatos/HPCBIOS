@@ -81,4 +81,4 @@ following data formats:
 .. note::
 
   Please notify is this policy is incomplete both your local technical
-  representative & user-support instead of the respective HPC center.
+  representative & user-support instead of the respective HPC site.

@@ -11,7 +11,7 @@ HPCBIOS_2012-96: Common Set of Commercial Compilers
   * Date of Policy: 2012-12-15
 
 Thus, to increase user productivity and expand commonality across
-HPCBIOS sites, centers shall install the following commercial compilers,
+HPCBIOS sites, sites shall install the following commercial compilers,
 either through a user’s default path or the availability of a module
 file. In addition, in order to truly take advantage of the modern HPC
 environment, *MPI support for the commercial compilers suite MUST be
@@ -27,7 +27,7 @@ implemented* for compliance with this policy.
 | Lahey/Fujitsu Fortran    | v6.2 & v8.1           | SHOULD             | This may be required by certain climate community members   |
 +--------------------------+-----------------------+--------------------+-------------------------------------------------------------+
 
-It is at the discretion of each center which (if any) libraries will be
+It is at the discretion of each site which (if any) libraries will be
 compiled with the commercial compilers. Ultimately, it will be the
 responsibility of each user of the commercial compilers to create the
 libraries that they require for their compiled software.

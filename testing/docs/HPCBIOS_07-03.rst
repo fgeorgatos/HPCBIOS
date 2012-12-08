@@ -17,7 +17,7 @@ HPCBIOS_07-03: Common Set of Open Source Compilers
   * Date of Policy: 2012-12-15
 
 Thus, to increase user productivity and expand commonality across
-HPCBIOS sites, **a center shall install the GNU compiler suite** and
+HPCBIOS sites, **a site shall install the GNU compiler suite** and
 make it easily available, either through a user’s default path or the
 availability of a module file. In addition, in order to fully take
 advantage of the HPC environment, *MPI support for the GNU compiler
@@ -37,7 +37,7 @@ hence it has become a requirement for being compliant with this policy:
 | gcc    | v4.6.3 or v4.7.1      | MUST               |
 +--------+-----------------------+--------------------+
 
-It is at the discretion of each center which (if any) libraries will be
+It is at the discretion of each site which (if any) libraries will be
 compiled to support GNU based codes. Ultimately, it will be the
 responsibility of each user of the GNU compilers to create the libraries
 that they require for their GNU compiled software.

@@ -4,13 +4,13 @@ HPCBIOS_06-17: Use of Modules for Accessing Multiple Versions of Software
 =========================================================================
 
 .. note::
-  All participating centers are required to install and use the MODULES
+  All participating sites are required to install and use the MODULES
   package to support multiple versions of compilers, associated libraries,
   and heavily used application software (netcdf, openmpi, wrf, wien2k et al)
   on the available resources of HPC sites. Compliance is determined by
-  centers ensuring that the modules command is in the user’s path and that
+  sites ensuring that the modules command is in the user’s path and that
   system modulefiles are in place for the software packages mentioned
-  above that are supported by the center.
+  above that are supported by the site.
 
   * BC Policy: HPCBIOS_06–17
   * Date of Policy: 2012-12-15
@@ -39,7 +39,7 @@ Implementation
 The function of the modulefiles is to modify a user’s environment such
 that the user references the selected version of an application using
 the default commands for that application without adding additional path
-or version information. The individual center may combine these
+or version information. The individual site may combine these
 compliant modulefiles with existing methods (e.g. additional
 modulefiles, wrapper scripts) to select versions of applications and
 modify the user’s environment.

@@ -6,9 +6,9 @@ HPCBIOS_2012-98: Common Set of Environment Variables
 .. note::
 
   This policy is written to define a core set of environment variables that represent
-  the a resource definition at each of the HPCBIOS designated centers participating
+  the a resource definition at each of the HPCBIOS designated sites participating
   in the Baseline Configuration (BC) Initiative. These variables shall be pre-defined
-  in all login scripts, making them automatically available to users at each center,
+  in all login scripts, making them automatically available to users at each site,
   whenever the relevant functionality is in place.
 
   * BC Policy: HPCBIOS_2012-98
@@ -32,7 +32,7 @@ JAVA_HOME (SHOULD)
   This variable contains the path to the base directory of the default installation of JAVA on a particular compute platform. If the platform does not have JAVA installed, this variable should not be defined. It can also be provided via the modules mechanism.
 
 SAMPLES_HOME (MUST)
-  This variable contains the path to the base directory for the sample codes and scripts installed by a center's staff under BC policy Sample Code Repository.
+  This variable contains the path to the base directory for the sample codes and scripts installed by a site's staff under BC policy Sample Code Repository.
 
 SOFT_HOME (MUST)
   This variable contains the path to the base directory for the application codes installed on a system.

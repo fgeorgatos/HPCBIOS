@@ -4,7 +4,7 @@ HPCBIOS_06-04: Baseline Editors and Scripting Tools
 ===================================================
 
 .. note::
-  Each center will install and maintain the following baseline set of
+  Each site will install and maintain the following baseline set of
   editors and scripting tools. New versions of these packages should be
   installed within 30 days of their availability on all allocated HPC
   systems and non-storage user-accessible support servers, and they should

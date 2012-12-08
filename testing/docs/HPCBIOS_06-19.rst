@@ -4,7 +4,7 @@ HPCBIOS_06-19: Common Set of Open Source Utilities
 ==================================================
 
 .. note::
-  Centers will provide a core set of open source utilities on all
+  Sites will provide a core set of open source utilities on all
   allocated HPC systems and non-storage user-accessible support servers,
   and installed in the users default path.
 

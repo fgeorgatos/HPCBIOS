@@ -44,7 +44,7 @@ At this time, these packages are included in the RECOMMENDED baseline set:
 |               | Supported architectures: x86_64,                                                   |                     |                                                    |
 +---------------+------------------------------------------------------------------------------------+---------------------+----------------------------------------------------+
 
-In order to be compliant, a center must have at least the "MUST" class of these
+In order to be compliant, a site must have at least the "MUST" class of these
 debuggers installed and in the standard login path across all nodes or,
 available via modules mechanism.
 

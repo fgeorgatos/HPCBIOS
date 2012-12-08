@@ -8,7 +8,7 @@ HPCBIOS_2012-92: EasyBuild HPC Software Development Environment
   EasyBuild HPC Software Development environment allows to build and use Scientific Computing software
   in a consistent and reproducible way: It can manage Software and Modules in a consistent manner.
   Though building HPC software can be done in alternative ways, either manual or structured,
-  EasyBuild can incorporate the experience across multiple HPC centers and provides an advanced service,
+  EasyBuild can incorporate the experience across multiple HPC sites and provides an advanced service,
   which simplistic solutions -such as Makefiles and simple scripts- can never match, since good
   code factorization is necessary in order to tackle the complexity of building software for multiple HPC platforms.
 
@@ -58,7 +58,7 @@ Example build tree of WRF
 -------------------------
 
 .. figure:: images/WRF-example-build-by-EB.png
-   :align: center
+   :align: site
    :scale: 25
 
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.

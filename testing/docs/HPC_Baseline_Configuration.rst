@@ -9,10 +9,10 @@ HPC Baseline Configuration
   HPC Baseline Configuration (BC) is an effort to define a common set of
   capabilities and functions so that users can work more productively and
   collaboratively when using the HPC resources at multiple computing
-  centers within the HPCBIOS project context. This will be accomplished by
+  sites within the HPCBIOS project context. This will be accomplished by
   defining and developing a common set of capabilities and functions so
   that users can focus energy on their research effort,
-  as opposed to wrestling with center-specific policies and procedures.
+  as opposed to wrestling with site-specific policies and procedures.
 
   It is modeled after a similar effort taking place elsewhere among 6 HPC sites in the US and,
   in effect, it is an extension upon it:
@@ -32,13 +32,13 @@ About the Baseline Configuration
 
 There is a growing community of HPCBIOS users who need to work on data
 and computation-intensive problems spread across multiple computing
-centers and services. Recent discussions show that over half of users
-may need accounts at more than one center.
+sites and services. Recent discussions show that over half of users
+may need accounts at more than one site.
 
 The main goal of the HPC Baseline Configuration activity is to define
 and establish a common set of capabilities and functions so that users
 can compute productively and collaboratively when using the HPC
-resources at multiple computing centers.
+resources at multiple computing sites.
 
 Compliance Matrix
 -----------------
@@ -110,8 +110,8 @@ yes, no, agree, disagree, information notice, warning notice.
   Non-Compliance Disclaimer
 
   Site compliance assures that the minimum guidelines of the policy have
-  been met by the Center.
-  Centers may, at their discretion, exceed the minimum guidelines and
+  been met by the Site.
+  Sites may, at their discretion, exceed the minimum guidelines and
   still remain in compliance.
   Periodic checks will be performed to ensure compliance is maintained.
 

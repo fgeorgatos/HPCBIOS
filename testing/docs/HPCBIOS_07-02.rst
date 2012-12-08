@@ -6,7 +6,7 @@ HPCBIOS_07-02: Common Open Source Performance and Profiling Tools
 .. note::
   This policy defines a set of performance and profiling tools and their
   consistent maintenance (same version and configuration) across all
-  systems of participating centers. Same configuration is dependent on
+  systems of participating sites. Same configuration is dependent on
   system compatibility, and also, some libraries may have slightly
   different configurations due to architectural differences. These
   differences, however, will not affect the use of the libraries. A user
