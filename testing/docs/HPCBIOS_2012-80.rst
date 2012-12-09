@@ -170,6 +170,7 @@ Useful links
  * http://www.nersc.gov/users/software/applications/materials-science/
  * http://www.c3se.chalmers.se/index.php/Software_Beda#Atomistic_Simulation
  * https://doc.zih.tu-dresden.de/hpc-wiki/bin/view/Compendium/NanoscaleSimulations
+ * http://www.psi-k.org/codes.shtml
  * http://en.wikipedia.org/wiki/List_of_quantum_chemistry_and_solid-state_physics_software
 
 .. note::
