@@ -37,15 +37,15 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | ssh ldap nfs nscd telnet netcat ntp ntpdate      | latest                | SHOULD             | 11. system interconnection essentials              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| strace ltrace lsof finger pwgen procps fuser     | latest                | SHOULD             | 12. process & user inspection                      |
+| strace ltrace lsof finger pwgen procps fuser who | latest                | SHOULD             | 12. process & user inspection                      |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| dstat sysstat iotop htop host ifconfig arp       | latest                | SHOULD             | 13. system inspection tools                        |
+| dstat sysstat iotop htop host ifconfig arp iptraf| latest                | SHOULD             | 13. system inspection tools                        |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | nmap tcpdump dig bind-utils whois icmpinfo       | latest                | SHOULD             | 14. network inspection tools                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| ping traceroute ping6 traceroute6 tcptrace mtr   | latest                | SHOULD             | 15. network diagnostics - basics                   |
+| ping traceroute ping6 traceroute6 tcptrace mtr ss| latest                | SHOULD             | 15. network diagnostics - basics                   |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| iperf nuttcp bwctl ndp ndt thrulay               | latest                | SHOULD             | 16. network diagnostics - for IPv6                 |
+| iperf nuttcp bwctl ndp ndt thrulay vnstat        | latest                | SHOULD             | 16. network diagnostics - extras                   |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | patch diff diffstat m4                           | latest                | SHOULD             | 17. patching & macros                              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
