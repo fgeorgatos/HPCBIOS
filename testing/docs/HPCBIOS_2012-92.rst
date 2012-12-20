@@ -45,14 +45,15 @@ Example usage
   sw@gaia-1:~$ module avail easybuild
   
   ------------------------ /opt/apps/default/modules/all -------------------------
-  easybuild/0.9dev              easybuild/1.0rc1
-  easybuild/1.0-uni.lu(default) easybuild/1.0rc1-uni.lu
+  easybuild/0.9dev                easybuild/1.0.2-uni.lu(default)
+  easybuild/1.0-uni.lu            easybuild/1.0rc1
+  easybuild/1.0.1-uni.lu          easybuild/1.0rc1-uni.lu
 
   sw@gaia-1:~$ module load easybuild
   sw@gaia-1:~$ eb --version
-  == This is EasyBuild 1.0
+  == This is EasyBuild 1.0.2
   sw@gaia-1:~$ which eb
-  /opt/apps/default/software/easybuild/1.0/eb
+  /opt/apps/default/software/easybuild/1.0.2/eb
 
 Example build tree of WRF
 -------------------------
