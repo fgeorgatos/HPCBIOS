@@ -58,16 +58,18 @@ Example usage
 Example build tree of WRF
 -------------------------
 
-.. image:: images/WRF-example-build-by-EB.png
-   :align: site
-   :scale: 25
+.. |WRFgraph| image:: images/WRF-example-build-by-EB.png
+              :align: site
+              :scale: 25
 
-   **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
-   You can see how it is built along with its multiple dependent modules, with EasyBuild.
+              **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
+              You can see how it is built along with its multiple dependent modules, with EasyBuild.
 
 WRF is a prime example why a tool like EasyBuild is essential for an HPC site;
 not only can it manage the set of dependencies which are necessary,
 it will also do so in a manner which is very consistent, eg. in relation to GNU/Intel compilers etc. See EBnWRF_.
+
+|WRFgraph|
 
 More details about WRF are visible at WRF_ 's wikipedia page, including further pointers.
 
