@@ -58,7 +58,7 @@ Example usage
 Example build tree of WRF
 -------------------------
 
-.. figure:: images/WRF-example-build-by-EB.png
+.. image:: images/WRF-example-build-by-EB.png
    :align: site
    :scale: 25
 
@@ -80,126 +80,8 @@ since this is only provided for demonstration of the features and can be customi
 Notably, future versions of EasyBuild are expected to allow for module categories, alternative versions,
 improved integration with environment modules, filtered lists - defined as per user preferences - etc.
 
-.. code-block:: sh
-
-  sw@gaia-1:~$ module avail
+.. include:: easybuild_modules.txt
   
-  ------------- /opt/apps/testing/fgeorgatos/easybuild/modules/all --------------
-  AMOS/3.1.0-goalf-1.1.0
-  ASE/3.6.0.2515-goalf-1.1.0-Python-2.7.3
-  ATLAS/3.8.4-gompi-1.1.0-LAPACK-3.4.0
-  Armadillo/2.4.4-goalf-1.1.0-Python-2.7.3
-  BLACS/1.1-gompi-1.1.0
-  BWA/0.6.2-goalf-1.1.0
-  Boost/1.49.0-goalf-1.1.0-Python-2.7.3
-  Boost/1.51.0-goalf-1.1.0-Python-2.7.3
-  Bowtie2/2.0.2-goalf-1.1.0
-  CGAL/4.0-goalf-1.1.0-Python-2.7.3
-  CMake/2.8.4-goalf-1.1.0
-  CVXOPT/1.1.5-goalf-1.1.0-Python-2.7.3
-  ClustalW2/2.1-goalf-1.1.0
-  Cython/0.16-goalf-1.1.0-Python-2.7.3
-  Docutils/0.9.1-goalf-1.1.0-Python-2.7.3
-  Eigen/3.1.1-goalf-1.1.0
-  FFC/1.0.0-goalf-1.1.0-Python-2.7.3
-  FFTW/3.3.1-gompi-1.1.0
-  FIAT/1.0.0-goalf-1.1.0-Python-2.7.3
-  FSL/4.1.9-goalf-1.1.0
-  GCC/4.6.3
-  GEOS/3.3.5-goalf-1.1.0
-  GMP/5.0.5-goalf-1.1.0
-  GPAW/0.9.0.8965-goalf-1.1.0-Python-2.7.3
-  GSL/1.15-goalf-1.1.0
-  HDF5/1.8.7-goalf-1.1.0
-  HDF5/1.8.7-goalf-1.1.0-parallel
-  HDF5/1.8.9-goalf-1.1.0
-  HPL/2.0-goalf-1.1.0
-  Harminv/1.3.1-goalf-1.1.0
-  Hypre/2.8.0b-goalf-1.1.0
-  Infernal/1.1rc1-goalf-1.1.0
-  Instant/1.0.0-goalf-1.1.0-Python-2.7.3
-  JasPer/1.900.1-goalf-1.1.0
-  Jinja2/2.6-goalf-1.1.0-Python-2.7.3
-  LAPACK/3.4.0-gompi-1.1.0
-  Libint/1.1.4-goalf-1.1.0
-  METIS/4.0.1-goalf-1.1.0
-  METIS/5.0.2-goalf-1.1.0
-  MPFR/3.1.0-goalf-1.1.0
-  MTL4/4.0.8878
-  MUMmer/3.23-goalf-1.1.0
-  Meep/1.2-goalf-1.1.0
-  Mercurial/2.3.2-goalf-1.1.0-Python-2.7.3
-  MetaVelvet/1.2.01-goalf-1.1.0
-  MrBayes/3.1.2-goalf-1.1.0
-  OpenFOAM/2.1.1-goalf-1.1.0
-  OpenMPI/1.4.5-GCC-4.6.3
-  OpenSSL/1.0.0-goalf-1.1.0
-  PAPI/5.0.1-goalf-1.1.0
-  PCRE/8.12-goalf-1.1.0
-  PETSc/3.3-p2-goalf-1.1.0-Python-2.7.3
-  ParMETIS/3.1.1-goalf-1.1.0
-  ParMETIS/4.0.2-goalf-1.1.0
-  Primer3/2.3.0-goalf-1.1.0
-  Python/2.7.3-goalf-1.1.0
-  Python/3.2.3-goalf-1.1.0
-  RNAz/2.1-goalf-1.1.0
-  SAMtools/0.1.18-goalf-1.1.0
-  SCOTCH/5.1.12b_esmumps-goalf-1.1.0
-  SHRiMP/2.2.3-goalf-1.1.0
-  SOAPdenovo/1.05-goalf-1.1.0
-  SWIG/2.0.4-goalf-1.1.0-Python-2.7.3
-  ScaLAPACK/1.8.0-gompi-1.1.0-ATLAS-3.8.4-LAPACK-3.4.0-BLACS-1.1
-  ScientificPython/2.8-goalf-1.1.0-Python-2.7.3
-  Shapely/1.2.15-goalf-1.1.0-Python-2.7.3
-  Sphinx/1.1.3-goalf-1.1.0-Python-2.7.3
-  SuiteSparse/3.7.0-goalf-1.1.0-withparmetis
-  Szip/2.1-goalf-1.1.0
-  Theano/0.5.0-goalf-1.1.0-Python-2.7.3
-  Trilinos/10.12.2-goalf-1.1.0-Python-2.7.3
-  UFC/2.0.5-goalf-1.1.0-Python-2.7.3
-  UFL/1.0.0-goalf-1.1.0-Python-2.7.3
-  Velvet/1.2.07-goalf-1.1.0
-  ViennaRNA/2.0.7-goalf-1.1.0
-  Viper/1.0.0-goalf-1.1.0-Python-2.7.3
-  WPS/3.3.1-goalf-1.1.0-dmpar
-  WRF/3.3.1-goalf-1.1.0-dmpar
-  byacc/20120526-goalf-1.1.0
-  bzip2/1.0.6-goalf-1.1.0
-  expat/2.1.0-goalf-1.1.0
-  flex/2.5.35-goalf-1.1.0
-  freetype/2.4.10-goalf-1.1.0
-  g2lib/1.2.4-goalf-1.1.0
-  git/1.7.12-goalf-1.1.0
-  glproto/1.4.16-goalf-1.1.0
-  goalf/1.1.0
-  gompi/1.1.0
-  guile/1.8.8-goalf-1.1.0
-  h5py/2.0.1-goalf-1.1.0-Python-2.7.3-parallel
-  libctl/3.2.1-goalf-1.1.0
-  libffi/3.0.11-goalf-1.1.0
-  libpng/1.5.10-goalf-1.1.0
-  libpng/1.5.11-goalf-1.1.0
-  libpng/1.5.13-goalf-1.1.0
-  libpthread-stubs/0.3-goalf-1.1.0
-  libreadline/6.2-goalf-1.1.0
-  libtool/2.4.2-goalf-1.1.0
-  libunistring/0.9.3-goalf-1.1.0
-  libxcb/1.8-goalf-1.1.0-Python-2.7.3
-  libxml2/2.8.0-goalf-1.1.0
-  libxml2/2.8.0-goalf-1.1.0-Python-2.7.3
-  makedepend/1.0.4-goalf-1.1.0
-  matplotlib/1.1.1-goalf-1.1.0-Python-2.7.3
-  ncurses/5.9-goalf-1.1.0
-  netCDF/4.1.3-goalf-1.1.0
-  petsc4py/3.3-goalf-1.1.0-Python-2.7.3
-  pkg-config/0.27.1-goalf-1.1.0
-  python-meep/1.4.2-goalf-1.1.0-Python-2.7.3
-  setuptools/0.6c11-goalf-1.1.0-Python-2.7.3
-  xcb-proto/1.7-goalf-1.1.0-Python-2.7.3
-  xproto/7.0.23-goalf-1.1.0
-  zlib/1.2.5-goalf-1.1.0
-  zlib/1.2.7-goalf-1.1.0
-
 References
 ----------
 
