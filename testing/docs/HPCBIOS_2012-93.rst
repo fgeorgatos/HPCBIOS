@@ -30,7 +30,7 @@ productivity environment across any HPCBIOS resources:
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | **BWA**            | Sequence Analysis      | x            | SHOULD             | http://bio-bwa.sourceforge.net/                                                           |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **BLAST**/BLASTMPI | Sequence Analysis      | x            | SHOULD             | http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download     |
+| **BLAST/BLASTMPI** | Sequence Analysis      | x            | SHOULD             | http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download     |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | **CLUSTALW**       | Sequence Analysis      | x            | SHOULD             | http://www.ebi.ac.uk/Tools/msa/clustalw2/                                                 |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
@@ -61,12 +61,12 @@ productivity environment across any HPCBIOS resources:
 
 Reference document:
 
+- PRACE – The Scientific Case for HPC in Europe 2012-2020
+  http://www.prace-ri.eu/PRACE-The-Scientific-Case-for-HPC
+
 - European Exascale Software Initiative
   Working Group report on Life Science and Health activities
   http://www.eesi-project.eu/media/download_gallery/EESI_D3.6_WG3.4-Report_R2.0.pdf
-
-- PRACE – The Scientific Case for HPC in Europe 2012-2020
-  http://www.prace-ri.eu/PRACE-The-Scientific-Case-for-HPC
 
 This productivity environment may be supplemented with other related
 productivity tools as they become available on allocated systems.
