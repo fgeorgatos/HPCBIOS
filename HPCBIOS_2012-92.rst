@@ -62,7 +62,6 @@ Example build tree of WRF, WPS & OpenFOAM, along with GCC/OpenMPI & libs
 
 .. figure:: images/WRF-example-build-by-EB.png
    :scale: 25 %
-   :align: site
 
    ..
    
