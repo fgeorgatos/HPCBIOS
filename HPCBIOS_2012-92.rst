@@ -58,34 +58,15 @@ Example usage
 Example build tree of WRF, WPS & OpenFOAM, along with GCC/OpenMPI & libs
 ------------------------------------------------------------------------
 
-.. _my-WRF-figure:
-
 .. figure:: images/WRF-example-build-by-EB.png
    :scale: 25 %
 
    ..
    
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
-
-.. figure:: images/WRF-example-build-by-EB.png
-            :scale: 25 %
-            :align: site
-
-   ..
-
-   **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
    You can see how it is built along with its multiple dependent modules, with EasyBuild.
 
-Hello World
-
-.. |WRFgraph| image:: images/WRF-example-build-by-EB.png
-              :align: site
-              :scale: 25
-
-              **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
-              You can see how it is built along with its multiple dependent modules, with EasyBuild.
-
-WRF is a prime example why a tool like EasyBuild is essential for an HPC site;
+WRF & OpenFOAM are prime examples why a tool like EasyBuild is essential for an HPC site;
 not only can it manage the set of dependencies which are necessary,
 it will also do so in a manner which is very consistent, eg. in relation to GNU/Intel compilers etc. See EBnWRF_.
 
