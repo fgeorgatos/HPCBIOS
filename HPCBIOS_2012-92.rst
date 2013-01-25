@@ -55,14 +55,17 @@ Example usage
   sw@gaia-1:~$ which eb
   /opt/apps/default/software/easybuild/1.0.2/eb
 
-Example build tree of WRF
--------------------------
+Example build tree of WRF, WPS & OpenFOAM, along with GCC/OpenMPI & libs
+------------------------------------------------------------------------
 
 .. _my-WRF-figure:
 
 .. figure:: images/WRF-example-build-by-EB.png
-            :scale: 25 %
+   :scale: 25 %
+   :align: site
 
+   ..
+   
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
 
 .. figure:: images/WRF-example-build-by-EB.png
