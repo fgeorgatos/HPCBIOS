@@ -61,6 +61,8 @@ Example build tree of WRF
 .. _my-WRF-figure:
 
 .. figure:: images/WRF-example-build-by-EB.png
+
+.. figure:: images/WRF-example-build-by-EB.png
             :scale: 25 %
             :align: site
 
