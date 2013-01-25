@@ -55,22 +55,23 @@ Example usage
   sw@gaia-1:~$ which eb
   /opt/apps/default/software/easybuild/1.0.2/eb
 
-Example build tree of WRF, WPS & OpenFOAM, along with GCC/OpenMPI & libs
+Example build tree of WRF/WPS & OpenFOAM, along with GCC/OpenMPI & libs
 ------------------------------------------------------------------------
+
+.. _my-WRF-OpenFOAM-figure:
 
 .. figure:: images/WRF-example-build-by-EB.png
    :scale: 25 %
 
-   ..
+   WRF/WPS & OpenFOAM builds
    
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
    You can see how it is built along with its multiple dependent modules, with EasyBuild.
 
 WRF & OpenFOAM are prime examples why a tool like EasyBuild is essential for an HPC site;
 not only can it manage the set of dependencies which are necessary,
-it will also do so in a manner which is very consistent, eg. in relation to GNU/Intel compilers etc. See EBnWRF_.
-
-|WRFgraph|
+it will also do so in a manner which is very consistent, eg. in relation to GNU/Intel compilers etc. 
+For more detailed information why such documentation of parameters is important, see this issue: EBnWRF_.
 
 More details about WRF are visible at WRF_ 's wikipedia page, including further pointers.
 
