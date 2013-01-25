@@ -58,8 +58,7 @@ Escape path
 -----------
 
 An additional modulefile SHOULD exist, called OPT-OUT, which will remove
-the system's common-link
-directories from the associated *PATH environment variables. Users will
+the system's common-link directories from the associated *PATH* environment variables. Users will
 then need to load individual modulefiles to add the application specific
 directories to the PATH environment variables.
 
