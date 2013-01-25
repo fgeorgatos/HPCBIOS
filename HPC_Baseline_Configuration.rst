@@ -43,12 +43,12 @@ resources at multiple computing sites.
 Compliance Matrix
 -----------------
 
-.. |y| image:: images/check.gif
-.. |n| image:: images/error.gif
-.. |a| image:: images/thumbs_up.gif
-.. |d| image:: images/thumbs_down.gif
-.. |i| image:: images/information.gif
-.. |w| image:: images/warning.gif
+.. |y| image:: images/check.png
+.. |n| image:: images/error.png
+.. |a| image:: images/thumbs_up.png
+.. |d| image:: images/thumbs_down.png
+.. |i| image:: images/information.png
+.. |w| image:: images/warning.png
 
 Use notation |y| |n| |a| |d| |i| |w| respectively standing for: *yes, no, agree, disagree, information notice, warning notice*.
 
