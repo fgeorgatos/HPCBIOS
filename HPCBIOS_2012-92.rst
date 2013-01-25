@@ -58,11 +58,13 @@ Example usage
 Example build tree of WRF
 -------------------------
 
-.. _my-figure:
+.. _my-WRF-figure:
 
 .. figure:: images/WRF-example-build-by-EB.png
             :scale: 25 %
             :align: site
+
+   ..
 
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
    You can see how it is built along with its multiple dependent modules, with EasyBuild.
