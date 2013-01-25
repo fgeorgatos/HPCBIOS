@@ -50,9 +50,7 @@ Compliance Matrix
 .. |i| image:: images/information.gif
 .. |w| image:: images/warning.gif
 
-Use notation |y| |n| |a| |d| |i| |w| respectively standing for:
-
-yes, no, agree, disagree, information notice, warning notice.
+Use notation |y| |n| |a| |d| |i| |w| respectively standing for: *yes, no, agree, disagree, information notice, warning notice*.
 
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | Policy tag #       | Policy Topics                                                            | Chaos   | Gaia   | G5K   |
@@ -81,13 +79,13 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_10-01|    | New/Returning User Welcome Letter                                        | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_10-02|    | Common Open Source High Productivity Languages                           | |a|     | |a|    | |a|   |
+| |HPCBIOS_10-02|    | Common Open Source High Productivity Languages                           | |y|     | |y|    | |a|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-80|  | Common Set of DFT codes                                                  | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2012-90|  | Software Tools and Development Environment                               | |a|     | |a|    |       |
+| |HPCBIOS_2012-90|  | Software Tools and Development Environment                               | |a|     | |y|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2012-91|  | Modules Namespace for HPC sites                                          | |a|     | |a|    |       |
+| |HPCBIOS_2012-91|  | Modules Namespace for HPC sites                                          | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-92|  | EasyBuild HPC Software Development Environment                           | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
@@ -97,13 +95,13 @@ yes, no, agree, disagree, information notice, warning notice.
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-95|  | Molecular Dynamics Productivity Environment                              | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2012-96|  | Common Set of Commercial Compilers                                       | |a|     | |a|    |       |
+| |HPCBIOS_2012-96|  | Common Set of Commercial Compilers                                       | |a|     | |y|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-97|  | Climate Science Productivity Environment                                 | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-98|  | Common Set of Environment Variables                                      | |a|     | |a|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| |HPCBIOS_2012-99|  | GPU Productivity Environment                                             | |n|     | |a|    |       |
+| |HPCBIOS_2012-99|  | GPU Productivity Environment                                             | |n|     | |a|    | |n|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 
 .. note::
