@@ -61,6 +61,9 @@ Example build tree of WRF
 .. _my-WRF-figure:
 
 .. figure:: images/WRF-example-build-by-EB.png
+            :scale: 25 %
+
+   **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
 
 .. figure:: images/WRF-example-build-by-EB.png
             :scale: 25 %
