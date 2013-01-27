@@ -23,7 +23,7 @@ Objective
 ---------
 
 EasyBuild_ is a tool developed over the course of recent years and has been
-released for production use during SuperComputing'12, in Nov. 2012, by the HPC group of University of Ghent.
+released for production use during SuperComputing'12, in Nov. 2012, by the HPC group of Ghent University.
 
 Although other alternatives to EasyBuild could eventually appear in the open,
 so far it has been the most self-consistent publicly available tool in yielding

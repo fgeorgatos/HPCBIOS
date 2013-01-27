@@ -69,7 +69,7 @@ SciPy, as well as more tools from the above list. These are:
 
 Either EasyBuild, CSE or PToolsRTE, SHOULD be made available on HPC systems.
 
-EasyBuild is maintained by *University of Ghent* and is available as open source,
+EasyBuild is maintained by *Ghent University* and is available as open source,
 while the CSE package is being maintained by the *ARL CSE* Team
 and the PToolsRTE is being maintained through *PETTT* project.
 
