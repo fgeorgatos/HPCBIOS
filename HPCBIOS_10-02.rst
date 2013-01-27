@@ -47,7 +47,8 @@ There are three key sources which MAY be used to provide support to the
 scripting language Python and its scientific add-ons NumPy, PyMPI and
 SciPy, as well as more tools from the above list. These are:
 
-- EasyBuild. See policy |HPCBIOS_2012-92|
+- EasyBuild. See policy |HPCBIOS_2012-92| ; in fact, this is the preferred way,
+  since integration with the other scientific software is better guaranteed.
 
 - Computational Science Environment (CSE). The CSE is an integrated
   production level environment developed at *ARL DSRC*. CSE consists of
@@ -66,9 +67,11 @@ SciPy, as well as more tools from the above list. These are:
   consistent Python based environment for developing and deploying
   scientific packages that rely on a common runtime environment.
 
-Either EasyBuild, CSE and PToolsRTE MAY be made available on HPC systems.
-The CSE package is being maintained by the *ARL CSE* Team,
-while the PToolsRTE is being maintained through *PETTT* project.
+Either EasyBuild, CSE or PToolsRTE, SHOULD be made available on HPC systems.
+
+EasyBuild is maintained by *University of Ghent* and is available as open source,
+while the CSE package is being maintained by the *ARL CSE* Team
+and the PToolsRTE is being maintained through *PETTT* project.
 
 .. |HPCBIOS_2012-92| replace:: [:ref:`HPCBIOS_2012-92 <HPCBIOS_2012-92>`]
 
