@@ -25,11 +25,11 @@ Objective
 EasyBuild_ is a tool developed over the course of recent years and has been
 released for production use during SuperComputing'12, in Nov. 2012, by the HPC group of University of Ghent.
 
-Although other alternatives to EasyBuild could eventually appear,
-so far it has been the most consistent tool in yielding
+Although other alternatives to EasyBuild could eventually appear in the open,
+so far it has been the most self-consistent publicly available tool in yielding
 reproducible Scientific Computing environments, transferable across multiple HPC platforms.
-Therefor it is considered necessary across HPC sites for both users and sysadmin work.
-EasyBuild runs fine in user-space so even if it is not provided it by default,
+Therefor it is considered necessary across HPC sites for both users and systems engineering work.
+EasyBuild runs fine in user-space and so, even if it is not provided in a system by default,
 users can and will eventually use it.
 
 To be compliant with this policy, an HPC site MUST provide at least one production version of EasyBuild.
@@ -45,9 +45,10 @@ Example usage
   sw@gaia-1:~$ module avail easybuild
   
   ------------------------ /opt/apps/default/modules/all -------------------------
-  easybuild/0.9dev                easybuild/1.0.2-uni.lu(default)
-  easybuild/1.0-uni.lu            easybuild/1.0rc1
-  easybuild/1.0.1-uni.lu          easybuild/1.0rc1-uni.lu
+  easybuild/0.9dev                easybuild/1.0rc1
+  easybuild/1.0-uni.lu            easybuild/1.0rc1-uni-lu
+  easybuild/1.0.1-uni.lu          easybuild/1.1.0dev-uni.lu
+  easybuild/1.0.2-uni.lu(default) easybuild/1.1.0
 
   sw@gaia-1:~$ module load easybuild
   sw@gaia-1:~$ eb --version
@@ -63,25 +64,25 @@ Example build tree of WRF/WPS & OpenFOAM, along with GCC/OpenMPI & libs
 .. figure:: images/WRF-example-build-by-EB.png
    :scale: 25 %
 
-   WRF/WPS & OpenFOAM builds
+   Build tree of WRF/WPS & OpenFOAM
    
    **The Weather Research and Forecasting WRF model is a reference code for Weather and Climate communities**.
    You can see how it is built along with its multiple dependent modules, with EasyBuild.
+   More details about WRF are visible at WRF_ 's wikipedia page, including further pointers.
 
-WRF & OpenFOAM are prime examples why a tool like EasyBuild is essential for an HPC site;
+WRF & OpenFOAM are prime examples why a tool like EasyBuild is really essential for an HPC site;
 not only can it manage the set of dependencies which are necessary,
 it will also do so in a manner which is very consistent, eg. in relation to GNU/Intel compilers etc. 
 For more detailed information why such documentation of parameters is important, see this issue: EBnWRF_.
 
-More details about WRF are visible at WRF_ 's wikipedia page, including further pointers.
 
 Example module namespace
 ------------------------
 
 A site MAY provide the following list of modules.
 There is no need to provide the complete list of the following packages to be in compliance with this policy,
-since this is only provided for demonstration of the features and can be customized as per site needs.
-Notably, future versions of EasyBuild are expected to allow for module categories, alternative versions,
+since this is only provided for demonstration of the features and can be customized fully, as per site needs.
+Notably, future versions of EasyBuild MAY allow for module categories, alternative versions,
 improved integration with environment modules, filtered lists - defined as per user preferences - etc.
 
 .. include:: easybuild_modules.txt
