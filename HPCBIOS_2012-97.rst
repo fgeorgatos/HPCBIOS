@@ -59,6 +59,8 @@ productivity environment across any HPCBIOS resources that need it:
 +--------------+--------------------+--------------------+-------------------------------------------------------------+
 | **MATLAB**   | latest             | SHOULD             | http://www.mathworks.com/products/matlab/                   |
 +--------------+--------------------+--------------------+-------------------------------------------------------------+
+| **UDUNITS**  | latest             | SHOULD             | http://www.unidata.ucar.edu/software/udunits/               |
++--------------+--------------------+--------------------+-------------------------------------------------------------+
 
 This productivity environment will be supplemented with other related
 productivity tools as they become available on allocated systems.
