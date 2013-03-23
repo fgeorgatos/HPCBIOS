@@ -11,10 +11,7 @@ HPCBIOS_07-03: Common Set of Open Source Compilers
   availability and familiarity with the GNU suite is consistently drawing
   a larger HPC user base. Many packages that compile automatically under
   GNU may require large amounts of support time to compile under other
-  compiler suites. LLVM is another open source compiler of general interest,
-  not so much for HPC purposes but rather for cross-checking compiled code.
-  Finally, TCC may be used in scripting efforts, via the convenience of C.
-  Providing a minimum set of open source compilers is imperative.
+  compiler suites.  Providing a minimum set of open source compilers is imperative.
 
   * BC Policy: HPCBIOS_07-03
   * Date of Policy: 2012-12-15
@@ -53,6 +50,10 @@ It is at the discretion of each site which (if any) libraries will be
 compiled to support GNU based codes. Ultimately, it will be the
 responsibility of each user of the GNU compilers to create the libraries
 that they require for their GNU compiled software.
+
+LLVM is another open source compiler of general interest,
+not so much for HPC purposes but rather for cross-checking compiled code.
+Finally, TCC may be used in scripting efforts, via the convenience of C.
 
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
