@@ -23,11 +23,11 @@ The suite of maintained packages consists of:
 +========================+========================================================+====================+=========================================================================+
 | UNITE                  | UNiform Integrated Tool Environment                    | MUST               | http://apps.fz-juelich.de/unite                                         |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| **gprof**              | The GNU Profiler                                       | MUST               | http://www.gnu.org/software/binutils/                                   |
+| **gprof**              | The GNU Profiler                                       | **MUST**           | http://www.gnu.org/software/binutils/                                   |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 | **PAPI**               | Consistent interface to hardware counters and events   | **MUST**           | http://icl.cs.utk.edu/papi                                              |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| **Valgrind**           | Memory management analysis and profiling               | SHOULD             | http://valgrind.org/                                                    |
+| **Valgrind**           | Memory management analysis and profiling               | **MUST**           | http://valgrind.org/                                                    |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 | Intel Vtune Analyzer   | performance optimization tool                          | SHOULD             | http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/      |
 |                        | NOTE: not open source but still relevant               | (commercial)       |                                                                         |
