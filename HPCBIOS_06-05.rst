@@ -35,11 +35,11 @@ At this time, these packages are included in the RECOMMENDED baseline set:
 | Allinea DDT      | A popular suite for debugging in the HPC realm, provided by Allinea                | SHOULD           | http://www.allinea.com/products/ddt/               |
 |                  | Supported architectures: x86_64, GPUs, ARM                                         | (commercial)     |                                                    |
 +------------------+------------------------------------------------------------------------------------+------------------+----------------------------------------------------+
-| Totalview        | A long standing de-facto standard for debugging in the HPC realm provided          | SHOULD           | http://www.roguewave.com/products/totalview.aspx   |
+| **Totalview**    | A long standing de-facto standard for debugging in the HPC realm provided          | SHOULD           | http://www.roguewave.com/products/totalview.aspx   |
 |                  | by TotalView Technologies                                                          | (commercial)     |                                                    |
 |                  | Supported architectures: x86_64, GPUs                                              |                  |                                                    |
 +------------------+------------------------------------------------------------------------------------+------------------+----------------------------------------------------+
-| MemoryScape      | Dynamic memory debugging for monitoring heap allocations, memory leaks             | MAY              | http://www.roguewave.com/products/memoryscape.aspx |
+| **MemoryScape**  | Dynamic memory debugging for monitoring heap allocations, memory leaks             | MAY              | http://www.roguewave.com/products/memoryscape.aspx |
 |                  | memory overruns, and memory usage; by Rogue Wave software                          | (commercial)     |                                                    |
 |                  | Supported architectures: x86_64,                                                   |                  |                                                    |
 +------------------+------------------------------------------------------------------------------------+------------------+----------------------------------------------------+

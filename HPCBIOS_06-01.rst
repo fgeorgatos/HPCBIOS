@@ -33,8 +33,8 @@ The suite of maintained packages consists of:
 | **BLAS**      | Basic linear algebra routines; this could be any of:                                     | MUST               | http://www.netlib.org/blas/                   |
 |               |   * **ATLAS**                                                                            |                    | http://math-atlas.sourceforge.net/            |
 |               |   * **MKL**                                                                              |                    | http://software.intel.com/en-us/intel-mkl     |
-|               |   * GotoBLAS                                                                             |                    | http://www.tacc.utexas.edu/tacc-projects/#blas|
-|               |   * OpenBLAS                                                                             |                    | https://github.com/xianyi/OpenBLAS            |
+|               |   * **OpenBLAS** or GotoBLAS                                                             |                    | http://www.tacc.utexas.edu/tacc-projects/#blas|
+|               |                                                                                          |                    | https://github.com/xianyi/OpenBLAS            |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **GSL**       | C/C+ library with a wide variety of mathematical routines                                | MUST               | http://www.gnu.org/s/gsl/                     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+

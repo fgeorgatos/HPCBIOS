@@ -29,7 +29,7 @@ The suite of maintained packages consists of:
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 | **Valgrind**           | Memory management analysis and profiling               | **MUST**           | http://valgrind.org/                                                    |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| Intel Vtune Analyzer   | performance optimization tool                          | SHOULD             | http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/      |
+|**Intel Vtune Analyzer**| performance optimization tool                          | SHOULD             | http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/      |
 |                        | NOTE: not open source but still relevant               | (commercial)       |                                                                         |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 

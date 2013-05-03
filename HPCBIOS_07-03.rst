@@ -39,9 +39,9 @@ hence it has become a requirement for being compliant with this policy:
 +--------+-----------------------+--------------------+
 | GCC    | **v4.7.2** or later   | MUST               |
 +--------+-----------------------+--------------------+
-| GCC    | **v4.8.0** or later   | SHOULD             |
+| GCC    | v4.8.0 or later       | SHOULD             |
 +--------+-----------------------+--------------------+
-| LLVM   | v2.9 or later         | SHOULD             |
+| Clang  | **v3.2** or later     | SHOULD             |
 +--------+-----------------------+--------------------+
 | TCC    | v0.9.25 or later      | MAY                |
 +--------+-----------------------+--------------------+

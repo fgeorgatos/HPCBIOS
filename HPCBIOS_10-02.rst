@@ -32,7 +32,7 @@ open source high productivity languages environment across all HPCBIOS compliant
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | Octave         | MATLAB Clone                                    | MUST               | http://www.gnu.org/software/octave/      |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| **Matplotlib** | Scientific 2-D and 3-D Plotting                 | MUST               | http://matplotlib.sourceforge.net/       |
+| **matplotlib** | Scientific 2-D and 3-D Plotting                 | MUST               | http://matplotlib.sourceforge.net/       |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | **R**          | R language                                      | MUST               | http://www.r-project.org/                |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
