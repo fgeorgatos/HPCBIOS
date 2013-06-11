@@ -28,17 +28,17 @@ productivity environment across any HPCBIOS resources:
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | OpenEye            | Chemical Informatics   | x            | SHOULD             | http://www.eyesopen.com/                                                                  |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **BLAST/BLASTMPI** | Sequence Analysis      | x            | SHOULD             | http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download     |
+| **BLAST/BLASTMPI** | Sequence Analysis      | x            | MUST               | http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download     |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **BWA**            | Sequence Analysis      | x            | SHOULD             | http://bio-bwa.sourceforge.net/                                                           |
+| **BWA**            | Sequence Analysis      | x            | MUST               | http://bio-bwa.sourceforge.net/                                                           |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **CLUSTALW**       | Sequence Analysis      | x            | SHOULD             | http://www.ebi.ac.uk/Tools/msa/clustalw2/                                                 |
+| **CLUSTALW**       | Sequence Analysis      | x            | MUST               | http://www.ebi.ac.uk/Tools/msa/clustalw2/                                                 |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **HMMER**          | Sequence Analysis      | x            | SHOULD             | http://hmmer.janelia.org/                                                                 |
+| **HMMER**          | Sequence Analysis      | x            | MUST               | http://hmmer.janelia.org/                                                                 |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **MrBayes**        | Sequence Analysis      | x            | SHOULD             | http://mrbayes.sourceforge.net/                                                           |
+| **MrBayes**        | Sequence Analysis      | x            | MUST               | http://mrbayes.sourceforge.net/                                                           |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **GROMACS**        | Molecular Modeling     | x            | SHOULD             | http://www.gromacs.org/                                                                   |
+| **GROMACS**        | Molecular Modeling     | x            | MUST               | http://www.gromacs.org/                                                                   |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | **NAMD**           | Molecular Modeling     | x            | SHOULD             | http://www.ks.uiuc.edu/Research/namd/                                                     |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
