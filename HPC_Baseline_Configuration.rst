@@ -25,7 +25,8 @@ HPC Baseline Configuration
   enterprise, or just providing a sounding board for users experiencing
   difficulties with an HPC environment.
 
-  * Keywords like *MUST*, *MAY*, *SHOULD*, *RECOMMENDED* are well-defined and used in accordance with :rfc:`2119`.
+  * The keywords *MUST*, *MUST NOT*, *REQUIRED*, *SHALL*, *SHALL NOT*, *SHOULD*, *SHOULD NOT*,
+    *RECOMMENDED*, *MAY*, and *OPTIONAL* are to be interpreted as described in :rfc:`2119`.
 
 About the Baseline Configuration
 --------------------------------
