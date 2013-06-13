@@ -197,6 +197,8 @@ Potential sources of information for further future upgrades of this list includ
   * http://helix.nih.gov/Applications/
   * http://openwetware.org/wiki/Image:Tools.png
   * http://en.wikipedia.org/wiki/List_of_sequence_alignment_software
+  * http://wiki.galaxyproject.org/Admin/Tools/Tool%20Dependencies
+  * http://www.eaglegenomics.com/2012/04/the-elements-of-bioinformatics/
 
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
