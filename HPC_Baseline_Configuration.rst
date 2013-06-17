@@ -104,6 +104,8 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: *yes, no, agree,
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2012-99|  | GPU Productivity Environment                                             | |n|     | |a|    | |n|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
+| |HPCBIOS_2013-01|  | Common Dependencies for Life Science Applications                        | |a|     | |a|    | |a|   |
++--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 
 .. note::
   Non-Compliance Disclaimer
@@ -148,4 +150,5 @@ This document was last rebuilt on: |today|.
 .. |HPCBIOS_2012-97| replace:: [:ref:`HPCBIOS_2012-97 <HPCBIOS_2012-97>`]
 .. |HPCBIOS_2012-98| replace:: [:ref:`HPCBIOS_2012-98 <HPCBIOS_2012-98>`]
 .. |HPCBIOS_2012-99| replace:: [:ref:`HPCBIOS_2012-99 <HPCBIOS_2012-99>`]
+.. |HPCBIOS_2013-01| replace:: [:ref:`HPCBIOS_2013-01 <HPCBIOS_2013-01>`]
 
