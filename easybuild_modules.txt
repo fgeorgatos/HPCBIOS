@@ -1,265 +1,389 @@
-.. code-block:: sh
 
-  sw@gaia-25:~$ module avail
+------------------------------ /opt/apps/HPCBIOS.20130715/modules/all ------------------------------
 
-  ------------------------------------- /opt/apps/HPCBIOS.20130301/modules/all --------------------------------------
-  ABINIT/7.0.3-x86_64_linux_gnu4.5                            Tcl/8.5.12-ictce-4.0.6
-  ABINIT/7.0.5-x86_64_linux_gnu4.5                            Theano/0.5.0-goalf-1.1.0-no-OFED-Python-2.7.3
-  ABySS/1.3.4-goalf-1.1.0-no-OFED-Python-2.7.3                Theano/0.5.0-ictce-4.0.6-Python-2.7.3
-  ABySS/1.3.4-ictce-4.0.6-Python-2.7.3                        Tk/8.5.12-goalf-1.1.0-no-OFED
-  AMOS/3.1.0-goalf-1.1.0-no-OFED                              Tk/8.5.12-ictce-4.0.10
-  AMOS/3.1.0-ictce-4.0.6                                      Tk/8.5.12-ictce-4.0.6
-  ASE/3.6.0.2515-goalf-1.1.0-no-OFED-Python-2.7.3             Tophat/2.0.4-goalf-1.1.0-no-OFED
-  ASE/3.6.0.2515-ictce-4.0.6-Python-2.7.3                     TotalView/8.11.0-0-linux-x86-64
-  ATLAS/3.8.4-gompi-1.1.0-no-OFED                             Trilinos/10.12.2-goalf-1.1.0-no-OFED-Python-2.7.3
-  ATLAS/3.8.4-gompi-1.1.0-no-OFED-LAPACK-3.4.0                Trilinos/10.12.2-ictce-4.0.6-Python-2.7.3
-  ATLAS/3.8.4-gompi-1.1.0-no-OFED-with-shared-libs            Trinity/2012-10-05-goalf-1.1.0-no-OFED
-  AnalyzeFMRI/1.1-15-ictce-4.0.10-R-2.15.2                    Trinity/2012-10-05-ictce-3.2.2.u3
-  Armadillo/2.4.4-goalf-1.1.0-no-OFED-Python-2.7.3            UFC/2.0.5-goalf-1.1.0-no-OFED-Python-2.7.3
-  Armadillo/2.4.4-ictce-4.0.6-Python-2.7.3                    UFC/2.0.5-ictce-4.0.6-Python-2.7.3
-  Autoconf/2.69-goalf-1.1.0-no-OFED                           UFL/1.0.0-goalf-1.1.0-no-OFED-Python-2.7.3
-  Autoconf/2.69-ictce-4.0.6                                   UFL/1.0.0-ictce-4.0.6-Python-2.7.3
-  BFAST/0.7.0a-goalf-1.1.0-no-OFED                            VTK/5.10.1-goalf-1.1.0-no-OFED
-  BFAST/0.7.0a-ictce-4.0.6                                    VTK/5.10.1-ictce-4.0.6
-  BLACS/1.1-gompi-1.1.0-no-OFED                               Valgrind/3.8.1-goalf-1.1.0-no-OFED
-  BLAST/2.2.27-goalf-1.1.0-no-OFED                            Velvet/1.2.07-goalf-1.1.0-no-OFED
-  BLAST/2.2.27-ictce-4.0.6                                    Velvet/1.2.07-ictce-4.0.6
-  BWA/0.6.2-goalf-1.1.0-no-OFED                               ViennaRNA/2.0.7-goalf-1.1.0-no-OFED
-  BWA/0.6.2-ictce-4.0.6                                       ViennaRNA/2.0.7-ictce-4.0.6
-  Bison/2.5-goalf-1.1.0-no-OFED                               Viper/1.0.0-goalf-1.1.0-no-OFED-Python-2.7.3
-  Bison/2.5-ictce-3.2.2.u3                                    Viper/1.0.0-ictce-4.0.6-Python-2.7.3
-  Bison/2.5-ictce-4.0.6                                       WPS/3.3.1-goalf-1.1.0-no-OFED-dmpar
-  Bison/2.5-ictce-4.1.13                                      WPS/3.3.1-ictce-3.2.2.u3-dmpar
-  Bonnie++/1.03e-goalf-1.1.0-no-OFED                          WPS/3.4-ictce-3.2.2.u3-dmpar
-  Bonnie++/1.03e-ictce-4.0.6                                  WRF/3.3.1-goalf-1.1.0-no-OFED-dmpar
-  Boost/1.49.0-goalf-1.1.0-no-OFED-Python-2.7.3               WRF/3.3.1-ictce-3.2.2.u3-dmpar
-  Boost/1.49.0-ictce-4.0.6-Python-2.7.3                       WRF/3.4-ictce-3.2.2.u3-dmpar
-  Boost/1.51.0-goalf-1.1.0-no-OFED                            XCrySDen/1.5.53-goalf-1.1.0-no-OFED
-  Boost/1.51.0-goalf-1.1.0-no-OFED-Python-2.7.3               XCrySDen/1.5.53-ictce-4.0.6
-  Boost/1.51.0-ictce-4.0.6                                    XML/3.95-0.1-goalf-1.1.0-no-OFED-R-2.15.2
-  Bowtie2/2.0.2-goalf-1.1.0-no-OFED                           XML/3.95-0.1-ictce-4.0.6-R-2.15.2
-  Bowtie2/2.0.2-ictce-4.0.6                                   Yasm/1.2.0-goalf-1.1.0-no-OFED
-  CGAL/4.0-goalf-1.1.0-no-OFED-Python-2.7.3                   Yasm/1.2.0-ictce-4.0.6
-  CGAL/4.0-ictce-4.0.6-Python-2.7.3                           ZeroMQ/2.2.0-goalf-1.1.0-no-OFED
-  CLHEP/2.1.1.0-goalf-1.1.0-no-OFED                           ZeroMQ/2.2.0-ictce-4.1.13
-  CMake/2.8.4-goalf-1.1.0-no-OFED                             ZeroMQ/3.2.2-goalf-1.1.0-no-OFED
-  CMake/2.8.4-ictce-4.0.6                                     ZeroMQ/3.2.2-ictce-4.1.13
-  CPLEX/12.4                                                  a2ps/4.14-goalf-1.1.0-no-OFED
-  CVXOPT/1.1.5-goalf-1.1.0-no-OFED-Python-2.7.3               a2ps/4.14-ictce-4.0.6
-  CVXOPT/1.1.5-ictce-4.0.6-Python-2.7.3                       ant/1.8.4-Java-1.7.0_10
-  Chapel/1.6.0-goalf-1.1.0-no-OFED                            aria2/1.15.1-goalf-1.1.0-no-OFED
-  ClustalW2/2.1-goalf-1.1.0-no-OFED                           aria2/1.15.1-ictce-4.0.6
-  ClustalW2/2.1-ictce-4.0.6                                   bbFTP/3.2.0-goalf-1.1.0-no-OFED
-  Corkscrew/2.0-goalf-1.1.0-no-OFED                           bbcp/12.01.30.00.0-goalf-1.1.0-no-OFEDamd64_linux26
-  Corkscrew/2.0-ictce-4.0.6                                   bbftpPRO/9.3.1-goalf-1.1.0-no-OFED
-  Cufflinks/2.0.2-goalf-1.1.0-no-OFED                         binutils/2.22-goalf-1.1.0-no-OFED
-  Cython/0.16-goalf-1.1.0-no-OFED-Python-2.7.3                byacc/20120526-goalf-1.1.0-no-OFED
-  Cython/0.16-ictce-4.0.6-Python-2.7.3                        byacc/20120526-ictce-4.0.6
-  Cython/0.16-ictce-4.1.13-Python-2.7.3                       bzip2/1.0.6-goalf-1.1.0-no-OFED
-  Docutils/0.9.1-goalf-1.1.0-no-OFED-Python-2.7.3             bzip2/1.0.6-ictce-4.0.6
-  Docutils/0.9.1-ictce-4.0.6-Python-2.7.3                     bzip2/1.0.6-ictce-4.1.13
-  Doxygen/1.8.1.1-goalf-1.1.0-no-OFED                         bzip2/1.0.6-iomkl-4.6.13
-  Doxygen/1.8.1.1-ictce-3.2.2.u3                              cURL/7.27.0-goalf-1.1.0-no-OFED
-  Doxygen/1.8.1.1-ictce-4.0.6                                 cURL/7.27.0-ictce-3.2.2.u3
-  Doxygen/1.8.1.1-ictce-4.1.13                                ccache/3.1.9-goalf-1.1.0-no-OFED
-  ELinks/0.12pre5-goalf-1.1.0-no-OFED                         ccache/3.1.9-ictce-4.0.6
-  ELinks/0.12pre5-ictce-4.0.6                                 cflow/1.4-goalf-1.1.0-no-OFED
-  EPD/7.3-2-rh5                                               cflow/1.4-ictce-4.0.6
-  ESPResSo/3.1.1-goalf-1.1.0-no-OFED-parallel                 cgdb/0.6.5-goalf-1.1.0-no-OFED
-  ESPResSo/3.1.1-goalf-1.1.0-no-OFED-serial                   cgdb/0.6.5-ictce-4.0.6
-  ESPResSo/3.1.1-ictce-4.0.6-parallel                         expat/2.1.0-goalf-1.1.0-no-OFED
-  ESPResSo/3.1.1-ictce-4.0.6-serial                           expat/2.1.0-ictce-4.0.6
-  EasyBuild/1.2.0                                             flex/2.5.35-goalf-1.1.0-no-OFED
-  Eigen/3.1.1-goalf-1.1.0-no-OFED                             flex/2.5.35-ictce-3.2.2.u3
-  Eigen/3.1.1-ictce-4.0.6                                     flex/2.5.35-ictce-4.0.6
-  FASTX-Toolkit/0.0.13.2-goalf-1.1.0-no-OFED                  flex/2.5.35-ictce-4.1.13
-  FASTX-Toolkit/0.0.13.2-ictce-4.0.6                          flex/2.5.37-ictce-4.1.13
-  FFC/1.0.0-goalf-1.1.0-no-OFED-Python-2.7.3                  fmri/1.4-8-ictce-4.0.10-R-2.15.2
-  FFC/1.0.0-ictce-4.0.6-Python-2.7.3                          freetype/2.4.10-goalf-1.1.0-no-OFED
-  FFTW/3.3.1-gompi-1.1.0-no-OFED                              freetype/2.4.10-ictce-4.0.6
-  FFTW/3.3.1-ictce-4.0.6                                      freetype/2.4.10-ictce-4.1.13
-  FFTW/3.3.3-ictce-4.1.13                                     g2clib/1.2.3-goalf-1.1.0-no-OFED
-  FFTW/3.3.3-ictce-4.1.13-single                              g2clib/1.2.3-ictce-3.2.2.u3
-  FFTW/3.3.3-iomkl-4.6.13-single                              g2lib/1.2.4-goalf-1.1.0-no-OFED
-  FIAT/1.0.0-goalf-1.1.0-no-OFED-Python-2.7.3                 g2lib/1.2.4-ictce-3.2.2.u3
-  FIAT/1.0.0-ictce-4.0.6-Python-2.7.3                         git/1.7.12-goalf-1.1.0-no-OFED
-  FSL/4.1.9-goalf-1.1.0-no-OFED                               git/1.7.12-ictce-4.0.6
-  FSL/4.1.9-ictce-4.0.6                                       glproto/1.4.16-goalf-1.1.0-no-OFED
-  GCC/4.5.3                                                   glproto/1.4.16-ictce-4.0.6
-  GCC/4.5.3-CLooG-PPL                                         gnuplot/4.6.0-goalf-1.1.0-no-OFED
-  GCC/4.6.3                                                   gnuplot/4.6.0-ictce-4.0.6
-  GCC/4.6.3-CLooG-PPL                                         goalf/1.1.0-no-OFED
-  GCC/4.7.0                                                   gompi/1.1.0-no-OFED
-  GCC/4.7.0-CLooG-PPL                                         google-sparsehash/2.0.2-goalf-1.1.0-no-OFED
-  GCC/4.7.1                                                   google-sparsehash/2.0.2-ictce-4.0.6
-  GCC/4.7.1-CLooG-PPL                                         gperf/3.0.4-goalf-1.1.0-no-OFED
-  GCC/4.7.2                                                   gperf/3.0.4-ictce-4.0.6
-  GDB/7.5.1-goalf-1.1.0-no-OFED                               grib_api/1.9.18-goalf-1.1.0-no-OFED
-  GEOS/3.3.5-goalf-1.1.0-no-OFED                              grib_api/1.9.18-ictce-4.1.13
-  GEOS/3.3.5-ictce-4.0.6                                      guile/1.8.8-goalf-1.1.0-no-OFED
-  GHC/6.12.3                                                  guile/1.8.8-ictce-4.0.6
-  GHC/7.4.2-goalf-1.1.0-no-OFED                               h5py/2.0.1-goalf-1.1.0-no-OFED-Python-2.7.3
-  GMP/5.0.5-goalf-1.1.0-no-OFED                               h5py/2.0.1-ictce-4.0.6-Python-2.7.3
-  GMP/5.0.5-ictce-4.0.6                                       h5py/2.0.1-ictce-4.1.13-Python-2.7.3
-  GPAW/0.9.0.8965-goalf-1.1.0-no-OFED-Python-2.7.3            h5utils/1.12.1-goalf-1.1.0-no-OFED
-  GPAW/0.9.0.8965-ictce-4.0.6-Python-2.7.3                    h5utils/1.12.1-ictce-4.0.6
-  GSL/1.15-goalf-1.1.0-no-OFED                                hwloc/1.5.1-GCC-4.6.3
-  GSL/1.15-ictce-4.0.6                                        hwloc/1.6-iccifort-2011.13.367
-  Greenlet/0.4.0-goalf-1.1.0-no-OFED-Python-2.7.3             icc/11.1.073
-  Greenlet/0.4.0-ictce-4.1.13-Python-2.7.3                    icc/11.1.073-32bit
-  HDF/4.2.7-patch1-goalf-1.1.0-no-OFED                        icc/11.1.075
-  HDF/4.2.7-patch1-ictce-3.2.2.u3                             icc/2011.10.319
-  HDF5/1.8.10-ictce-4.1.13                                    icc/2011.13.367
-  HDF5/1.8.10-ictce-4.1.13-gpfs                               icc/2011.3.174
-  HDF5/1.8.7-goalf-1.1.0-no-OFED                              icc/2011.6.233
-  HDF5/1.8.7-ictce-3.2.2.u3                                   icc/2013.1.117
-  HDF5/1.8.7-ictce-4.0.6                                      icc/2013.2.146
-  HDF5/1.8.9-goalf-1.1.0-no-OFED                              iccifort/2011.13.367
-  HDF5/1.8.9-ictce-3.2.2.u3                                   ictce/3.2.2.u3
-  HDF5/1.8.9-ictce-4.1.13                                     ictce/3.2.2.u3-32bit
-  HMMER/3.0-goalf-1.1.0-no-OFED                               ictce/4.0.10
-  HMMER/3.0-ictce-4.0.6                                       ictce/4.0.6
-  HPL/2.0-goalf-1.1.0-no-OFED                                 ictce/4.1.13
-  HPL/2.0-ictce-4.0.6                                         ictce/5.1.1
-  Harminv/1.3.1-goalf-1.1.0-no-OFED                           ictce/5.2.0
-  Harminv/1.3.1-ictce-4.0.6                                   ifort/11.1.073
-  Hypre/2.8.0b-goalf-1.1.0-no-OFED                            ifort/11.1.073-32bit
-  Hypre/2.8.0b-ictce-4.0.6                                    ifort/11.1.075
-  Infernal/1.1rc1-goalf-1.1.0-no-OFED                         ifort/2011.10.319
-  Infernal/1.1rc1-ictce-4.0.6                                 ifort/2011.13.367
-  Instant/1.0.0-goalf-1.1.0-no-OFED-Python-2.7.3              ifort/2011.3.174
-  Instant/1.0.0-ictce-4.0.6-Python-2.7.3                      ifort/2011.6.233
-  Iperf/2.0.5-goalf-1.1.0-no-OFED                             ifort/2013.1.117
-  Iperf/2.0.5-ictce-4.0.6                                     ifort/2013.2.146
-  JUnit/4.10-Java-1.7.0_10                                    imkl/10.2.6.038
-  JasPer/1.900.1-goalf-1.1.0-no-OFED                          imkl/10.2.6.038-32bit
-  JasPer/1.900.1-ictce-3.2.2.u3                               imkl/10.3.10.319
-  JasPer/1.900.1-ictce-4.1.13                                 imkl/10.3.12.361
-  Java/1.7.0_10                                               imkl/10.3.12.361-OpenMPI-1.6.3
-  Jinja2/2.6-goalf-1.1.0-no-OFED-Python-2.7.3                 imkl/10.3.6.233
-  Jinja2/2.6-ictce-4.0.6-Python-2.7.3                         imkl/11.0.1.117
-  LAPACK/3.4.0-gompi-1.1.0-no-OFED                            imkl/11.0.2.146
-  LAPACK/3.4.0-gompi-1.1.0-no-OFED-ATLAS-3.8.4                impi/4.0.0.028
-  Libint/1.1.4-goalf-1.1.0-no-OFED                            impi/4.0.0.028-32bit
-  Libint/1.1.4-ictce-3.2.2.u3                                 impi/4.0.2.003
-  M4/1.4.16-goalf-1.1.0-no-OFED                               impi/4.1.0.027
-  M4/1.4.16-ictce-3.2.2.u3                                    impi/4.1.0.030
-  M4/1.4.16-ictce-4.0.6                                       iomkl/4.6.13
-  M4/1.4.16-ictce-4.1.13                                      ipp/7.0.5.233
-  MCL/12.135-goalf-1.1.0-no-OFED                              itac/8.0.0.011
-  MCL/12.135-ictce-4.0.6                                      libctl/3.2.1-goalf-1.1.0-no-OFED
-  MDP/3.3-goalf-1.1.0-no-OFED-Python-2.7.3                    libctl/3.2.1-ictce-4.0.6
-  MDP/3.3-ictce-4.0.6-Python-2.7.3                            libdrm/2.4.27-goalf-1.1.0-no-OFED
-  MEME/4.8.0-goalf-1.1.0-no-OFED                              libdrm/2.4.27-ictce-4.0.6
-  MEME/4.8.0-ictce-4.0.6                                      libffi/3.0.11-goalf-1.1.0-no-OFED
-  METIS/4.0.1-goalf-1.1.0-no-OFED                             libffi/3.0.11-ictce-4.0.6
-  METIS/4.0.1-ictce-4.0.6                                     libgtextutils/0.6.1-goalf-1.1.0-no-OFED
-  METIS/5.0.2-goalf-1.1.0-no-OFED                             libgtextutils/0.6.1-ictce-4.0.6
-  METIS/5.0.2-ictce-4.0.6                                     libibumad/1.3.8-GCC-4.6.3
-  MPFR/3.1.0-goalf-1.1.0-no-OFED                              libibumad/1.3.8-GCC-4.7.2
-  MPFR/3.1.0-ictce-4.0.6                                      libibverbs/1.1.4-GCC-4.6.3
-  MTL4/4.0.8878                                               libibverbs/1.1.4-GCC-4.7.2
-  MUMmer/3.23-goalf-1.1.0-no-OFED                             libmatheval/1.1.8-goalf-1.1.0-no-OFED
-  MUMmer/3.23-ictce-4.0.6                                     libmatheval/1.1.8-ictce-4.0.6
-  MVAPICH2/1.8.1-GCC-4.7.2                                    libpciaccess/0.13.1-goalf-1.1.0-no-OFED
-  Meep/1.2-goalf-1.1.0-no-OFED                                libpciaccess/0.13.1-ictce-4.0.6
-  Meep/1.2-ictce-4.0.6                                        libpng/1.5.10-goalf-1.1.0-no-OFED
-  Mercurial/2.3.2-goalf-1.1.0-no-OFED-Python-2.7.3            libpng/1.5.10-ictce-3.2.2.u3
-  Mercurial/2.3.2-ictce-4.0.6-Python-2.7.3                    libpng/1.5.10-ictce-4.0.6
-  Mesa/7.11.2-goalf-1.1.0-no-OFED-Python-2.7.3                libpng/1.5.11-goalf-1.1.0-no-OFED
-  Mesa/7.11.2-ictce-4.0.6-Python-2.7.3                        libpng/1.5.11-ictce-3.2.2.u3
-  MetaVelvet/1.2.01-goalf-1.1.0-no-OFED                       libpng/1.5.11-ictce-4.0.6
-  MetaVelvet/1.2.01-ictce-4.0.6                               libpng/1.5.13-goalf-1.1.0-no-OFED
-  MrBayes/3.1.2-goalf-1.1.0-no-OFED                           libpng/1.5.13-ictce-4.0.10
-  MrBayes/3.1.2-ictce-4.0.6                                   libpng/1.5.13-ictce-4.0.6
-  NASM/2.07-goalf-1.1.0-no-OFED                               libpng/1.5.13-ictce-4.1.13
-  NASM/2.07-ictce-4.0.6                                       libpthread-stubs/0.3-goalf-1.1.0-no-OFED
-  NCBI-Toolkit/9.0.0-goalf-1.1.0-no-OFED                      libpthread-stubs/0.3-ictce-4.0.6
-  NCBI-Toolkit/9.0.0-ictce-4.0.6                              libreadline/6.2-goalf-1.1.0-no-OFED
-  NEURON/7.2-ictce-4.1.13                                     libreadline/6.2-ictce-4.0.10
-  NWChem/6.1.1-goalf-1.1.0-no-OFED-2012-06-27-Python-2.7.3    libreadline/6.2-ictce-4.0.6
-  NWChem/6.1.1-ictce-4.1.13-2012-06-27-Python-2.7.3           libreadline/6.2-ictce-4.1.13
-  ORCA/2_9_1-linux_x86-64                                     libreadline/6.2-iomkl-4.6.13
-  Oger/1.1.3-goalf-1.1.0-no-OFED-Python-2.7.3                 libtool/2.4.2-goalf-1.1.0-no-OFED
-  Oger/1.1.3-ictce-4.0.6-Python-2.7.3                         libtool/2.4.2-ictce-4.0.6
-  OpenFOAM/2.1.1-goalf-1.1.0-no-OFED                          libunistring/0.9.3-goalf-1.1.0-no-OFED
-  OpenFOAM/2.1.1-ictce-4.0.6                                  libunistring/0.9.3-ictce-4.0.6
-  OpenMPI/1.4.5-GCC-4.6.3-no-OFED                             libxcb/1.8-goalf-1.1.0-no-OFED-Python-2.7.3
-  OpenMPI/1.6.3-iccifort-2011.13.367                          libxcb/1.8-ictce-4.0.6-Python-2.7.3
-  OpenPGM/5.2.122-goalf-1.1.0-no-OFED                         libxml2/2.8.0-goalf-1.1.0-no-OFED
-  OpenPGM/5.2.122-ictce-4.1.13                                libxml2/2.8.0-goalf-1.1.0-no-OFED-Python-2.7.3
-  OpenSSL/1.0.0-goalf-1.1.0-no-OFED                           libxml2/2.8.0-ictce-4.0.6
-  PAPI/5.0.1-goalf-1.1.0-no-OFED                              libxml2/2.8.0-ictce-4.0.6-Python-2.7.3
-  PAPI/5.0.1-ictce-4.0.6                                      libxml2/2.9.0-goalf-1.1.0-no-OFED
-  PCRE/8.12-goalf-1.1.0-no-OFED                               libxml2/2.9.0-ictce-4.0.6
-  PCRE/8.12-ictce-4.0.6                                       libyaml/0.1.4-goalf-1.1.0-no-OFED
-  PETSc/3.3-p2-goalf-1.1.0-no-OFED-Python-2.7.3               lzo/2.06-goalf-1.1.0-no-OFED
-  PETSc/3.3-p2-ictce-4.0.6-Python-2.7.3                       lzo/2.06-ictce-4.0.6
-  ParMETIS/3.1.1-goalf-1.1.0-no-OFED                          lzo/2.06-ictce-5.1.1
-  ParMETIS/3.1.1-ictce-4.0.6                                  makedepend/1.0.4-goalf-1.1.0-no-OFED
-  ParMETIS/4.0.2-goalf-1.1.0-no-OFED                          makedepend/1.0.4-ictce-4.0.6
-  ParMETIS/4.0.2-ictce-4.0.6                                  matplotlib/1.1.1-goalf-1.1.0-no-OFED-Python-2.7.3
-  Pasha/1.0.3-goalf-1.1.0-no-OFED                             matplotlib/1.1.1-ictce-4.0.6-Python-2.7.3
-  Pasha/1.0.3-ictce-4.0.6                                     matplotlib/1.2.0-ictce-4.1.13-Python-2.7.3
-  Pasha/1.0.5-ictce-4.0.6                                     mc/4.6.1-goalf-1.1.0-no-OFED
-  Primer3/2.3.0-goalf-1.1.0-no-OFED                           mc/4.6.1-ictce-4.0.6
-  Primer3/2.3.0-ictce-4.0.6                                   mpiBLAST/1.6.0-goalf-1.1.0-no-OFED
-  PyZMQ/2.2.0.1-goalf-1.1.0-no-OFED-Python-2.7.3-zmq2         mpiBLAST/1.6.0-ictce-4.0.6
-  PyZMQ/2.2.0.1-goalf-1.1.0-no-OFED-Python-2.7.3-zmq3         mpiBLAST/1.6.0-ictce-5.2.0
-  PyZMQ/2.2.0.1-ictce-4.1.13-Python-2.7.3-zmq2                nano/2.2.6-goalf-1.1.0-no-OFED
-  PyZMQ/2.2.0.1-ictce-4.1.13-Python-2.7.3-zmq3                nano/2.2.6-ictce-4.0.6
-  Python/2.7.3-goalf-1.1.0-no-OFED                            ncurses/5.9-goalf-1.1.0-no-OFED
-  Python/2.7.3-ictce-4.0.6                                    ncurses/5.9-ictce-3.2.2.u3
-  Python/2.7.3-ictce-4.1.13                                   ncurses/5.9-ictce-4.0.10
-  Python/2.7.3-iomkl-4.6.13                                   ncurses/5.9-ictce-4.0.6
-  Python/3.2.3-goalf-1.1.0-no-OFED                            ncurses/5.9-ictce-4.1.13
-  Python/3.2.3-ictce-4.0.6                                    ncurses/5.9-iomkl-4.6.13
-  QuantumESPRESSO/4.2-goalf-1.1.0-no-OFED                     netCDF/4.1.3-goalf-1.1.0-no-OFED
-  QuantumESPRESSO/4.2-goalf-1.1.0-no-OFED-hybrid              netCDF/4.1.3-ictce-3.2.2.u3
-  QuantumESPRESSO/4.2-ictce-4.0.6                             netCDF/4.1.3-ictce-4.1.13
-  QuantumESPRESSO/4.2-ictce-4.0.6-hybrid                      netCDF/4.2-goalf-1.1.0-no-OFED
-  QuantumESPRESSO/5.0.2-goalf-1.1.0-no-OFED                   netCDF/4.2-ictce-3.2.2.u3
-  QuantumESPRESSO/5.0.2-goalf-1.1.0-no-OFED-hybrid            netCDF-Fortran/4.2-goalf-1.1.0-no-OFED
-  QuantumESPRESSO/5.0.2-ictce-4.0.6                           netCDF-Fortran/4.2-ictce-3.2.2.u3
-  QuantumESPRESSO/5.0.2-ictce-4.0.6-hybrid                    numexpr/2.0.1-ictce-4.1.13-Python-2.7.3
-  R/2.15.2-goalf-1.1.0-no-OFED                                numpy/1.6.2-goalf-1.1.0-no-OFED-Python-2.7.3
-  R/2.15.2-goalf-1.1.0-no-OFED-bare                           numpy/1.6.2-ictce-4.0.6-Python-2.7.3
-  R/2.15.2-ictce-4.0.10                                       parallel/20130122-goalf-1.1.0-no-OFED
-  R/2.15.2-ictce-4.0.6                                        parallel/20130122-ictce-4.0.6
-  R/2.15.2-ictce-4.0.6-bare                                   paycheck/1.0.2-goalf-1.1.0-no-OFED-Python-2.7.3
-  RNAz/2.1-goalf-1.1.0-no-OFED                                paycheck/1.0.2-ictce-4.1.13-Python-2.7.3
-  RNAz/2.1-ictce-4.0.6                                        paycheck/1.0.2-iomkl-4.6.13-Python-2.7.3
-  ROOT/v5.34.01-goalf-1.1.0-no-OFED                           petsc4py/3.3-goalf-1.1.0-no-OFED-Python-2.7.3
-  ROOT/v5.34.01-ictce-4.0.6                                   petsc4py/3.3-ictce-4.0.6-Python-2.7.3
-  SAMtools/0.1.18-goalf-1.1.0-no-OFED                         pkg-config/0.27.1-goalf-1.1.0-no-OFED
-  SAMtools/0.1.18-ictce-4.0.6                                 pkg-config/0.27.1-ictce-4.0.6
-  SCOOP/0.5.3-goalf-1.1.0-no-OFED-Python-2.7.3                pyTables/2.4.0-ictce-4.1.13-Python-2.7.3
-  SCOOP/0.5.3-ictce-4.1.13-Python-2.7.3                       python-meep/1.4.2-goalf-1.1.0-no-OFED-Python-2.7.3
-  SCOTCH/5.1.12b_esmumps-goalf-1.1.0-no-OFED                  python-meep/1.4.2-ictce-4.0.6-Python-2.7.3
-  SCOTCH/5.1.12b_esmumps-ictce-4.0.6                          scipy/0.11.0-goalf-1.1.0-no-OFED-Python-2.7.3
-  SHRiMP/2.2.3-goalf-1.1.0-no-OFED                            scipy/0.11.0-ictce-4.0.6-Python-2.7.3
-  SHRiMP/2.2.3-ictce-4.0.6                                    setuptools/0.6c11-goalf-1.1.0-no-OFED-Python-2.7.3
-  SLEPc/3.3-p1-goalf-1.1.0-no-OFED-Python-2.7.3               setuptools/0.6c11-ictce-4.0.6-Python-2.7.3
-  SLEPc/3.3-p1-ictce-4.0.6-Python-2.7.3                       tbb/4.0.0.233
-  SOAPdenovo/1.05-goalf-1.1.0-no-OFED                         tbb/4.0.5.339
-  SOAPdenovo/1.05-ictce-4.0.6                                 util-linux/2.22.2-goalf-1.1.0-no-OFED
-  SWIG/2.0.4-goalf-1.1.0-no-OFED-Python-2.7.3                 util-linux/2.22.2-ictce-4.1.13
-  SWIG/2.0.4-ictce-4.0.6-Python-2.7.3                         wiki2beamer/0.9.5-goalf-1.1.0-no-OFED-Python-2.7.3
-  ScaLAPACK/1.8.0-gompi-1.1.0-no-OFED-ATLAS-3.8.4-LAPACK-...  xcb-proto/1.7-goalf-1.1.0-no-OFED-Python-2.7.3
-  ScaLAPACK/2.0.1-gompi-1.1.0-no-OFED-ATLAS-3.8.4-LAPACK-...  xcb-proto/1.7-ictce-4.0.6-Python-2.7.3
-  ScientificPython/2.8-goalf-1.1.0-no-OFED-Python-2.7.3       xorg-macros/1.17-goalf-1.1.0-no-OFED
-  ScientificPython/2.8-ictce-4.0.6-Python-2.7.3               xorg-macros/1.17-ictce-4.0.6
-  Shapely/1.2.15-goalf-1.1.0-no-OFED-Python-2.7.3             xproto/7.0.23-goalf-1.1.0-no-OFED
-  Shapely/1.2.15-ictce-4.0.6-Python-2.7.3                     xproto/7.0.23-ictce-4.0.6
-  Sphinx/1.1.3-goalf-1.1.0-no-OFED-Python-2.7.3               zlib/1.2.5-goalf-1.1.0-no-OFED
-  Sphinx/1.1.3-ictce-4.0.6-Python-2.7.3                       zlib/1.2.5-ictce-3.2.2.u3
-  Stow/1.3.3-goalf-1.1.0-no-OFED                              zlib/1.2.5-ictce-4.0.6
-  Stow/1.3.3-ictce-4.0.6                                      zlib/1.2.7-goalf-1.1.0-no-OFED
-  SuiteSparse/3.7.0-goalf-1.1.0-no-OFED-withparmetis          zlib/1.2.7-ictce-3.2.2.u3
-  SuiteSparse/3.7.0-ictce-4.0.6-withparmetis                  zlib/1.2.7-ictce-4.0.10
-  Szip/2.1-goalf-1.1.0-no-OFED                                zlib/1.2.7-ictce-4.0.6
-  Szip/2.1-ictce-3.2.2.u3                                     zlib/1.2.7-ictce-4.1.13
-  Szip/2.1-ictce-4.0.6                                        zlib/1.2.7-iomkl-4.6.13
-  Szip/2.1-ictce-4.1.13                                       zsync/0.6.2-goalf-1.1.0-no-OFED
-  Tcl/8.5.12-goalf-1.1.0-no-OFED                              zsync/0.6.2-ictce-4.0.6
-  Tcl/8.5.12-ictce-4.0.10
+ABINIT/7.0.3-x86_64_linux_gnu4.5                    Szip/2.1-ictce-5.3.0
+ABINIT/7.0.5-x86_64_linux_gnu4.5                    Tar/1.26-goolf-1.4.10
+ABINIT/7.2.1-x86_64_linux_gnu4.5                    Tar/1.26-ictce-5.3.0
+ABySS/1.3.4-goolf-1.4.10-Python-2.7.3               Tcl/8.5.12-goolf-1.4.10
+ABySS/1.3.4-ictce-5.3.0-Python-2.7.3                Tcl/8.5.12-ictce-5.3.0
+ALLPATHS-LG/46968-goolf-1.4.10                      Tcl/8.5.14-goolf-1.4.10
+AMOS/3.1.0-goolf-1.4.10                             Tcl/8.5.14-ictce-5.3.0
+AMOS/3.1.0-ictce-5.3.0                              Theano/0.5.0-goolf-1.4.10-Python-2.7.3
+ASE/3.6.0.2515-goolf-1.4.10-Python-2.7.3            Theano/0.5.0-ictce-5.3.0-Python-2.7.3
+ASE/3.6.0.2515-ictce-5.3.0-Python-2.7.3             TiCCutils/0.3-goolf-1.4.10
+ATLAS/3.8.4-gompi-1.1.0-no-OFED-LAPACK-3.4.0        TiCCutils/0.3-ictce-5.3.0
+AnalyzeFMRI/1.1-15-ictce-5.3.0-R-2.15.2             TiMBL/6.4.3-goolf-1.4.10
+Armadillo/2.4.4-goolf-1.4.10-Python-2.7.3           TiMBL/6.4.3-ictce-5.3.0
+Armadillo/2.4.4-ictce-5.3.0-Python-2.7.3            TinySVM/0.09-goolf-1.4.10
+Autoconf/2.69-goolf-1.4.10                          TinySVM/0.09-ictce-5.3.0
+Autoconf/2.69-ictce-5.3.0                           Tk/8.5.12-goolf-1.4.10
+Automake/1.13.4-goolf-1.4.10                        Tk/8.5.12-ictce-5.3.0
+Automake/1.13.4-ictce-5.3.0                         TopHat/2.0.4-goolf-1.4.10
+BFAST/0.7.0a-goolf-1.4.10                           TopHat/2.0.8-goolf-1.4.10-biodeps-1.6-extended
+BFAST/0.7.0a-ictce-5.3.0                            TopHat/2.0.8-ictce-5.3.0
+BLACS/1.1-gompi-1.1.0-no-OFED                       TopHat/2.0.8-ictce-5.3.0-biodeps-1.6-extended
+BLAST/2.2.27-goolf-1.4.10                           TotalView/8.11.0-0-linux-x86-64
+BLAST/2.2.28-goolf-1.4.10                           TotalView/8.11.0-2-linux-x86-64
+BLAST/2.2.28-ictce-5.3.0                            Trilinos/10.12.2-goolf-1.4.10-Python-2.7.3
+BLAT/3.5-goolf-1.4.10                               Trilinos/10.12.2-ictce-5.3.0-Python-2.7.3
+BWA/0.6.2-goolf-1.4.10                              Trinity/2012-10-05-goolf-1.4.10
+BWA/0.6.2-ictce-5.3.0                               Trinity/2012-10-05-ictce-5.3.0
+BWA/0.7.4-goolf-1.4.10                              Trinity/2013-02-25-goolf-1.4.10
+BWA/0.7.4-ictce-5.3.0                               UDUNITS/2.1.24-goolf-1.4.10
+BamTools/2.2.3-goolf-1.4.10                         UDUNITS/2.1.24-ictce-5.3.0
+Bash/4.2-goolf-1.4.10                               UFC/2.0.5-goolf-1.4.10-Python-2.7.3
+Bash/4.2-ictce-5.3.0                                UFC/2.0.5-ictce-5.3.0-Python-2.7.3
+BioPerl/1.6.1-goolf-1.4.10-Perl-5.16.3              UFL/1.0.0-goolf-1.4.10-Python-2.7.3
+Biopython/1.61-goolf-1.4.10-Python-2.7.3            UFL/1.0.0-ictce-5.3.0-Python-2.7.3
+Biopython/1.61-ictce-5.3.0-Python-2.7.3             VSC-tools/0.1.2-goolf-1.4.10-Python-2.7.3
+Bison/2.5-goalf-1.1.0-no-OFED                       VSC-tools/0.1.2-ictce-5.3.0-Python-2.7.3
+Bison/2.5-goolf-1.4.10                              VTK/5.10.1-goolf-1.4.10
+Bison/2.5-ictce-3.2.2.u3                            VTK/5.10.1-ictce-5.3.0
+Bison/2.5-ictce-5.3.0                               Valgrind/3.8.1-cgoolf-1.1.7
+Bison/2.6.5-ictce-5.3.0                             Valgrind/3.8.1-goolf-1.4.10
+Bison/2.7-GCC-4.7.3                                 Velvet/1.2.07-goolf-1.4.10
+Bison/2.7-goolf-1.4.10                              Velvet/1.2.07-ictce-5.3.0
+Bonnie++/1.03e-goolf-1.4.10                         Velvet/1.2.09-goolf-1.4.10
+Bonnie++/1.03e-ictce-5.3.0                          Velvet/1.2.09-ictce-5.3.0
+Boost/1.49.0-goalf-1.1.0-no-OFED-Python-2.7.3       ViennaRNA/2.0.7-goolf-1.4.10
+Boost/1.49.0-goolf-1.4.10-Python-2.7.3              ViennaRNA/2.0.7-ictce-5.3.0
+Boost/1.49.0-ictce-4.0.6-Python-2.7.3               Viper/1.0.0-goolf-1.4.10-Python-2.7.3
+Boost/1.49.0-ictce-5.3.0-Python-2.7.3               Viper/1.0.0-ictce-5.3.0-Python-2.7.3
+Boost/1.51.0-goolf-1.4.10                           WPS/3.3.1-goolf-1.4.10-dmpar
+Boost/1.51.0-goolf-1.4.10-Python-2.7.3              WPS/3.4-goolf-1.4.10-dmpar
+Boost/1.51.0-ictce-5.3.0                            WPS/3.4-ictce-5.3.0-dmpar
+Boost/1.51.0-ictce-5.3.0-Python-2.7.3               WRF/3.3.1-goalf-1.1.0-no-OFED-dmpar
+Boost/1.53.0-goolf-1.4.10                           WRF/3.3.1-goolf-1.4.10-dmpar
+Bowtie2/2.0.2-goolf-1.4.10                          WRF/3.3.1-ictce-3.2.2.u3-dmpar
+Bowtie2/2.0.2-ictce-5.3.0                           WRF/3.3.1-ictce-5.3.0-dmpar
+CCfits/2.4-goolf-1.4.10                             WRF/3.4-goalf-1.1.0-no-OFED-dmpar
+CD-HIT/4.5.4-ictce-5.3.0-2011-03-07                 WRF/3.4-goolf-1.4.10-dmpar
+CFITSIO/3.34-goolf-1.4.10                           WRF/3.4-ictce-3.2.2.u3-dmpar
+CGAL/4.0-goolf-1.4.10-Python-2.7.3                  WRF/3.4-ictce-5.3.0-dmpar
+CGAL/4.0-ictce-5.3.0-Python-2.7.3                   XCrySDen/1.5.53-goolf-1.4.10
+CLHEP/2.1.1.0-goolf-1.4.10                          XCrySDen/1.5.53-ictce-5.3.0
+CLHEP/2.1.1.0-ictce-5.3.0                           XML/3.95-0.1-goolf-1.4.10-R-2.15.2
+CMake/2.8.4-GCC-4.7.3                               XML/3.95-0.1-ictce-5.3.0-R-2.15.2
+CMake/2.8.4-goalf-1.1.0-no-OFED                     YamCha/0.33-goolf-1.4.10
+CMake/2.8.4-goolf-1.4.10                            YamCha/0.33-ictce-5.3.0
+CMake/2.8.4-goolfc-1.3.12                           Yasm/1.2.0-goolf-1.4.10
+CMake/2.8.4-ictce-4.0.6                             Yasm/1.2.0-ictce-5.3.0
+CMake/2.8.4-ictce-5.3.0                             ZeroMQ/2.2.0-goolf-1.4.10
+CPLEX/12.4                                          ZeroMQ/2.2.0-ictce-5.3.0
+CRF++/0.57-goolf-1.4.10                             ZeroMQ/3.2.2-goolf-1.4.10
+CUDA/5.0.35-1                                       ZeroMQ/3.2.2-ictce-5.3.0
+CVXOPT/1.1.5-goolf-1.4.10-Python-2.7.3              a2ps/4.14-goolf-1.4.10
+CVXOPT/1.1.5-ictce-5.3.0-Python-2.7.3               a2ps/4.14-ictce-5.3.0
+Chapel/1.6.0-goolf-1.4.10                           ant/1.8.4-Java-1.7.0_10
+Chapel/1.7.0-goolf-1.4.10                           ant/1.9.0-Java-1.7.0_15
+Clang/3.2-GCC-4.7.3                                 aria2/1.15.1-goolf-1.4.10
+ClangGCC/1.1.3                                      aria2/1.15.1-ictce-5.3.0
+ClustalW2/2.1-goolf-1.4.10                          bam2fastq/1.1.0-goolf-1.4.10
+ClustalW2/2.1-ictce-5.3.0                           bam2fastq/1.1.0-ictce-5.3.0
+Corkscrew/2.0-goolf-1.4.10                          bbFTP/3.2.0-goalf-1.1.0-no-OFED
+Corkscrew/2.0-ictce-5.3.0                           bbFTP/3.2.0-goolf-1.4.10
+Cufflinks/2.0.2-goolf-1.4.10                        bbcp/12.01.30.00.0-amd64_linux26
+Cython/0.16-goolf-1.4.10-Python-2.7.3               bbftpPRO/9.3.1-goalf-1.1.0-no-OFED
+Cython/0.16-ictce-5.3.0-Python-2.7.3                bbftpPRO/9.3.1-goolf-1.4.10
+DL_POLY_Classic/1.9-ictce-5.3.0-no-gui              bbftpPRO/9.3.1-ictce-5.3.0
+Diffutils/3.2-goolf-1.4.10                          beagle-lib/20120124-goolf-1.4.10
+Diffutils/3.2-ictce-5.3.0                           beagle-lib/20120124-ictce-5.3.0
+Docutils/0.9.1-goolf-1.4.10-Python-2.7.3            binutils/2.22-goolf-1.4.10
+Docutils/0.9.1-ictce-5.3.0-Python-2.7.3             biodeps/1.6-goolf-1.4.10
+Doxygen/1.8.1.1-goalf-1.1.0-no-OFED                 biodeps/1.6-goolf-1.4.10-extended
+Doxygen/1.8.1.1-goolf-1.4.10                        biodeps/1.6-ictce-5.3.0
+Doxygen/1.8.1.1-ictce-3.2.2.u3                      biodeps/1.6-ictce-5.3.0-extended
+Doxygen/1.8.1.1-ictce-5.3.0                         byacc/20120526-goolf-1.4.10
+Doxygen/1.8.2-ictce-5.3.0                           byacc/20120526-ictce-5.3.0
+Doxygen/1.8.3.1-goolf-1.4.10                        bzip2/1.0.6-cgoolf-1.1.7
+ELinks/0.12pre5-goolf-1.4.10                        bzip2/1.0.6-goalf-1.1.0-no-OFED
+ELinks/0.12pre5-ictce-5.3.0                         bzip2/1.0.6-goolf-1.4.10
+EMBOSS/6.5.7-goolf-1.4.10                           bzip2/1.0.6-ictce-4.0.6
+EMBOSS/6.5.7-ictce-5.3.0                            bzip2/1.0.6-ictce-5.3.0
+ESPResSo/3.1.1-goolf-1.4.10-parallel                bzip2/1.0.6-ictce-5.5.0
+ESPResSo/3.1.1-goolf-1.4.10-serial                  cURL/7.27.0-goolf-1.4.10
+ESPResSo/3.1.1-ictce-5.3.0-parallel                 cURL/7.27.0-ictce-5.3.0
+ESPResSo/3.1.1-ictce-5.3.0-serial                   cURL/7.29.0-cgoolf-1.1.7
+EasyBuild/1.6.0                                     cURL/7.29.0-goolf-1.4.10
+Eigen/3.1.1-goolf-1.4.10                            cairo/1.12.14-goolf-1.4.10
+Eigen/3.1.1-ictce-5.3.0                             ccache/3.1.9-goolf-1.4.10
+FASTA/36.3.5e-goolf-1.4.10                          ccache/3.1.9-ictce-5.3.0
+FASTA/36.3.5e-ictce-5.3.0                           cflow/1.4-goolf-1.4.10
+FASTX-Toolkit/0.0.13.2-goolf-1.4.10                 cflow/1.4-ictce-5.3.0
+FASTX-Toolkit/0.0.13.2-ictce-5.3.0                  cgdb/0.6.5-goolf-1.4.10
+FCM/2.3.1                                           cgdb/0.6.5-ictce-5.3.0
+FFC/1.0.0-goolf-1.4.10-Python-2.7.3                 cgmpich/1.1.6
+FFC/1.0.0-ictce-5.3.0-Python-2.7.3                  cgmpolf/1.1.6
+FFTW/2.1.5-ictce-5.3.0                              cgmvapich2/1.1.12rc1
+FFTW/3.3.1-gompi-1.1.0-no-OFED                      cgmvolf/1.1.12rc1
+FFTW/3.3.1-ictce-5.3.0                              cgompi/1.1.7
+FFTW/3.3.3-cgmpich-1.1.6                            cgoolf/1.1.7
+FFTW/3.3.3-cgmvapich2-1.1.12rc1                     expat/2.1.0-cgoolf-1.1.7
+FFTW/3.3.3-cgompi-1.1.7                             expat/2.1.0-goolf-1.4.10
+FFTW/3.3.3-gmvapich2-1.7.12                         expat/2.1.0-ictce-5.3.0
+FFTW/3.3.3-gmvapich2-1.7.12rc1                      findutils/4.2.33-goolf-1.4.10
+FFTW/3.3.3-gompi-1.3.12                             findutils/4.2.33-ictce-5.3.0
+FFTW/3.3.3-gompi-1.4.10                             flex/2.5.35-goalf-1.1.0-no-OFED
+FFTW/3.3.3-ictce-5.3.0                              flex/2.5.35-goolf-1.4.10
+FFTW/3.3.3-ictce-5.3.0-single                       flex/2.5.35-ictce-3.2.2.u3
+FIAT/1.0.0-goalf-1.1.0-no-OFED-Python-2.7.3         flex/2.5.35-ictce-5.3.0
+FIAT/1.0.0-goolf-1.4.10-Python-2.7.3                flex/2.5.37-goolf-1.4.10
+FIAT/1.0.0-ictce-4.0.6-Python-2.7.3                 flex/2.5.37-ictce-5.3.0
+FIAT/1.0.0-ictce-5.3.0-Python-2.7.3                 fmri/1.4-8-ictce-5.3.0-R-2.15.2
+FSL/4.1.9-goolf-1.4.10                              fontconfig/2.10.91-goolf-1.4.10
+FSL/4.1.9-ictce-5.3.0                               freetype/2.4.10-goolf-1.4.10
+GCC/4.6.3                                           freetype/2.4.10-ictce-5.3.0
+GCC/4.6.4                                           freetype/2.4.11-goolf-1.4.10
+GCC/4.7.2                                           g2clib/1.2.3-goolf-1.4.10
+GCC/4.7.3                                           g2clib/1.2.3-ictce-5.3.0
+GDB/7.5.1-cgoolf-1.1.7                              g2lib/1.2.4-goolf-1.4.10
+GDB/7.5.1-goolf-1.4.10                              g2lib/1.2.4-ictce-5.3.0
+GEOS/3.3.5-goolf-1.4.10                             gawk/4.0.2-goolf-1.4.10
+GEOS/3.3.5-ictce-5.3.0                              gawk/4.0.2-ictce-5.3.0
+GHC/6.12.3                                          gettext/0.18.2-cgoolf-1.1.7
+GHC/7.4.2-goolf-1.4.10                              gettext/0.18.2-goolf-1.4.10
+GHC/7.6.2-goolf-1.4.10                              gettext/0.18.2-ictce-5.3.0
+GIMPS/p95v279.linux64                               git/1.7.12-goolf-1.4.10
+GLIMMER/3.02b-goolf-1.4.10                          git/1.7.12-ictce-5.3.0
+GLIMMER/3.02b-ictce-5.3.0                           git/1.8.2-cgoolf-1.1.7
+GMP/5.0.5-goolf-1.4.10                              git/1.8.2-goolf-1.4.10
+GMP/5.0.5-ictce-5.3.0                               glproto/1.4.16-goolf-1.4.10
+GPAW/0.9.0.8965-goolf-1.4.10-Python-2.7.3           glproto/1.4.16-ictce-5.3.0
+GPAW/0.9.0.8965-ictce-5.3.0-Python-2.7.3            gmvapich2/1.7.12
+GROMACS/4.6.1-goolf-1.4.10                          gmvapich2/1.7.12rc1
+GROMACS/4.6.1-goolfc-1.3.12                         gmvolf/1.7.12
+GSL/1.15-goolf-1.4.10                               gmvolf/1.7.12rc1
+GSL/1.15-ictce-5.3.0                                gnuplot/4.6.0-goolf-1.4.10
+Greenlet/0.4.0-goolf-1.4.10-Python-2.7.3            gnuplot/4.6.0-ictce-5.3.0
+Greenlet/0.4.0-ictce-5.3.0-Python-2.7.3             goalf/1.1.0-no-OFED
+HDF/4.2.7-patch1-goolf-1.4.10                       gompi/1.1.0-no-OFED
+HDF/4.2.7-patch1-ictce-5.3.0                        gompi/1.3.12
+HDF5/1.8.10-ictce-5.3.0                             gompi/1.4.10
+HDF5/1.8.10-ictce-5.3.0-gpfs                        google-sparsehash/2.0.2-goolf-1.4.10
+HDF5/1.8.10-patch1-goolf-1.4.10                     google-sparsehash/2.0.2-ictce-5.3.0
+HDF5/1.8.7-goalf-1.1.0-no-OFED                      goolf/1.4.10
+HDF5/1.8.7-goolf-1.4.10                             goolfc/1.3.12
+HDF5/1.8.7-ictce-3.2.2.u3                           gperf/3.0.4-goolf-1.4.10
+HDF5/1.8.7-ictce-5.3.0                              gperf/3.0.4-ictce-5.3.0
+HDF5/1.8.9-goalf-1.1.0-no-OFED                      grib_api/1.10.0-goolf-1.4.10
+HDF5/1.8.9-goolf-1.4.10                             grib_api/1.9.18-goolf-1.4.10
+HDF5/1.8.9-ictce-3.2.2.u3                           grib_api/1.9.18-ictce-5.3.0
+HDF5/1.8.9-ictce-5.3.0                              guile/1.8.8-goolf-1.4.10
+HH-suite/2.0.16-goolf-1.4.10                        gzip/1.5-cgoolf-1.1.7
+HMMER/3.0-goolf-1.4.10                              gzip/1.5-goolf-1.4.10
+HMMER/3.0-ictce-5.3.0                               gzip/1.5-ictce-5.3.0
+HMMER/3.1b1-goolf-1.4.10                            h5py/2.0.1-goolf-1.4.10-Python-2.7.3
+HMMER/3.1b1-ictce-5.3.0                             h5py/2.0.1-ictce-5.3.0-Python-2.7.3
+HPCBIOS_Bioinfo/20130717-goolf-1.4.10               h5utils/1.12.1-goolf-1.4.10
+HPCBIOS_Bioinfo/20130717-ictce-5.3.0                hwloc/1.5.1-GCC-4.6.3
+HPL/2.0-cgoolf-1.1.7                                hwloc/1.6-iccifort-2011.13.367
+HPL/2.0-goolf-1.4.10                                hwloc/1.6.2-ClangGCC-1.1.3
+HPL/2.0-ictce-5.3.0                                 hwloc/1.6.2-GCC-4.6.4
+Harminv/1.3.1-goolf-1.4.10                          hwloc/1.6.2-GCC-4.7.2
+Harminv/1.3.1-ictce-5.3.0                           icc/11.1.073
+Hypre/2.8.0b-goalf-1.1.0-no-OFED                    icc/11.1.075
+Hypre/2.8.0b-goolf-1.4.10                           icc/2011.10.319
+Hypre/2.8.0b-ictce-4.0.6                            icc/2011.13.367
+Hypre/2.8.0b-ictce-5.3.0                            icc/2011.6.233
+Infernal/1.1rc1-goolf-1.4.10                        icc/2013.1.117
+Infernal/1.1rc1-ictce-5.3.0                         icc/2013.2.146
+Instant/1.0.0-goolf-1.4.10-Python-2.7.3             icc/2013.3.163
+Instant/1.0.0-ictce-5.3.0-Python-2.7.3              icc/2013.4.183
+Iperf/2.0.5-goolf-1.4.10                            icc/2013.5.192
+Iperf/2.0.5-ictce-5.3.0                             iccifort/2011.13.367
+JUnit/4.10-Java-1.7.0_10                            ictce/3.2.2.u3
+JUnit/4.11-Java-1.7.0_15                            ictce/4.0.10
+JasPer/1.900.1-goalf-1.1.0-no-OFED                  ictce/4.0.6
+JasPer/1.900.1-goolf-1.4.10                         ictce/4.1.13
+JasPer/1.900.1-ictce-3.2.2.u3                       ictce/5.1.1
+JasPer/1.900.1-ictce-5.3.0                          ictce/5.2.0
+Java/1.7.0_10                                       ictce/5.3.0
+Java/1.7.0_15                                       ictce/5.4.0
+Java/1.7.0_21                                       ictce/5.5.0
+Jinja2/2.6-goolf-1.4.10-Python-2.7.3                ifort/11.1.073
+Jinja2/2.6-ictce-5.3.0-Python-2.7.3                 ifort/11.1.075
+LAPACK/3.4.0-gompi-1.1.0-no-OFED                    ifort/2011.10.319
+LZO/2.06-goolf-1.4.10                               ifort/2011.13.367
+LZO/2.06-ictce-5.3.0                                ifort/2011.6.233
+LibTIFF/4.0.3-goolf-1.4.10                          ifort/2013.1.117
+LibTIFF/4.0.3-ictce-5.3.0                           ifort/2013.2.146
+Libint/1.1.4-goolf-1.4.10                           ifort/2013.3.163
+Libint/1.1.4-ictce-5.3.0                            ifort/2013.4.183
+M4/1.4.16-GCC-4.7.3                                 ifort/2013.5.192
+M4/1.4.16-goalf-1.1.0-no-OFED                       imkl/10.2.6.038
+M4/1.4.16-goolf-1.4.10                              imkl/10.3.10.319
+M4/1.4.16-ictce-3.2.2.u3                            imkl/10.3.12.361
+M4/1.4.16-ictce-5.3.0                               imkl/10.3.6.233
+MATLAB/2013a                                        imkl/11.0.1.117
+MCL/12.135-goolf-1.4.10                             imkl/11.0.2.146
+MCL/12.135-ictce-4.1.13                             imkl/11.0.3.163
+MCL/12.135-ictce-5.3.0                              imkl/11.0.4.183
+MDP/3.3-goolf-1.4.10-Python-2.7.3                   imkl/11.0.5.192
+MDP/3.3-ictce-5.3.0-Python-2.7.3                    impi/4.0.0.028
+MEME/4.8.0-goolf-1.4.10                             impi/4.0.0.028-32bit
+MEME/4.8.0-ictce-5.3.0                              impi/4.0.2.003
+METIS/4.0.1-goolf-1.4.10                            impi/4.1.0.027
+METIS/4.0.1-ictce-5.3.0                             impi/4.1.0.030
+METIS/5.0.2-goalf-1.1.0-no-OFED                     impi/4.1.1.036
+METIS/5.0.2-goolf-1.4.10                            libctl/3.2.1-goolf-1.4.10
+METIS/5.0.2-ictce-4.0.6                             libdrm/2.4.27-goolf-1.4.10
+METIS/5.0.2-ictce-5.3.0                             libdrm/2.4.27-ictce-5.3.0
+MPFR/3.1.0-goolf-1.4.10                             libffi/3.0.11-goolf-1.4.10
+MPFR/3.1.0-ictce-5.3.0                              libgtextutils/0.6.1-goolf-1.4.10
+MPICH/3.0.3-ClangGCC-1.1.3                          libgtextutils/0.6.1-ictce-5.3.0
+MTL4/4.0.8878                                       libharu/2.2.0-goolf-1.4.10
+MUMmer/3.23-goolf-1.4.10                            libharu/2.2.0-ictce-5.3.0
+MUMmer/3.23-goolf-1.4.10-Perl-5.16.3                libidn/1.27-goolf-1.4.10
+MUMmer/3.23-ictce-5.3.0                             libmatheval/1.1.8-goolf-1.4.10
+MVAPICH2/1.7-GCC-4.6.3                              libpciaccess/0.13.1-goolf-1.4.10
+MVAPICH2/1.7-GCC-4.6.3-hwloc-chkpt                  libpciaccess/0.13.1-ictce-5.3.0
+MVAPICH2/1.8.1-GCC-4.7.2                            libpng/1.5.10-goolf-1.4.10
+MVAPICH2/1.9-GCC-4.7.3                              libpng/1.5.10-ictce-5.3.0
+MVAPICH2/1.9a2-GCC-4.7.2                            libpng/1.5.11-goolf-1.4.10
+MVAPICH2/1.9b-GCC-4.7.2                             libpng/1.5.11-ictce-5.3.0
+MVAPICH2/1.9rc1-ClangGCC-1.1.3                      libpng/1.5.13-goolf-1.4.10
+MVAPICH2/1.9rc1-GCC-4.7.3                           libpng/1.5.13-ictce-5.3.0
+Meep/1.2-goolf-1.4.10                               libpng/1.5.14-goolf-1.4.10
+Mercurial/2.3.2-goolf-1.4.10-Python-2.7.3           libpng/1.6.2-goolf-1.4.10
+Mercurial/2.3.2-ictce-5.3.0-Python-2.7.3            libpng/1.6.2-ictce-5.3.0
+Mercurial/2.5.2-cgoolf-1.1.7-Python-2.7.3           libpthread-stubs/0.3-goolf-1.4.10
+Mercurial/2.5.2-goolf-1.4.10-Python-2.7.3           libpthread-stubs/0.3-ictce-5.3.0
+Mercurial/2.5.2-ictce-5.3.0-Python-2.7.3            libreadline/6.2-cgoolf-1.1.7
+Mesa/7.11.2-goolf-1.4.10-Python-2.7.3               libreadline/6.2-goalf-1.1.0-no-OFED
+Mesa/7.11.2-ictce-5.3.0-Python-2.7.3                libreadline/6.2-goolf-1.4.10
+MetaVelvet/1.2.01-goolf-1.4.10                      libreadline/6.2-ictce-4.0.6
+MetaVelvet/1.2.01-ictce-5.3.0                       libreadline/6.2-ictce-5.3.0
+Mothur/1.30.2-goolf-1.4.10                          libtool/2.4.2-goolf-1.4.10
+Mothur/1.30.2-goolf-1.4.10-biodeps-1.6              libtool/2.4.2-ictce-5.3.0
+Mothur/1.30.2-ictce-5.3.0                           libungif/4.1.4-goolf-1.4.10
+Mothur/1.30.2-ictce-5.3.0-biodeps-1.6               libungif/4.1.4-ictce-5.3.0
+MrBayes/3.1.2-goolf-1.4.10                          libunistring/0.9.3-goolf-1.4.10
+MrBayes/3.1.2-ictce-5.3.0                           libunistring/0.9.3-ictce-5.3.0
+MrBayes/3.2.0-goolf-1.4.10                          libxc/2.0.1-goolf-1.4.10
+MrBayes/3.2.0-ictce-5.3.0                           libxc/2.0.1-ictce-5.3.0
+NASM/2.07-goolf-1.4.10                              libxcb/1.8-goolf-1.4.10-Python-2.7.3
+NASM/2.07-ictce-5.3.0                               libxcb/1.8-ictce-5.3.0-Python-2.7.3
+NCBI-Toolkit/9.0.0-goolf-1.4.10                     libxml2/2.8.0-goolf-1.4.10
+NEURON/7.2-goolf-1.4.10                             libxml2/2.8.0-goolf-1.4.10-Python-2.7.3
+NEURON/7.2-ictce-5.3.0                              libxml2/2.8.0-ictce-5.3.0
+NWChem/6.1.1-goolf-1.4.10-2012-06-27-Python-2.7.3   libxml2/2.8.0-ictce-5.3.0-Python-2.7.3
+Oases/0.2.08-goolf-1.4.10                           libxml2/2.9.0-goolf-1.4.10
+Oger/1.1.3-goolf-1.4.10-Python-2.7.3                libxml2/2.9.0-ictce-5.3.0
+Oger/1.1.3-ictce-5.3.0-Python-2.7.3                 libxml2/2.9.1-goolf-1.4.10
+OpenBLAS/0.2.6-cgmpich-1.1.6-LAPACK-3.4.2           libxml2/2.9.1-ictce-5.3.0
+OpenBLAS/0.2.6-cgmvapich2-1.1.12rc1-LAPACK-3.4.2    libxslt/1.1.28-goolf-1.4.10
+OpenBLAS/0.2.6-cgompi-1.1.7-LAPACK-3.4.2            libxslt/1.1.28-ictce-5.3.0
+OpenBLAS/0.2.6-gmvapich2-1.7.12-LAPACK-3.4.2        libyaml/0.1.4-goolf-1.4.10
+OpenBLAS/0.2.6-gmvapich2-1.7.12rc1-LAPACK-3.4.2     libyaml/0.1.4-ictce-5.3.0
+OpenBLAS/0.2.6-gompi-1.3.12-LAPACK-3.4.2            likwid/3.0.0-goolf-1.4.10
+OpenBLAS/0.2.6-gompi-1.4.10-LAPACK-3.4.2            likwid/3.0.0-goolf-1.4.10-pinomp
+OpenFOAM/2.1.1-goolf-1.4.10                         lxml/3.1.2-goolf-1.4.10-Python-2.7.3
+OpenFOAM/2.1.1-ictce-5.3.0                          lxml/3.1.2-ictce-5.3.0-Python-2.7.3
+OpenFOAM/2.2.0-goolf-1.4.10                         make/3.82-goolf-1.4.10
+OpenMPI/1.4.5-GCC-4.6.3                             make/3.82-ictce-5.3.0
+OpenMPI/1.4.5-GCC-4.6.3-no-OFED                     makedepend/1.0.4-goolf-1.4.10
+OpenMPI/1.6.3-iccifort-2011.13.367                  makedepend/1.0.4-ictce-5.3.0
+OpenMPI/1.6.4-ClangGCC-1.1.3                        matplotlib/1.1.1-goolf-1.4.10-Python-2.7.3
+OpenMPI/1.6.4-GCC-4.6.4                             matplotlib/1.1.1-ictce-5.3.0-Python-2.7.3
+OpenMPI/1.6.4-GCC-4.7.2                             matplotlib/1.2.0-ictce-5.3.0-Python-2.7.3
+OpenPGM/5.2.122-goolf-1.4.10                        matplotlib/1.2.1-goolf-1.4.10-Python-2.7.3
+OpenPGM/5.2.122-ictce-5.3.0                         mc/4.6.1-goolf-1.4.10
+OpenSSL/1.0.0-goolf-1.4.10                          mc/4.6.1-ictce-5.3.0
+PAML/4.7-goolf-1.4.10                               mpi4py/1.3-goolf-1.4.10-Python-2.7.3
+PAML/4.7-ictce-5.3.0                                mpi4py/1.3-ictce-5.3.0-Python-2.7.3
+PAPI/5.0.1-goolf-1.4.10                             mpiBLAST/1.6.0-goolf-1.4.10
+PAPI/5.0.1-ictce-5.3.0                              mpiBLAST/1.6.0-ictce-5.3.0
+PCRE/8.12-goolf-1.4.10                              nano/2.2.6-goolf-1.4.10
+PCRE/8.12-ictce-5.3.0                               nano/2.2.6-ictce-5.3.0
+PETSc/3.3-p2-goalf-1.1.0-no-OFED-Python-2.7.3       ncurses/5.9-20130406-cgoolf-1.1.7
+PETSc/3.3-p2-goolf-1.4.10-Python-2.7.3              ncurses/5.9-GCC-4.7.3
+PETSc/3.3-p2-ictce-4.0.6-Python-2.7.3               ncurses/5.9-goalf-1.1.0-no-OFED
+PETSc/3.3-p2-ictce-5.3.0-Python-2.7.3               ncurses/5.9-goolf-1.4.10
+PLINK/1.07-ictce-5.3.0                              ncurses/5.9-goolfc-1.3.12
+ParMETIS/3.1.1-goolf-1.4.10                         ncurses/5.9-ictce-4.0.6
+ParMETIS/3.1.1-ictce-5.3.0                          ncurses/5.9-ictce-5.3.0
+ParMETIS/4.0.2-goalf-1.1.0-no-OFED                  netCDF/4.1.3-goalf-1.1.0-no-OFED
+ParMETIS/4.0.2-goolf-1.4.10                         netCDF/4.1.3-goolf-1.4.10
+ParMETIS/4.0.2-ictce-4.0.6                          netCDF/4.1.3-ictce-3.2.2.u3
+ParMETIS/4.0.2-ictce-5.3.0                          netCDF/4.1.3-ictce-5.3.0
+Pasha/1.0.3-goolf-1.4.10                            netCDF/4.2-goalf-1.1.0-no-OFED
+Pasha/1.0.3-ictce-5.3.0                             netCDF/4.2-goolf-1.4.10
+Pasha/1.0.5-ictce-5.3.0                             netCDF/4.2-ictce-3.2.2.u3
+Perl/5.16.3-goolf-1.4.10                            netCDF/4.2-ictce-5.3.0
+Perl/5.16.3-goolf-1.4.10-bare                       netCDF/4.2.1.1-goolf-1.4.10
+Perl/5.16.3-ictce-4.1.13                            netCDF/4.2.1.1-ictce-5.3.0
+Perl/5.16.3-ictce-5.3.0                             netCDF-C++/4.2-goolf-1.4.10
+Perl/5.16.3-ictce-5.3.0-bare                        netCDF-Fortran/4.2-goalf-1.1.0-no-OFED
+Primer3/2.3.0-goolf-1.4.10                          netCDF-Fortran/4.2-goolf-1.4.10
+Primer3/2.3.0-ictce-5.3.0                           netCDF-Fortran/4.2-ictce-3.2.2.u3
+PyYAML/3.10-goolf-1.4.10-Python-2.7.3               netCDF-Fortran/4.2-ictce-5.3.0
+PyYAML/3.10-ictce-5.3.0-Python-2.7.3                ns/2.35-goolf-1.4.10
+PyZMQ/2.2.0.1-goolf-1.4.10-Python-2.7.3-zmq2        ns/2.35-ictce-5.3.0
+PyZMQ/2.2.0.1-goolf-1.4.10-Python-2.7.3-zmq3        numactl/2.0.8-goolf-1.4.10
+PyZMQ/2.2.0.1-ictce-5.3.0-Python-2.7.3-zmq2         numactl/2.0.8-ictce-5.3.0
+PyZMQ/2.2.0.1-ictce-5.3.0-Python-2.7.3-zmq3         numexpr/2.0.1-ictce-5.3.0-Python-2.7.3
+Python/2.7.3-cgoolf-1.1.7                           numpy/1.6.2-goolf-1.4.10-Python-2.7.3
+Python/2.7.3-goalf-1.1.0-no-OFED                    numpy/1.6.2-ictce-5.3.0-Python-2.7.3
+Python/2.7.3-goolf-1.4.10                           orthomcl/2.0.8-goolf-1.4.10-Perl-5.16.3
+Python/2.7.3-ictce-4.0.6                            orthomcl/2.0.8-ictce-4.1.13-Perl-5.16.3
+Python/2.7.3-ictce-5.3.0                            orthomcl/2.0.8-ictce-5.3.0-Perl-5.16.3
+Python/2.7.5-ictce-5.3.0                            otcl/1.14-goolf-1.4.10
+Python/3.2.3-goolf-1.4.10                           otcl/1.14-ictce-5.3.0
+Python/3.2.3-ictce-5.3.0                            pandas/0.11.0-goolf-1.4.10-Python-2.7.3
+QuantumESPRESSO/4.2-goolf-1.4.10                    pandas/0.11.0-ictce-5.3.0-Python-2.7.3
+QuantumESPRESSO/4.2-goolf-1.4.10-hybrid             parallel/20130122-goolf-1.4.10
+QuantumESPRESSO/5.0.2-goolf-1.4.10                  parallel/20130122-ictce-5.3.0
+QuantumESPRESSO/5.0.2-goolf-1.4.10-hybrid           paycheck/1.0.2-goolf-1.4.10-Python-2.7.3
+R/2.15.2-goolf-1.4.10                               paycheck/1.0.2-ictce-5.3.0-Python-2.7.3
+R/2.15.2-goolf-1.4.10-bare                          petsc4py/3.3-goalf-1.1.0-no-OFED-Python-2.7.3
+R/2.15.2-ictce-5.3.0                                petsc4py/3.3-goolf-1.4.10-Python-2.7.3
+R/2.15.2-ictce-5.3.0-bare                           petsc4py/3.3-ictce-4.0.6-Python-2.7.3
+R/3.0.1-goolf-1.4.10-bare                           petsc4py/3.3-ictce-5.3.0-Python-2.7.3
+R/3.0.1-ictce-5.3.0-bare                            phonopy/1.6.4-goolf-1.4.10-Python-2.7.3
+RNAz/2.1-goolf-1.4.10                               pixman/0.28.2-goolf-1.4.10
+RNAz/2.1-ictce-5.3.0                                pkg-config/0.27.1-goolf-1.4.10
+ROOT/v5.34.01-goolf-1.4.10                          pkg-config/0.27.1-ictce-5.3.0
+SAMtools/0.1.18-goolf-1.4.10                        problog/1.1-goolf-1.4.10
+SAMtools/0.1.18-ictce-5.3.0                         problog/1.1-ictce-5.3.0
+SCOOP/0.5.3-goolf-1.4.10-Python-2.7.3               python-meep/1.4.2-goolf-1.4.10-Python-2.7.3
+SCOOP/0.5.3-ictce-5.3.0-Python-2.7.3                scikit-learn/0.13-ictce-5.3.0-Python-2.7.3
+SCOTCH/5.1.12b_esmumps-goalf-1.1.0-no-OFED          scipy/0.11.0-goolf-1.4.10-Python-2.7.3
+SCOTCH/5.1.12b_esmumps-goolf-1.4.10                 scipy/0.11.0-ictce-5.3.0-Python-2.7.3
+SCOTCH/5.1.12b_esmumps-ictce-4.0.6                  setuptools/0.6c11-goolf-1.4.10-Python-2.7.3
+SCOTCH/5.1.12b_esmumps-ictce-5.3.0                  setuptools/0.6c11-ictce-5.3.0-Python-2.7.3
+SCOTCH/6.0.0_esmumps-goolf-1.4.10                   tbb/4.0.5.339
+SHRiMP/2.2.3-goolf-1.4.10                           tclcl/1.20-goolf-1.4.10
+SHRiMP/2.2.3-ictce-5.3.0                            tclcl/1.20-ictce-5.3.0
+SLEPc/3.3-p1-goolf-1.4.10-Python-2.7.3              tcsh/6.18.01-goolf-1.4.10
+SLEPc/3.3-p1-ictce-5.3.0-Python-2.7.3               tcsh/6.18.01-ictce-5.3.0
+SOAPdenovo/1.05-goolf-1.4.10                        util-linux/2.22.2-goolf-1.4.10
+SOAPdenovo/1.05-ictce-5.3.0                         util-linux/2.22.2-ictce-5.3.0
+SQLite/3.7.17-goolf-1.4.10                          wiki2beamer/0.9.5-goolf-1.4.10-Python-2.7.3
+SQLite/3.7.17-ictce-5.3.0                           xcb-proto/1.7-goolf-1.4.10-Python-2.7.3
+SWIG/2.0.4-goolf-1.4.10-Python-2.7.3                xcb-proto/1.7-ictce-5.3.0-Python-2.7.3
+SWIG/2.0.4-ictce-5.3.0-Python-2.7.3                 xorg-macros/1.17-goolf-1.4.10
+ScaLAPACK/1.8.0-gompi-1.1.0-no-OFED-ATLAS-3.8.4...  xorg-macros/1.17-ictce-5.3.0
+ScaLAPACK/2.0.2-cgmpich-1.1.6-OpenBLAS-0.2.6-LA...  xproto/7.0.23-goolf-1.4.10
+ScaLAPACK/2.0.2-cgmvapich2-1.1.12rc1-OpenBLAS-0...  xproto/7.0.23-ictce-5.3.0
+ScaLAPACK/2.0.2-cgompi-1.1.7-OpenBLAS-0.2.6-LAP...  zlib/1.2.5-goalf-1.1.0-no-OFED
+ScaLAPACK/2.0.2-gmvapich2-1.7.12-OpenBLAS-0.2.6...  zlib/1.2.5-goolf-1.4.10
+ScaLAPACK/2.0.2-gmvapich2-1.7.12rc1-OpenBLAS-0....  zlib/1.2.5-ictce-3.2.2.u3
+ScaLAPACK/2.0.2-gompi-1.3.12-OpenBLAS-0.2.6-LAP...  zlib/1.2.5-ictce-4.0.6
+ScaLAPACK/2.0.2-gompi-1.4.10-OpenBLAS-0.2.6-LAP...  zlib/1.2.5-ictce-4.1.13
+ScientificPython/2.8-goalf-1.1.0-no-OFED-Python...  zlib/1.2.5-ictce-5.3.0
+ScientificPython/2.8-goolf-1.4.10-Python-2.7.3      zlib/1.2.7-cgmpolf-1.1.6
+ScientificPython/2.8-ictce-4.0.6-Python-2.7.3       zlib/1.2.7-cgmvolf-1.1.12rc1
+ScientificPython/2.8-ictce-5.3.0-Python-2.7.3       zlib/1.2.7-cgoolf-1.1.7
+Shapely/1.2.15-goolf-1.4.10-Python-2.7.3            zlib/1.2.7-goalf-1.1.0-no-OFED
+Shapely/1.2.15-ictce-5.3.0-Python-2.7.3             zlib/1.2.7-goolf-1.4.10
+Sphinx/1.1.3-goolf-1.4.10-Python-2.7.3              zlib/1.2.7-ictce-3.2.2.u3
+Sphinx/1.1.3-ictce-5.3.0-Python-2.7.3               zlib/1.2.7-ictce-4.0.10
+Stow/1.3.3-goolf-1.4.10                             zlib/1.2.7-ictce-4.0.6
+Stow/1.3.3-ictce-5.3.0                              zlib/1.2.7-ictce-4.1.13
+SuiteSparse/3.7.0-goalf-1.1.0-no-OFED-withparmetis  zlib/1.2.7-ictce-5.3.0
+SuiteSparse/3.7.0-goolf-1.4.10-withparmetis         zlib/1.2.8-goolf-1.4.10
+SuiteSparse/3.7.0-ictce-4.0.6-withparmetis          zlib/1.2.8-ictce-4.1.13
+SuiteSparse/3.7.0-ictce-5.3.0-withparmetis          zlib/1.2.8-ictce-5.3.0
+Szip/2.1-goalf-1.1.0-no-OFED                        zlib/1.2.8-ictce-5.5.0
+Szip/2.1-goolf-1.4.10                               zsync/0.6.2-goolf-1.4.10
+Szip/2.1-ictce-3.2.2.u3                             zsync/0.6.2-ictce-5.3.0
