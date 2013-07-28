@@ -16,7 +16,7 @@ The current core set of open source utilities is:
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | **Autoconf (GNU)** | Produces shell scripts to automatically configure software source code packages.                                                           |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| automake (GNU)     | Generates makefile.in files from makefile.am input files. These ini files are compliant with the GNU coding standards and build process.   |
+| **Automake (GNU)** | Generates makefile.in files from makefile.am input files. These ini files are compliant with the GNU coding standards and build process.   |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | **Bison (GNU)**    | Converts a grammar description into a C program to parse that grammar.                                                                     |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
