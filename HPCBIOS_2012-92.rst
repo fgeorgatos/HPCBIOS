@@ -34,7 +34,7 @@ EasyBuild runs fine in user-space and so, even if it is not provided in a system
 users can and will eventually use it.
 
 To be compliant with this policy, an HPC site MUST provide at least one production version of EasyBuild.
-This can be done either in the default $PATH or, available via modules (as per ``module load easybuild``).
+This can be done either in the default $PATH or, available via modules (as per ``module load EasyBuild``).
 The default provided version MAY be customized as per local needs and SHOULD have out of the box functionality,
 as its developers describe in the documentation of the tool.
 
@@ -45,7 +45,7 @@ Example usage
 
   sw@gaia-1:~$ module avail EasyBuild
   
-  ------------------------ /opt/apps/default/modules/all -------------------------
+  ------------------------ /opt/apps/HPCBIOS/modules/all -------------------------
   EasyBuild/1.4.0
   EasyBuild/1.5.0
   EasyBuild/1.6.0
