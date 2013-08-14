@@ -43,19 +43,18 @@ Example usage
 
 .. code-block:: sh
 
-  sw@gaia-1:~$ module avail easybuild
+  sw@gaia-1:~$ module avail EasyBuild
   
   ------------------------ /opt/apps/default/modules/all -------------------------
-  easybuild/0.9dev                easybuild/1.0rc1
-  easybuild/1.0-uni.lu            easybuild/1.0rc1-uni-lu
-  easybuild/1.0.1-uni.lu          easybuild/1.1.0dev-uni.lu
-  easybuild/1.0.2-uni.lu(default) easybuild/1.1.0
+  EasyBuild/1.4.0
+  EasyBuild/1.5.0
+  EasyBuild/1.6.0
 
-  sw@gaia-1:~$ module load easybuild
+  sw@gaia-1:~$ module load EasyBuild
   sw@gaia-1:~$ eb --version
-  == This is EasyBuild 1.0.2
+  == This is EasyBuild 1.6.0
   sw@gaia-1:~$ which eb
-  /opt/apps/default/software/easybuild/1.0.2/eb
+  /opt/apps/HPCBIOS.20130715/software/EasyBuild/1.6.0/bin/eb
 
 Example build tree of WRF/WPS & OpenFOAM, along with GCC/OpenMPI & libs
 ------------------------------------------------------------------------
