@@ -6,7 +6,7 @@ HPCBIOS_2012-92: EasyBuild HPC Software Development Environment
 .. note::
 
   EasyBuild HPC Software Development environment allows to build and use Scientific Computing software
-  in a consistent and reproducible way: it can manage Software and Modules in a consistent manner.
+  in a consistent and reproducible way: it can manage Software and Modules in a coherent manner.
 
   Though building HPC software can be done in alternative ways, either manual or structured,
   EasyBuild can incorporate the experience across multiple HPC sites and provides an advanced service,
@@ -29,7 +29,7 @@ released for production use during SuperComputing'12, in Nov. 2012, by the HPC g
 Although other alternatives to EasyBuild could eventually appear in the open,
 so far it has been the most self-consistent publicly available tool in yielding
 reproducible Scientific Computing environments, transferable across multiple HPC platforms.
-Therefor it is considered necessary across HPC sites for both users and systems engineering work.
+Therefore it is considered necessary across HPC sites for both users and systems engineering work.
 EasyBuild runs fine in user-space and so, even if it is not provided in a system by default,
 users can and will eventually use it.
 

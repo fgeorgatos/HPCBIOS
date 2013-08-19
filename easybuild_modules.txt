@@ -2,7 +2,7 @@
 
   sw@gaia-25:~$ module avail
 
-  ------------------------------ /opt/apps/HPCBIOS.20130715/modules/all ------------------------------
+  ---------------------------------- /opt/apps/HPCBIOS/modules/all ----------------------------------
   
   ABINIT/7.0.3-x86_64_linux_gnu4.5                    Szip/2.1-ictce-5.3.0
   ABINIT/7.0.5-x86_64_linux_gnu4.5                    Tar/1.26-goolf-1.4.10
