@@ -22,13 +22,13 @@ productivity environment across any HPCBIOS resources:
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | Dalton             | Quantum Chemistry      | x            | SHOULD             | http://dirac.chem.sdu.dk/daltonprogram.org/                                               |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| GAMESS             | Quantum Chemistry      | x            | SHOULD             | http://www.msg.ameslab.gov/gamess/                                                        |
+| GAMESS (US)        | Quantum Chemistry      | x            | SHOULD             | http://www.msg.ameslab.gov/gamess/                                                        |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | Gaussian           | Quantum Chemistry      | x            | MAY                | http://www.gaussian.com/                                                                  |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | OpenEye            | Chemical Informatics   | x            | SHOULD             | http://www.eyesopen.com/                                                                  |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| **BLAST/BLASTMPI** | Sequence Analysis      | x            | MUST               | http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download     |
+| **BLAST/mpiBLAST** | Sequence Analysis      | x            | MUST               | http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download     |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | **BWA**            | Sequence Analysis      | x            | MUST               | http://bio-bwa.sourceforge.net/                                                           |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
@@ -56,10 +56,10 @@ productivity environment across any HPCBIOS resources:
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 | LigandFit          | Molecular Modeling     | x            | SHOULD             | http://www.accelrys.com                                                                   |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
-| ROSETTA            | Molecular Modeling     | x            | SHOULD             | http://www.rosettacommons.org/                                                            |
+| **ROSETTA**        | Molecular Modeling     | x            | SHOULD             | http://www.rosettacommons.org/                                                            |
 +--------------------+------------------------+--------------+--------------------+-------------------------------------------------------------------------------------------+
 
-Reference document:
+Reference documents:
 
 - PRACE – The Scientific Case for HPC in Europe 2012-2020
   http://www.prace-ri.eu/PRACE-The-Scientific-Case-for-HPC

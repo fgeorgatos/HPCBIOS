@@ -57,7 +57,7 @@ productivity environment across any HPCBIOS resources that need it:
 +--------------+--------------------+--------------------+-------------------------------------------------------------+
 | IDL          | latest             | SHOULD             | http://www.exelisvis.com/ProductServices/IDL.aspx           |
 +--------------+--------------------+--------------------+-------------------------------------------------------------+
-| **MATLAB**   | latest             | SHOULD             | http://www.mathworks.com/products/matlab/                   |
+| **MATLAB**   | v2012a or later    | SHOULD             | http://www.mathworks.com/products/matlab/                   |
 +--------------+--------------------+--------------------+-------------------------------------------------------------+
 | **UDUNITS**  | latest             | SHOULD             | http://www.unidata.ucar.edu/software/udunits/               |
 +--------------+--------------------+--------------------+-------------------------------------------------------------+

@@ -51,7 +51,7 @@ compiled to support GNU based codes. Ultimately, it will be the
 responsibility of each user of the GNU compilers to create the libraries
 that they require for their GNU compiled software.
 
-LLVM is another open source compiler of general interest,
+Clang/LLVM is another open source compiler of general interest,
 not so much for HPC purposes but rather for cross-checking compiled code.
 Finally, TCC may be used in scripting efforts, via the convenience of C.
 

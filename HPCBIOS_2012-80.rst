@@ -160,7 +160,7 @@ DFT functionals
 +------------------------+----------------------------------------------------------------------+
 | Truhlar functionals    |  http://comp.chem.umn.edu/info/dft.htm                               |
 +------------------------+----------------------------------------------------------------------+
-| Libxc                  |  http://www.tddft.org/programs/octopus/wiki/index.php/Libxc          |
+| **libxc**              |  http://www.tddft.org/programs/octopus/wiki/index.php/Libxc          |
 +------------------------+----------------------------------------------------------------------+
 
 Useful links

@@ -28,7 +28,7 @@ productivity environment across any HPCBIOS resources:
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 | **Cython**                             | 0.16                        | MUST               | http://pypi.python.org/pypi/Cython/                        |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
-| **R language**                         | v2.14.2 and v2.15.0         | MUST               | http://www.r-project.org                                   |
+| **R language**                         | v2.14.2 and/or v2.15.x      | MUST               | http://www.r-project.org                                   |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 | **Bioconductor**                       | v2.10                       | SHOULD             | http://www.bioconductor.org                                |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
@@ -102,7 +102,7 @@ productivity environment across any HPCBIOS resources:
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 | **CD-HIT**                             | 4.5.5                       | MUST               | http://weizhong-lab.ucsd.edu/cd-hit/                       |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
-| **RAxML**                              | latest                      | MUST               | https://github.com/stamatak/standard-RAxML                 |
+| **RAxML**                              | 7.7.5 or later              | MUST               | https://github.com/stamatak/standard-RAxML                 |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 | **Oases**                              | 0.2.08                      | MUST               | http://www.ebi.ac.uk/~zerbino/oases                        |
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
@@ -189,6 +189,7 @@ productivity tools as they become available on allocated systems.
 
 Potential sources of information for further future upgrades of this list include:
   * http://www.vital-it.ch/software/tools.php
+  * http://wiki.hpc.ufl.edu/doc/Category:Bioinformatics
   * http://www.csc.fi/english/research/sciences/bioscience/programs/index_html
   * http://bacpathgenomics.wordpress.com/software/
   * http://umbc.rnet.missouri.edu/general/software/alphabetical.html
