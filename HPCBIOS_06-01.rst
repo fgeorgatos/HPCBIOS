@@ -38,7 +38,7 @@ The suite of maintained packages consists of:
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **GSL**       | C/C+ library with a wide variety of mathematical routines                                | MUST               | http://www.gnu.org/s/gsl/                     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| ARPACK        | Solution of Eigenvalues/Eigenvectors                                                     | SHOULD             | http://www.caam.rice.edu/software/ARPACK/     |
+| **ARPACK**    | Solution of Eigenvalues/Eigenvectors                                                     | SHOULD             | http://www.caam.rice.edu/software/ARPACK/     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | SuperLU       | Direct solution of sparse linear systems of equations                                    | SHOULD             | http://crd.lbl.gov/~xiaoye/SuperLU            |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+

@@ -39,21 +39,24 @@ hence it has become a requirement for being compliant with this policy:
 +--------+-----------------------+--------------------+
 | GCC    | **v4.7.2** or later   | MUST               |
 +--------+-----------------------+--------------------+
-| GCC    | v4.8.0 or later       | SHOULD             |
+| GCC    | **v4.8.2** or later   | SHOULD             |
 +--------+-----------------------+--------------------+
 | Clang  | **v3.2** or later     | SHOULD             |
 +--------+-----------------------+--------------------+
-| TCC    | v0.9.25 or later      | MAY                |
+| TCC    | **v0.9.26** or later  | MAY                |
 +--------+-----------------------+--------------------+
 
-It is at the discretion of each site which (if any) libraries will be
+It is at the discretion of each site which (if any) libraries/software will be
 compiled to support GNU based codes. Ultimately, it will be the
-responsibility of each user of the GNU compilers to create the libraries
+responsibility of each user of the GNU compilers to create the libraries/software
 that they require for their GNU compiled software.
 
 Clang/LLVM is another open source compiler of general interest,
-not so much for HPC purposes but rather for cross-checking compiled code.
-Finally, TCC may be used in scripting efforts, via the convenience of C.
+not so necessarily for HPC purposes but rather for cross-checking compiled code
+and the remarkable ability to be extendible at will.
+
+Finally, TCC may be used in scripting efforts, via the convenience of C code,
+or simply as experimentation environment.
 
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.

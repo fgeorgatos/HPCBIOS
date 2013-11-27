@@ -42,22 +42,22 @@ OpenMP and hybrid MPI/OpenMP programs on high-performance compute
 clusters. It consists of a set of well-accepted portable, mostly
 open-source tools. UNITE itself includes:
 
-  +------------+-------------------------------------------------+---------------------------------------------+
-  | mpiP       | Lightweight, Scalable MPI Profiling             | http://mpip.sourceforge.net/                |
-  +------------+-------------------------------------------------+---------------------------------------------+
-  | SCALASCA   | Scalable trace analysis package                 | http://www.scalasca.org/                    |
-  +------------+-------------------------------------------------+---------------------------------------------+
-  | Vampir     | Performance Optimization                        | http://www.vampir.eu/                       |
-  +------------+-------------------------------------------------+---------------------------------------------+
-  | TAU        | Performance analysis of parallel applications   | http://www.cs.uoregon.edu/Research/tau      |
-  |            |   * Support for PAPI and SCALASCA               |                                             |
-  |            |   * PDT: Source-level auto-instrumentation      |                                             |
-  +------------+-------------------------------------------------+---------------------------------------------+
-  | PerfSuite  | software performance analysis                   | http://perfsuite.ncsa.illinois.edu/         |
-  +------------+-------------------------------------------------+---------------------------------------------+
-  | other      | hpctoolkit periscope marmot **itac**            |                                             |
-  |            | Extrae Paraver kcachegrind                      |                                             |
-  +------------+-------------------------------------------------+---------------------------------------------+
+  +--------------+-------------------------------------------------+---------------------------------------------+
+  |  mpiP        | Lightweight, Scalable MPI Profiling             | http://mpip.sourceforge.net/                |
+  +--------------+-------------------------------------------------+---------------------------------------------+
+  | **SCALASCA** | Scalable trace analysis package                 | http://www.scalasca.org/                    |
+  +--------------+-------------------------------------------------+---------------------------------------------+
+  |  Vampir      | Performance Optimization                        | http://www.vampir.eu/                       |
+  +--------------+-------------------------------------------------+---------------------------------------------+
+  |  TAU         | Performance analysis of parallel applications   | http://www.cs.uoregon.edu/Research/tau      |
+  |              |   * Support for **PAPI** and **SCALASCA**       |                                             |
+  |              |   * **PDT**: Source-level auto-instrumentation  |                                             |
+  +--------------+-------------------------------------------------+---------------------------------------------+
+  |  PerfSuite   | software performance analysis                   | http://perfsuite.ncsa.illinois.edu/         |
+  +--------------+-------------------------------------------------+---------------------------------------------+
+  |  other       | hpctoolkit periscope marmot **itac**            |                                             |
+  |              | Extrae Paraver kcachegrind                      |                                             |
+  +--------------+-------------------------------------------------+---------------------------------------------+
 
 The packages will be installed and maintained as part of a consistent computational environment.
 
