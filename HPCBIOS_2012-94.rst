@@ -1,4 +1,4 @@
-.  . _HPCBIOS_2012-94:
+.. _HPCBIOS_2012-94:
 
 HPCBIOS_2012-94: Bioinformatics & Comp. Biology Productivity Environment
 ================================================================================

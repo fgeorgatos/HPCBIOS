@@ -4,12 +4,12 @@ HPCBIOS_2013-01: Common Dependencies for Life Science Applications
 ==================================================================
 
 .. note::
-  As the number of Life Science applications increases, it becomes
-  more and more pronounced the need to stabilize on a substrate
-  of common dependencies; this permis to mix together software depending
-  on multiple (dynamic) libraries, with predictable results and no conflicts.
-  This need is particularly important when an HPC platform delivers
-  Bioinformatics packages via modules, which need to be combined in a pipeline
+  As the number of Life Science applications increases,
+  it becomes more and more pronounced the need to stabilize on a substrate
+  of common dependencies; this permis to mix together software which depends
+  on multiple (dynamic) libraries, with **predictable results and no conflicts**.
+  This need is particularly important when an HPC platform delivers Life Science
+  and Bioinformatics packages via `modules`, which need to be combined in a pipeline
   or simply loaded as one unit, for reproducibility purposes.
 
   * BC Policy: HPCBIOS_2013-01
@@ -44,7 +44,7 @@ some room for (justified) deviations is provided by softening the compliance lev
 
 N.B.
 The *GNU-compatible suite MUST be implemented* for compliance with this policy on a given site.
-*libreadline* SHOULD be built with *ncurses* as dependency.
+Furthermore, *libreadline* SHOULD be build with *ncurses* as dependency.
 
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
