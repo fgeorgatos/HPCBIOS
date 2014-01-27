@@ -18,19 +18,19 @@ productivity environment across all HPCBIOS resources:
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | Package/Tool                          | Requested version(s)   | Compliance level   | Reference                                                                |
 +=======================================+========================+====================+==========================================================================+
-| **CUDA Toolkit**                      | **v4.2 and/or v5.0**   | MUST               | http://developer.nvidia.com/cuda-toolkit-40                              |
+| **CUDA Toolkit**                      | **v4.2 or later**      | MUST               | http://developer.nvidia.com/cuda-toolkit-40                              |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
-| **pyCUDA**                            | 2012.1                 | MUST               | http://mathema.tician.de/software/pycuda                                 |
+| **PyCUDA**                            | 2012.1                 | MUST               | http://mathema.tician.de/software/pycuda                                 |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
-| pyOpenCL                              | 2012.1                 | MUST               | http://mathema.tician.de/software/pyopencl                               |
+| PyOpenCL                              | 2012.1                 | MUST               | http://mathema.tician.de/software/pyopencl                               |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | MAGMA                                 | v1.3                   | MUST               | http://icl.cs.utk.edu/magma                                              |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | ViennaCL                              | v1.4.2                 | MUST               | http://viennacl.sourceforge.net                                          |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
-| AMD math library for OpenCL (APPML)   | v1.10                  | MUST               | http://developer.amd.com/libraries/appmathlibs/Pages/default.aspx        |
+| AMD math library for OpenCL (APPML)   | v1.10                  | SHOULD             | http://developer.amd.com/libraries/appmathlibs/Pages/default.aspx        |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
-| **Rgputools** for R language          | v0.28                  | MUST               | http://cran.r-project.org/web/packages/gputools                          |
+| **Rgputools** for R language          | v0.28                  | SHOULD             | http://cran.r-project.org/web/packages/gputools                          |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | Intel OpenCL SDK                      | v1.5                   | SHOULD             | http://software.intel.com/en-us/articles/vcsource-tools-opencl-sdk       |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
