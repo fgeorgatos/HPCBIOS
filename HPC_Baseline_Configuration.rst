@@ -17,7 +17,7 @@ HPC Baseline Configuration
   It is modeled after a similar effort taking place elsewhere among 6 HPC sites in the US and,
   in effect, it is an extension upon it:
 
-  `HPC-BC <http://www.ccac.hpc.mil/consolidated/bc>`_.
+  `HPC-BC <http://centers.hpc.mil/consolidated/bc/>`_.
 
   The effort of this project keeps marching on helping users work more
   productively by updating existing policies to accommodate new needs,

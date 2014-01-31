@@ -51,9 +51,9 @@ A site still reserves the right to choose which users have access to which queue
 
 
 Potential sources of information for further future upgrades of this policy include:
-  * http://www.ccac.hpc.mil/queue/
-  * http://www.ccac.hpc.mil/consolidated/bc/policies.php?choice=common
-  * http://www.ccac.hpc.mil/consolidated/bc/commonCommands.php?choice=show_queues
+  * http://centers.hpc.mil/consolidated/bc/policies.php?choice=queue
+  * http://centers.hpc.mil/consolidated/bc/policies.php?choice=common
+  * http://centers.hpc.mil/consolidated/bc/commonCommands.php?choice=show_queues
   * http://www.nersc.gov/users/computational-systems/hopper/running-jobs/queues-and-policies/
   * http://trac.mcs.anl.gov/projects/cobalt/wiki/DebugQueueConfig
 
