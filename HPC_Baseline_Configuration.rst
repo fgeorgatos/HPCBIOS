@@ -15,12 +15,12 @@ HPC Baseline Configuration
   as opposed to wrestling with site-specific policies and procedures.
 
   It is modeled after a similar effort taking place elsewhere among 6 HPC sites in the US and,
-  in effect, it is an extension upon it:
+  in effect, it is an extension upon it (notably Compliance Matrix):
 
   `HPC-BC <http://centers.hpc.mil/consolidated/bc/>`_.
 
   The effort of this project keeps marching on helping users work more
-  productively by updating existing policies to accommodate new needs,
+  productively by updating existing policies to accommodate emerging needs,
   integrating new capabilities that must be consistent across the HPC
   enterprise, or just providing a sounding board for users experiencing
   difficulties with an HPC environment.
@@ -114,15 +114,15 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: *yes, no, agree,
   been met by the Site.
   Sites may, at their discretion, exceed the minimum guidelines and
   still remain in compliance.
-  Periodic checks will be performed to ensure compliance is maintained.
+  Periodic checks may need be performed to ensure compliance is maintained.
 
-  Note, there may be valid reasons for not being compliant with a policy.
+  Note, there can be valid reasons for not being compliant with a policy.
   For example, non-compliance may be acceptable especially if it implies removal of
   an existing capability or function from a given system; also, for generic operational reasons
   or, if the HPC system affected is scheduled for decommissioning in the near future.
 
-  **Non-compliance is fine, as long as the documentation above is correct
-  and the users are informed about it.**
+  **Non-compliance is not an issue, as long as the documentation above is consistent
+  and the users are informed about status, promptly.**
 
 This document was last rebuilt on: |today|.
 
