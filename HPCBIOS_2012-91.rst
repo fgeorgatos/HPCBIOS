@@ -55,28 +55,30 @@ The following approach is being suggested:
 
 Package Lists and software guidelines:
 
-- Any Package List MUST supply Package names in a case-sensitive format
-- The case-sensitive Package name SHOULD be derived from software author's preference
+- Any Package List SHOULD supply Package names in disambiguous case-sensitive format
+- The case-sensitive Package name SHOULD be derived from software author's naming preference
 
-Conforming sites:
+Conforming sites SHOULD adhere to these principles:
 
 - MUST provide EITHER the original Package name OR the lower case version
-- MUST put the Version string after the “/” separator
+- MUST put the Version string after the “/” separator (to permit *module swap*)
 - MUST document their module configuration & namespace policy
-- SHOULD provide a default Version when multiple ones exist (or, imply one)
+- SHOULD provide a default Version when multiple ones exist (or, let one be implied)
 - SHOULD prefer numbered Version strings with dots notation (as opposed to _ or -)
-- MAY further expand the Version string or provide aliases, as per local needs, examples: ``-goalf``, ``-openmpi-intel-32bit``
+- MAY further expand the Version string or provide aliases, as per local needs, examples: ``-goolf-*``, ``-openmpi-intel-32bit``
+- MAY provide multiple buildsets of modules, as per local needs;
 - MAY provide multiple subcategories of modules, as per local needs;
   - examples: ``bio cae chem compiler debugger devel ide lib math mpi numlib performance phys system tools vis``
 
 It is very important to adhere at the stated requirement levels
-and rigidly document any deviations, for sites planning to be conforming to this standard.
+and rigidly document any deviations, for sites planning to be conforming to this standard,
+so that users receive little surprise when moving from site to site.
 
 Definitions
 -----------
 
 If definitions are required for what some terms mean, they can be found
-at UNITE standard (p.2/1.2) The relevant text is copied hereby with small adjustments:
+at UNITE standard (p.2/1.2) The relevant text is copied hereby, with only minor adjustments:
 
 Package
   A software product, tool, or component which has its own name, a
@@ -91,13 +93,13 @@ Version
 
 Specialization
   Optional constraints which limit the applicability of a version of a package.
-  Example: ``WRF/3.3.1-goalf-1.1.0-no-OFED-dmpar`` (ie. the suffix after the version)
+  Example: ``WRF/3.3.1-goolf-1.4.10-dmpar`` (ie. the suffix after the version)
   This is necessary on computing systems which provide multiple MPI libraries
-  or compiler suites (e.g., typically on Linux clusters). The alias of the
+  or compiler suites (e.g., very commonly on Linux clusters). The alias of the
   default version MAY take the form ``-<MPILibrary>-<Compiler>-<Precision>``.
   The three components MUST always be specified in this order,
   however unnecessary constraints (not provided by a system) can be left out.
-  Examples: ``-openmpi-64bit`` , ``-mvapich-gnu-32bit``
+  Examples: ``-openmpi-64bit`` , ``-mvapich-gnu-32bit`` etc
 
 Fully-Qualified Version (FQV)
   A fully-qualified version is the complete specification of a version

@@ -8,8 +8,8 @@ HPCBIOS_06-17: Use of Modules for Accessing Multiple Versions of Software
   package to support multiple versions of compilers, associated libraries,
   and heavily used application software (fi. OpenMPI, NetCDF, WRF, WIEN2K et al)
   on the available resources of HPC sites. Compliance is determined by
-  sites ensuring that the module command is in the user’s path and that
-  system modulefiles are possible to provide for the (subset of) software packages
+  sites ensuring that the *module* command is in the user’s path and that
+  system modulefiles are possible to provide for (the subset of) software packages
   mentioned above that are supported by each site.
 
   * BC Policy: HPCBIOS_06–17
@@ -30,7 +30,7 @@ Scope
 -----
 
 ENVIRONMENT MODULES can be loaded and unloaded dynamically and atomically in a clean
-fashion. Popular shells like bash, sh, tcsh, csh MUST be supported - while
+fashion. Common shells like bash, sh, tcsh, csh MUST be supported - while
 ksh, zsh (Ref: |HPCBIOS_05-06|), as well as some scripting languages such as
 Perl (Ref: |HPCBIOS_06-04|) MAY be supported, as per each site's needs/capabilities.
 
@@ -44,22 +44,27 @@ or version information. This allows to maximize code reuse and
 pave the way for uniform documentation across software versions.
 
 Implementations that are known to be compliant are:
-* environment-modules-c
-* environment-modules-tcl
-* Lmod
 
-The individual site MAY combine these HPCBIOS
-compliant modulefiles with other existing methods (e.g. additional
+* *environment-modules-c*
+* *environment-modules-tcl*
+* *Lmod*
+
+The individual site MAY combine
+compliant modulefiles with other existing site-specific methods (e.g. additional
 modulefiles or wrapper scripts) to select versions of applications
-and help define the user’s environment (fi. storage locations, project variables etc).
+t help define the user’s environment (fi. storage locations, project variables etc).
 
 Dependencies
 ------------
 
 In the cases where the modulefiles for applications depend on other
 modulefiles (an application may require compiler and library modulefiles
-to be loaded), these dependencies SHOULD be checked. A reasonably
+to be loaded), these dependencies SHOULD be checked, upon load. A reasonably
 default modulefile MAY be loaded, if the dependency is not met already.
+
+A site MAY automatically unload dependencies of a given modulefile, upon unload.
+Note that different user communities could well have different valid reasons
+for or against the default attitude upon unloading, therefor this is deliberately left open.
 
 Escape path
 -----------
@@ -70,9 +75,9 @@ then need to load individual modulefiles to add the application specific
 directories to the PATH environment variables.
 
 .. seealso::
-  The currently recommended namespace format is the one provided via EasyBuild v1.0 (see |HPCBIOS_2012-92|),
+  The currently recommended namespace format is the one provided via EasyBuild v1.11 (see |HPCBIOS_2012-92|),
   and a site MAY use aliases for default modules, as defined via UNITE, version May 2010.
-  UNITE suite provides exact definitions under section 1.2 of its documentation:
+  UNITE suite provides definitions with examples under section 1.2 of its documentation:
   http://apps.fz-juelich.de/unite/files/unite-installguide.pdf
 
 .. |HPCBIOS_05-06| replace:: [:ref:`HPCBIOS_05-06 <HPCBIOS_05-06>`]

@@ -22,7 +22,7 @@ Baseline Editors
 +--------------+--------------------------------------------------------+----------+
 | Emacs        | http://www.gnu.org/software/emacs/emacs.html           | MUST     |
 +--------------+--------------------------------------------------------+----------+
-| Vi and Vim   | http://ex-vi.sourceforge.net    http://www.vim.org     | MUST     |
+|**Vi and Vim**| http://ex-vi.sourceforge.net    http://www.vim.org     | MUST     |
 +--------------+--------------------------------------------------------+----------+
 | Eclipse      | http://www.eclipse.org                                 | SHOULD   |
 +--------------+--------------------------------------------------------+----------+

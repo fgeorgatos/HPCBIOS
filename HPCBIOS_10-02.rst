@@ -38,6 +38,8 @@ open source high productivity languages environment across all HPCBIOS compliant
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | NAG            | Numerical library /Numerical Algorithms Group   | SHOULD (commercial)| http://www.nag.co.uk/                    |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
+| MATLAB         | MATLAB is a high-level language for computation | SHOULD (commercial)| http://www.mathworks.nl/products/matlab/ |
++----------------+-------------------------------------------------+--------------------+------------------------------------------+
 
 This high productivity languages environment will be supplemented with
 more open source productivity languages as they become available on
@@ -67,11 +69,12 @@ SciPy, as well as more tools from the above list. These are:
   consistent Python based environment for developing and deploying
   scientific packages that rely on a common runtime environment.
 
-Either EasyBuild, CSE or PToolsRTE, SHOULD be made available on HPC systems.
+Either of EasyBuild, CSE or PToolsRTE, SHOULD be made available on HPC systems.
 
-EasyBuild is maintained by *Ghent University* and is available as open source,
+EasyBuild is maintained by *Ghent University* and is available as open source python codebase,
 while the CSE package is being maintained by the *ARL CSE* Team
 and the PToolsRTE is being maintained through *PETTT* project.
+Sites are encouraged to used reproducible techniques for herding software components!
 
 .. |HPCBIOS_2012-92| replace:: [:ref:`HPCBIOS_2012-92 <HPCBIOS_2012-92>`]
 
