@@ -38,7 +38,7 @@ open source high productivity languages environment across all HPCBIOS compliant
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | NAG            | Numerical library /Numerical Algorithms Group   | SHOULD (commercial)| http://www.nag.co.uk/                    |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| MATLAB         | MATLAB is a high-level language for computation | SHOULD (commercial)| http://www.mathworks.nl/products/matlab/ |
+| **MATLAB**     | MATLAB is a high-level language for computation | SHOULD (commercial)| http://www.mathworks.nl/products/matlab/ |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 
 This high productivity languages environment will be supplemented with

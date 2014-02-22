@@ -41,8 +41,7 @@ libraries that they require for their compiled software.
 
 .. note::
 
-  The current form of the policy currently is x86-oriented yet does not specify 32 bit vs 64
-  bit version, though it is expected that the native architecture of a
-  given system (typically 64 bits) is supported as the default target,
-  while the other is optional but desired to have (typically 32 bits).
-
+  The present form of the policy currently is x86-oriented, yet it does not specify
+  32 bit vs 64 bit versions, though it is expected that the native architecture of a
+  given system (typically 64 bits) is supported as the default target;
+  meanwhile the other is optional but desired to have (typically 32 bits).

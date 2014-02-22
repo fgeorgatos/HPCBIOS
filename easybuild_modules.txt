@@ -107,7 +107,7 @@
   ESPResSo/3.1.1-goolf-1.4.10-serial                  cURL/7.27.0-goolf-1.4.10
   ESPResSo/3.1.1-ictce-5.3.0-parallel                 cURL/7.27.0-ictce-5.3.0
   ESPResSo/3.1.1-ictce-5.3.0-serial                   cURL/7.29.0-cgoolf-1.1.7
-  EasyBuild/1.6.0                                     cURL/7.29.0-goolf-1.4.10
+  EasyBuild/1.10.0                                    cURL/7.29.0-goolf-1.4.10
   Eigen/3.1.1-goolf-1.4.10                            cairo/1.12.14-goolf-1.4.10
   Eigen/3.1.1-ictce-5.3.0                             ccache/3.1.9-goolf-1.4.10
   FASTA/36.3.5e-goolf-1.4.10                          ccache/3.1.9-ictce-5.3.0

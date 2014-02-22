@@ -49,9 +49,9 @@ Example usage
   EasyBuild/1.10.0
   EasyBuild/1.11.0
 
-  sw@gaia-1:~$ module load EasyBuild
+  sw@gaia-1:~$ module load EasyBuild/1.10.0
   sw@gaia-1:~$ eb --version
-  == This is EasyBuild 1.6.0
+  == This is EasyBuild 1.10.0
   sw@gaia-1:~$ which eb
   /opt/apps/HPCBIOS.20131224/software/EasyBuild/1.10.0/bin/eb
 

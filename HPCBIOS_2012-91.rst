@@ -60,19 +60,21 @@ Package Lists and software guidelines:
 
 Conforming sites SHOULD adhere to these principles:
 
-- MUST provide EITHER the original Package name OR the lower case version
-- MUST put the Version string after the “/” separator (to permit *module swap*)
-- MUST document their module configuration & namespace policy
+- MUST provide either the original Package name or, the lower case version
+- MUST place the Version string after the “/” separator (to permit operation *module swap*)
+- MUST document their module configuration & namespace policy, explicitly
 - SHOULD provide a default Version when multiple ones exist (or, let one be implied)
 - SHOULD prefer numbered Version strings with dots notation (as opposed to _ or -)
-- MAY further expand the Version string or provide aliases, as per local needs, examples: ``-goolf-*``, ``-openmpi-intel-32bit``
+- MAY further expand the Version string or provide aliases, as per local needs;
+  - examples: ``-goolf-*``, ``-openmpi-intel-32bit``
 - MAY provide multiple buildsets of modules, as per local needs;
+  - examples: ``HPCBIOS.20130902``, ``HPCBIOS.20131224``
 - MAY provide multiple subcategories of modules, as per local needs;
   - examples: ``bio cae chem compiler debugger devel ide lib math mpi numlib performance phys system tools vis``
 
 It is very important to adhere at the stated requirement levels
 and rigidly document any deviations, for sites planning to be conforming to this standard,
-so that users receive little surprise when moving from site to site.
+so that users receive little to no surprise when moving from site to site.
 
 Definitions
 -----------

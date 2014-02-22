@@ -61,6 +61,10 @@ open-source tools. UNITE itself includes:
 
 The packages will be installed and maintained as part of a consistent computational environment.
 
+Potential sources of information for further future upgrades of this list include:
+  * http://apps.fz-juelich.de/unite
+  * http://www.vi-hps.org/tools/
+
 Kindly notify -if this policy is inadequate for your work-
 both your local site technical representative & HPCBIOS user-support.
 
