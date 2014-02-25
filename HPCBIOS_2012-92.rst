@@ -10,7 +10,7 @@ HPCBIOS_2012-92: EasyBuild HPC Software Development Environment
 
   Though building HPC software can be done in alternative ways, either manual or structured,
   EasyBuild can incorporate the experience across multiple HPC sites and provides an advanced service,
-  which simplistic solutions -such as Makefiles and simple scripts- can never match, since good code
+  which simplistic solutions -such as Makefiles and regular shell scripts- can never match, since good code
   factorization is necessary in order to tackle the complexity of building software for multiple HPC platforms.
 
   * BC Policy: HPCBIOS_2012-92
@@ -55,8 +55,8 @@ Example usage
   sw@gaia-1:~$ which eb
   /opt/apps/HPCBIOS.20131224/software/EasyBuild/1.10.0/bin/eb
 
-Example build tree of WRF/WPS & OpenFOAM, along with GCC/OpenMPI & libs
-------------------------------------------------------------------------
+Example build tree of WRF/WPS, along with GCC/OpenMPI & dependency libraries
+----------------------------------------------------------------------------
 
 .. _my-WRF-OpenFOAM-figure:
 
@@ -69,8 +69,8 @@ Example build tree of WRF/WPS & OpenFOAM, along with GCC/OpenMPI & libs
    You can see how it is built along with its multiple dependent modules, with EasyBuild.
    More details about WRF are visible at WRF_ 's wikipedia page, including further pointers.
 
-WRF & OpenFOAM are prime examples why a tool like EasyBuild is really essential for an HPC site;
-not only can it manage the set of dependencies which are necessary,
+WRF & OpenFOAM are prime examples why a tool like EasyBuild is truly essential for an HPC site;
+not only can it manage the set of dependencies which are necessary in a structured way,
 it will also do so in a manner which is very consistent, eg. in relation to GNU/Intel compilers etc. 
 For more detailed information why such documentation of parameters is important, see this issue: EBnWRF_.
 
@@ -81,7 +81,7 @@ Example module namespace
 A site MAY provide the following list of modules.
 There is no need to provide the complete list of the following packages to be in compliance with this policy,
 since this is only provided for demonstration of the features and can be customized fully, as per site needs.
-Notably, future versions of EasyBuild MAY allow for module categories, alternative versions,
+Notably, future versions of EasyBuild MAY permit module categories, alternative versions, module hierarchies,
 improved integration with environment modules, filtered lists - defined as per user preferences - etc.
 
 .. include:: easybuild_modules.txt
