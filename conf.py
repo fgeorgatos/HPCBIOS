@@ -36,7 +36,7 @@ master_doc = 'index'
 
 # General substitutions.
 project = 'HPCBIOS'
-copyright = '2012-2013, Fotis Georgatos, University of Luxembourg, CC-BY-SA'
+copyright = '2012-2014, Fotis Georgatos, CC-BY-SA'
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
@@ -44,7 +44,7 @@ copyright = '2012-2013, Fotis Georgatos, University of Luxembourg, CC-BY-SA'
 # The short X.Y version.
 version = '0.9'
 # The full version, including alpha/beta/rc tags.
-release = '0.9.0' # 0.9.x
+release = '0.9.1' # 0.9.x
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
