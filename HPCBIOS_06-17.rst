@@ -43,16 +43,16 @@ the default commands for that application without hardcoding paths
 or version information. This allows to maximize code reuse and
 pave the way for uniform documentation across software versions.
 
-Implementations that are known to be compliant are:
+Implementations that are expected to be compliant are:
 
-* *environment-modules-c*
-* *environment-modules-tcl*
-* *Lmod*
+* *environment-modules-c*   # version >= 3.2.10
+* *environment-modules-tcl* # version >= 1.562
+* *Lmod*                    # version >= 5.2.5
 
-The individual site MAY combine
-compliant modulefiles with other existing site-specific methods (e.g. additional
-modulefiles or wrapper scripts) to select versions of applications
-t help define the user’s environment (fi. storage locations, project variables etc).
+The individual site MAY combine compliant environment modules implementations
+and modulefiles with more existing site-specific methods (e.g. additional
+modulefiles or profile initiatilization or wrapper scripts) to select versions of applications
+to help define the user’s environment (fi. storage locations, project variables etc).
 
 Dependencies
 ------------
