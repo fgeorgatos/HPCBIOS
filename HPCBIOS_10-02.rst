@@ -30,15 +30,15 @@ open source high productivity languages environment across all HPCBIOS compliant
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | PyMPI          | Python Message Passing Interface                | SHOULD             | http://pympi.sourceforge.net/            |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| Octave         | MATLAB Clone                                    | MUST               | http://www.gnu.org/software/octave/      |
+| Octave         | MATLAB Clone                                    | SHOULD             | http://www.gnu.org/software/octave/      |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | **matplotlib** | Scientific 2-D and 3-D Plotting                 | MUST               | http://matplotlib.sourceforge.net/       |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | **R**          | R language                                      | MUST               | http://www.r-project.org/                |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| NAG            | Numerical library /Numerical Algorithms Group   | SHOULD (commercial)| http://www.nag.co.uk/                    |
-+----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | **MATLAB**     | MATLAB is a high-level language for computation | SHOULD (commercial)| http://www.mathworks.nl/products/matlab/ |
++----------------+-------------------------------------------------+--------------------+------------------------------------------+
+| NAG            | Numerical library /Numerical Algorithms Group   | SHOULD (commercial)| http://www.nag.co.uk/                    |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 
 This high productivity languages environment will be supplemented with

@@ -41,6 +41,8 @@ hence it has become a requirement for being compliant with this policy:
 +--------+-----------------------+--------------------+
 | GCC    | **v4.8.2** or later   | SHOULD             |
 +--------+-----------------------+--------------------+
+| GCC    | **v4.9.0** or later   | SHOULD             |
++--------+-----------------------+--------------------+
 | Clang  | **v3.2** or later     | SHOULD             |
 +--------+-----------------------+--------------------+
 | TCC    | **v0.9.26** or later  | MAY                |
