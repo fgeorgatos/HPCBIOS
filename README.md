@@ -1,7 +1,7 @@
 HPCBIOS
 =======
 
-High Performance Computing for BIOinformatics Software (and beyond)
+High Performance Computing BIOS - Baseline Configuration
 -------------------------------------------------------------------
 
 Here is how to define your HPC environment(s), without having to struggle about it:
