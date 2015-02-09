@@ -117,4 +117,4 @@ Potential sources of information for future upgrades of this list include:
   * http://sebastien.dinot.free.fr/liens_dev_c_cpp.html
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.

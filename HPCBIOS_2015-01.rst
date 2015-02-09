@@ -43,7 +43,7 @@ Biocompressors:
 +----------------------------------------+-----------------------------+--------------------+------------------------------------------------------------+
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.
 
 Reference documents:
 

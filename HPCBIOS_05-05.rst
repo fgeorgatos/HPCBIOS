@@ -58,4 +58,4 @@ Potential sources of information for further future upgrades of this policy incl
   * http://trac.mcs.anl.gov/projects/cobalt/wiki/DebugQueueConfig
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.

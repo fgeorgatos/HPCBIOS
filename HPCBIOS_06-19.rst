@@ -34,4 +34,4 @@ The current core set of open source utilities is:
 Other software utilities can be incorporated into this core set with Baseline Configuration team consensus.
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.

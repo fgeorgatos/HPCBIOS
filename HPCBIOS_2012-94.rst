@@ -270,5 +270,5 @@ Potential sources of information for further future upgrades of this list includ
   * http://nebc.nerc.ac.uk/tools/bio-linux-5/package-list
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.
 

@@ -49,5 +49,5 @@ This productivity environment will be supplemented with other related
 productivity tools as they become available on allocated systems.
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.
 

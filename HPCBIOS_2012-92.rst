@@ -92,7 +92,7 @@ References
 EasyBuild:  http://hpcugent.github.com/easybuild/
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.
 
 .. _EasyBuild:  http://hpcugent.github.com/easybuild/
 .. _WRF:	http://en.wikipedia.org/wiki/Weather_Research_and_Forecasting_model

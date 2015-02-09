@@ -64,5 +64,5 @@ Potential sources of information for further future upgrades of this list includ
   * A list of memory debuggers and more specialized tools such as: **Valgrind**, ElectricFence, dmalloc, Purify, **Intel Inspector**, IBM Rational Purify
 
 Kindly notify -if this policy is inadequate for your work-
-both your local site technical representative & HPCBIOS user-support.
+both your local site technical representative & HPCBIOS maintainers.
 
