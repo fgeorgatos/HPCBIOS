@@ -6,7 +6,7 @@ HPCBIOS_2013-01: Common Dependencies for Life Science Applications
 .. note::
   As the number of Life Science applications increases,
   it becomes more and more pronounced the need to stabilize on a substrate
-  of common dependencies; this permis to mix together software which depends
+  of common dependencies; this permits to mix together software which depends
   on multiple (dynamic) libraries, with **predictable results and no conflicts**.
   This need is particularly important when an HPC platform delivers Life Science
   and Bioinformatics packages via `modules`, which need to be combined in a pipeline

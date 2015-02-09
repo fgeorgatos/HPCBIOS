@@ -54,7 +54,7 @@ Compliance Matrix
 Use notation |y| |n| |a| |d| |i| |w| respectively standing for: *yes, no, agree, disagree, information notice, warning notice*.
 
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
-| Policy tag #       | Policy Topics                                                            | Chaos   | Gaia   | G5K   |
+| Policy tag #       | Policy Topics                                                            | C       | G      | K     |
 +====================+==========================================================================+=========+========+=======+
 | |HPCBIOS_05_01|    | Multiple-Version Software                                                | |y|     | |y|    |       |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
@@ -106,6 +106,8 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: *yes, no, agree,
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 | |HPCBIOS_2013-01|  | Common Dependencies for Life Science Applications                        | |a|     | |a|    | |a|   |
 +--------------------+--------------------------------------------------------------------------+---------+--------+-------+
+| |HPCBIOS_2015-01|  | Biocompressors, for NGS data and bioinformatics                          | |a|     | |a|    | |a|   |
++--------------------+--------------------------------------------------------------------------+---------+--------+-------+
 
 .. note::
   Non-Compliance Disclaimer
@@ -151,3 +153,4 @@ This document was last rebuilt on: |today|.
 .. |HPCBIOS_2012-98| replace:: [:ref:`HPCBIOS_2012-98 <HPCBIOS_2012-98>`]
 .. |HPCBIOS_2012-99| replace:: [:ref:`HPCBIOS_2012-99 <HPCBIOS_2012-99>`]
 .. |HPCBIOS_2013-01| replace:: [:ref:`HPCBIOS_2013-01 <HPCBIOS_2013-01>`]
+.. |HPCBIOS_2015-01| replace:: [:ref:`HPCBIOS_2015-01 <HPCBIOS_2015-01>`]
