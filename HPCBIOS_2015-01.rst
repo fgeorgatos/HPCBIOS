@@ -18,6 +18,9 @@ HPCBIOS_2015-01: Biocompressors, for NGS data and bioinformatics
   * May increase the speed with which I/O operations take place, if slow disk operations are minimized
   * Saturation of I/O subsystems may become less pronounced, or be postponed towards heavier loads
 
+  The aim of this policy is to ensure that a sufficiently rich palette of entropy-conscious tools
+  are available on machines which may be flooded by NGS data.
+
   * BC Policy: HPCBIOS_2015-01
   * Date of Policy: 2015-02-02
 
@@ -45,5 +48,6 @@ both your local site technical representative & HPCBIOS user-support.
 Reference documents:
 
 - Compression of FASTQ and SAM Format Sequencing Data, by James K. Bonfield & Matthew V. Mahoney
+
   http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059190
 
