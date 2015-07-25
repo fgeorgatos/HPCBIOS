@@ -21,7 +21,7 @@ productivity environment across any HPCBIOS resources:
 +==================================================+=======================+====================+====================================================+
 | bash sh tcsh ksh csh zsh                         | latest                | MUST               | 01. unix shells                                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| vim emacs nano joe jove ed sed                   | latest                | SHOULD             | 02. editors / stream editors                       |
+| vim emacs nano ed sed                            | latest                | SHOULD             | 02. editors / stream editors                       |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | coreutils bc par grep gawk findutils parallel    | latest                | SHOULD             | 03. GNU variations of common Unix tools            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -31,9 +31,9 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | zlib openssl openssh                             | latest                | SHOULD             | 06. zlib/openssl are typically required allover    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| wget lynx links curl rsync unison ftp lftp bbcp  | latest                | SHOULD             | 07. downloaders / file fetchers                    |
+| wget curl lynx links rsync unison ftp lftp bbcp  | latest                | SHOULD             | 07. downloaders / file fetchers                    |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| subversion rcs cvs git git-core git-svn          | latest                | SHOULD             | 10. version control                                |
+| subversion rcs cvs git                           | latest                | SHOULD             | 10. version control                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | ssh ldap nfs nscd telnet netcat ntp ntpdate      | latest                | SHOULD             | 11. system interconnection essentials              |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -71,7 +71,7 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | makeself.sh mc                                   | latest                | SHOULD             | 28. misc platform                                  |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| libstdc++ boost-dev                              | 5 or later            | MAY                | 30. base c++ libraries                             |
+| libstdc++                                        | latest                | MAY                | 30. base c++ libraries                             |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | ncurses ncurses-dev                              | latest                | SHOULD             | 31. tui development                                |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
@@ -103,13 +103,12 @@ productivity environment across any HPCBIOS resources:
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 | environment-modules                              | v3.2.10 or later      | MAY                | 90. env. modules (Tcl/C)                           |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| lmod                                             | v5.2.0 or later       | MAY                | 91. env. modules (lua/lmod)                        |
+| lmod                                             | v5.9.0 or later       | MAY                | 91. env. modules (lua/lmod)                        |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
-| lsb lsb-release                                  | latest                | MAY                | Linux Standard Base                                |
+| lsb lsb-release                                  | latest                | MAY                | 99. Linux Standard Base                            |
 +--------------------------------------------------+-----------------------+--------------------+----------------------------------------------------+
 
-This productivity environment will be supplemented with other related
-productivity tools as they become available on allocated systems.
+This productivity environment will be supplemented with other related tools.
 
 Potential sources of information for future upgrades of this list include:
   * http://wiki.gumstix.org/index.php?title=Build_Environment_openSUSE_11.0
