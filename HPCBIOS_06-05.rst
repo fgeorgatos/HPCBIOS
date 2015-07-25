@@ -41,8 +41,8 @@ At this time, these packages are included in the RECOMMENDED baseline set:
 |                  | by TotalView Technologies                                                          | (commercial)     |                                                    |
 |                  | Supported architectures: x86_64, GPUs                                              |                  |                                                    |
 +------------------+------------------------------------------------------------------------------------+------------------+----------------------------------------------------+
-| **IDB**          | Intel Debugger provides support for debugging programs written in C, C++ & Fortran | MAY              | https://software.intel.com/en-us/articles/idb-linux|
-|                  | It provides a choice of command-line and graphical user interface (GUI) on Linux.  |                  |                                                    |
+| **IDB**          | Intel Debugger provides support for debugging programs written in C, C++ & Fortran | SHOULD           | https://software.intel.com/en-us/articles/idb-linux|
+|                  | It provides a choice of command-line and graphical user interface (GUI) on Linux.  | (commercial)     |                                                    |
 |                  | Supported architectures: x86_64,                                                   |                  |                                                    |
 +------------------+------------------------------------------------------------------------------------+------------------+----------------------------------------------------+
 | **MemoryScape**  | Dynamic memory debugging for monitoring heap allocations, memory leaks             | MAY              | http://www.roguewave.com/products/memoryscape.aspx |
