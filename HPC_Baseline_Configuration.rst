@@ -3,26 +3,26 @@ HPC Baseline Configuration
 
 .. topic:: Introduction
 
-  HPCBIOS is an effort to setup a common, well-documented and reproducible,
-  environment spanning across multiple HPC systems & sites.
+  HPCBIOS is an effort to setup a common, well-documented and reproducible environment,
+  spanning across multiple HPC systems & sites, in a user-friendly way.
 
   HPC Baseline Configuration (BC) is an effort to define a common set of
-  capabilities and functions so that users can work more productively and
+  capabilities and functions, so that users can work more productively and
   collaboratively when using the HPC resources at multiple computing
-  sites within the HPCBIOS project context. This will be accomplished by
+  sites within the HPCBIOS compatibility context. This is accomplished by
   defining and developing a common set of capabilities and functions so
   that users can focus energy on their research effort,
   as opposed to wrestling with site-specific policies and procedures.
 
-  It is modeled after a similar effort taking place elsewhere among 6 HPC sites in the US and,
-  in effect, it is an extension upon it (notably Compliance Matrix):
+  It is modeled after a similar effort taking place among 6 HPC sites in the US and
+  it is, in effect, an extension upon it (notably, its Compliance Matrix):
 
   `HPC-BC <http://centers.hpc.mil/consolidated/bc/>`_.
 
-  The effort of this project keeps marching on helping users work more
-  productively by updating existing policies to accommodate emerging needs,
+  This effort keeps marching on helping users work more
+  productively, by updating existing policies to accommodate emerging needs,
   integrating new capabilities that must be consistent across the HPC
-  enterprise, or just providing a sounding board for users experiencing
+  enterprise or, just providing a sounding board for users experiencing
   difficulties with an HPC environment.
 
   * The keywords *MUST*, *MUST NOT*, *REQUIRED*, *SHALL*, *SHALL NOT*, *SHOULD*, *SHOULD NOT*,
@@ -32,14 +32,14 @@ About the Baseline Configuration
 --------------------------------
 
 There is a growing community of HPCBIOS users who need to work on data
-and computation-intensive problems spread across multiple computing
+and computation-intensive problems, spread across multiple computing
 sites and services. Recent discussions show that over half of users
-may need accounts at more than one site.
+eventually need accounts at more than one site.
 
 The main goal of the HPC Baseline Configuration activity is to define
 and establish a common set of capabilities and functions so that users
-can compute productively and collaboratively when using the HPC
-resources at multiple computing sites.
+can compute productively and collaboratively,
+when using HPC resources at multiple computing sites.
 
 Compliance Matrix
 -----------------
@@ -112,19 +112,17 @@ Use notation |y| |n| |a| |d| |i| |w| respectively standing for: *yes, no, agree,
 .. note::
   Non-Compliance Disclaimer
 
-  Site compliance assures that the minimum guidelines of the policy have
-  been met by the Site.
-  Sites may, at their discretion, exceed the minimum guidelines and
-  still remain in compliance.
-  Periodic checks may need be performed to ensure compliance is maintained.
+  Site compliance assures that the minimum guidelines of the policy have been met by a site.
+  Sites may, at their discretion, exceed the minimum guidelines and still remain in compliance.
+  Periodic checks may need to be performed to ensure compliance is maintained.
 
-  Note, there can be valid reasons for not being compliant with a policy.
+  Note that, there can be valid reasons for not being compliant with a policy.
   For example, non-compliance may be acceptable especially if it implies removal of
-  an existing capability or function from a given system; also, for generic operational reasons
+  an existing capability or function, from a given system; also, for generic operational reasons
   or, if the HPC system affected is scheduled for decommissioning in the near future.
 
   **Non-compliance is not an issue, as long as the documentation above is consistent
-  and the users are informed about status, promptly.**
+  and the users are informed about status, in a prompt way.**
 
 This document was last rebuilt on: |today|.
 
