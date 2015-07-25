@@ -20,6 +20,8 @@ productivity environment across all HPCBIOS resources:
 +=======================================+========================+====================+==========================================================================+
 | **CUDA Toolkit**                      | **v4.2 or later**      | MUST               | https://developer.nvidia.com/cuda-downloads                              |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
+| **rCUDA**                             | v4.0.1                 | SHOULD             | http://www.rCUDA.net                                                     |
++---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | **PyCUDA**                            | 2012.1                 | SHOULD             | http://mathema.tician.de/software/pycuda                                 |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | PyOpenCL                              | 2012.1                 | SHOULD             | http://mathema.tician.de/software/pyopencl                               |
@@ -36,13 +38,11 @@ productivity environment across all HPCBIOS resources:
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | CULA & CULASPARSE                     | R16a & S4              | SHOULD             | http://www.culatools.com                                                 |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
-| rCUDA                                 | v4.0.1                 | SHOULD             | http://www.rCUDA.net                                                     |
-+---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 | VCL                                   | v1.19                  | SHOULD             | http://www.mosix.org/txt_vcl.html                                        |
 +---------------------------------------+------------------------+--------------------+--------------------------------------------------------------------------+
 
 This GPU productivity environment will be supplemented with other such
-productivity tools as they become available on allocated systems.
+productivity tools, as they become available on allocated systems.
 
 Potential sources of information for further future upgrades of this list include:
   * http://brainarray.mbni.med.umich.edu/brainarray/rgpgpu/
