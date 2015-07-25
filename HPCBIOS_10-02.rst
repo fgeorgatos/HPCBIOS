@@ -8,10 +8,11 @@ HPCBIOS_10-02: Common Open Source High Productivity Languages
   scientific computing and visualization environment. Leading high productivity
   languages include R, the commercially available MATLAB, open source Python
   (with its scientific computing add-ons) and open source Octave.
+
   Each of these high productivity languages forms an integral part of a standard
   library that includes text processing, file I/O, data compression, and a
   host of capabilities ranging from basic numerical linear algebra to complex data
-  visualization. As such they are an indispensable component for a modern HPC platform.
+  visualization. As such they are an indispensable component of any modern HPC platform.
 
   * BC Policy: HPCBIOS_10-02
   * Date of Policy: 2012-12-15
@@ -30,7 +31,7 @@ open source high productivity languages environment across all HPCBIOS compliant
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | PyMPI          | Python Message Passing Interface                | SHOULD             | http://pympi.sourceforge.net/            |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
-| Octave         | MATLAB Clone                                    | SHOULD             | http://www.gnu.org/software/octave/      |
+| **Octave**     | MATLAB Clone                                    | MUST               | http://www.gnu.org/software/octave/      |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 | **matplotlib** | Scientific 2-D and 3-D Plotting                 | MUST               | http://matplotlib.sourceforge.net/       |
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
@@ -42,12 +43,11 @@ open source high productivity languages environment across all HPCBIOS compliant
 +----------------+-------------------------------------------------+--------------------+------------------------------------------+
 
 This high productivity languages environment will be supplemented with
-more open source productivity languages as they become available on
-allocated systems.
+more open source productivity languages, as they become available on allocated systems.
 
 There are three key sources which MAY be used to provide support to the
-scripting language Python and its scientific add-ons NumPy, PyMPI and
-SciPy, as well as more tools from the above list. These are:
+scripting language Python and its scientific add-ons NumPy, PyMPI and SciPy,
+as well as more tools from the above list. These are:
 
 - EasyBuild. See policy |HPCBIOS_2012-92| ; in fact, this is the preferred way,
   since integration with the other scientific software is better guaranteed.
@@ -69,7 +69,7 @@ SciPy, as well as more tools from the above list. These are:
   consistent Python based environment for developing and deploying
   scientific packages that rely on a common runtime environment.
 
-Either of EasyBuild, CSE or PToolsRTE, SHOULD be made available on HPC systems.
+At least one of EasyBuild, CSE or PToolsRTE, SHOULD be made available on HPC systems.
 
 EasyBuild is maintained by *Ghent University* and is available as open source python codebase,
 while the CSE package is being maintained by the *ARL CSE* Team
