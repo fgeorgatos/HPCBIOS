@@ -5,8 +5,8 @@ HPCBIOS_06-19: Common Set of Open Source Utilities
 
 .. note::
   Sites will provide a core set of open source utilities on all
-  allocated HPC systems and non-storage user-accessible support servers,
-  and installed in the users default path.
+  allocated HPC systems and non-storage user-accessible support servers.
+  These should be installed in the users' default path or, provided via modulefiles.
 
   * BC Project HPCBIOS_06–19
   * Date of Policy: 2012-12-15
@@ -22,7 +22,7 @@ The current core set of open source utilities is:
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | cvs (GNU)          | Provides a version control system for managing source files, and documents.                                                                |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| subversion         | Provides a version control system for managing files and directories                                                                       |
+| **Subversion**     | Provides a version control system for managing files and directories                                                                       |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | **Tar (GNU)**      | Creates tar archives, as well as providing various other kinds of manipulation.                                                            |
 +--------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
