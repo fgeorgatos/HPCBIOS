@@ -4,14 +4,15 @@ HPCBIOS_07-02: Common Open Source Performance and Profiling Tools
 =================================================================
 
 .. note::
-  This policy defines a set of performance and profiling tools and their
-  consistent maintenance (same version and configuration) across all
-  systems of participating sites. Same configuration is dependent on
+  Performance and profiling tools are used on HPC sites for keeping codes execution times tamed.
+
+  This policy defines a set of performance and profiling tools and promotes their
+  consistent maintenance (ie maintain compatible versions and configuration)
+  across all systems of compatible sites. Same configuration is dependent on
   system compatibility, and also, some libraries may have slightly
-  different configurations due to architectural differences. These
-  differences, however, will not affect the use of the libraries. A user
-  moving from one resource to another will notice no difference between
-  the installations.
+  different configurations due to architectural differences.
+  These differences, however, SHALL NOT affect the use of the libraries.
+  A user moving from one resource to another is not expected to notice significant difference between the installations.
 
   * BC Policy: HPCBIOS_07-02
   * Date of Policy: 2012-12-15
@@ -30,7 +31,7 @@ The suite of maintained packages consists of:
 |**Intel Vtune Analyzer**| performance optimization tool                          | SHOULD             | http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/      |
 |                        | NOTE: not open source but still relevant               | (commercial)       |                                                                         |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
-| UNITE                  | UNiform Integrated Tool Environment                    | MUST               | http://apps.fz-juelich.de/unite                                         |
+| UNITE                  | UNiform Integrated Tool Environment                    | SHOULD             | http://apps.fz-juelich.de/unite                                         |
 +------------------------+--------------------------------------------------------+--------------------+-------------------------------------------------------------------------+
 
 UNITE
@@ -47,7 +48,7 @@ open-source tools. UNITE itself includes:
   +--------------+-------------------------------------------------+---------------------------------------------+
   | **SCALASCA** | Scalable trace analysis package                 | http://www.scalasca.org/                    |
   +--------------+-------------------------------------------------+---------------------------------------------+
-  |  Vampir      | Performance Optimization                        | http://www.vampir.eu/                       |
+  | **Vampir**   | Performance Optimization                        | http://www.vampir.eu/                       |
   +--------------+-------------------------------------------------+---------------------------------------------+
   |  TAU         | Performance analysis of parallel applications   | http://www.cs.uoregon.edu/Research/tau      |
   |              |   * Support for **PAPI** and **SCALASCA**       |                                             |
