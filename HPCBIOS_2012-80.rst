@@ -5,9 +5,9 @@ HPCBIOS_2012-80: Common Set of DFT codes
 
 .. note::
 
-  Providing (a subset of) popular DFT codes is nearly imperative for most HPC sites.
-  This is an work-in-progress effort to provide the candidate list as a set.
-  There is no particular level of compliance as of yet (all list is "SHOULD" status).
+  Providing (a subset of) popular DFT codes is nearly imperative for most general purpose HPC sites.
+  This is a work-in-progress effort to provide a candidate list, as a single set.
+  There is no particular level of compliance as of yet (all list is at "SHOULD" status).
 
   * BC Policy: HPCBIOS_2012-80
   * Date of Policy: 2012-12-15
@@ -110,7 +110,7 @@ Molecular codes
 +------------------------+----------------------------------------------------------------------+
 | Jaguar                 |  http://www.schrodinger.com/Products/jaguar.html                     |
 +------------------------+----------------------------------------------------------------------+
-| GAMESS                 |  http://www.msg.chem.iastate.edu/gamess                              |
+| **GAMESS-US**          |  http://www.msg.chem.iastate.edu/gamess                              |
 +------------------------+----------------------------------------------------------------------+
 | QCHEM                  |  http://www.q-chem.com                                               |
 +------------------------+----------------------------------------------------------------------+
@@ -118,13 +118,13 @@ Molecular codes
 +------------------------+----------------------------------------------------------------------+
 | MondoSCF               |  http://www.t12.lanl.gov/home/mchalla                                |
 +------------------------+----------------------------------------------------------------------+
-| ADF - SCM              |  http://www.scm.com                                                  |
+| **ADF**                |  http://www.scm.com                                                  |
 +------------------------+----------------------------------------------------------------------+
 | deMon                  |  http://www.demon-software.com                                       |
 +------------------------+----------------------------------------------------------------------+
 | CADPAC                 |  http://www-theor.ch.cam.ac.uk/software/caddoc.html                  |
 +------------------------+----------------------------------------------------------------------+
-| **PYQUANTE**           |  http://pyquante.sourceforge.net                                     |
+| **PyQuante**           |  http://pyquante.sourceforge.net                                     |
 +------------------------+----------------------------------------------------------------------+
 | TURBOMOLE              |  http://www.cosmologic.de/QuantumChemistry/main_qChemistry.html      |
 +------------------------+----------------------------------------------------------------------+
@@ -175,8 +175,7 @@ Useful links
 
 .. note::
 
-  The current form of the policy currently does not specify 32 bit vs 64
-  bit version, though it is expected that the native architecture of a
-  given system (typically 64 bits) is supported as the default target,
-  while the other is optional but desired to have (typically 32 bits).
+  The current form of this policy does not specify 32 bit vs 64 bit or any other architecture,
+  though it is expected that the native architecture of a
+  given system (typically a 64 bit variant) is supported as the default target.
 
