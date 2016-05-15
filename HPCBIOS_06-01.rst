@@ -41,9 +41,9 @@ The suite of maintained packages consists of:
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 | **SPRNG**     | Pseudo-Random Number Generators for Stochastic computation via Monte Carlo methods et al | MUST               | http://sprng.cs.fsu.edu/                      |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| ARPACK        | Solution of Eigenvalues/Eigenvectors                                                     | SHOULD             | http://www.caam.rice.edu/software/ARPACK/     |
+| **ARPACK**    | Solution of Eigenvalues/Eigenvectors                                                     | MAY                | http://www.caam.rice.edu/software/ARPACK/     |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
-| SuperLU       | Direct solution of sparse linear systems of equations                                    | MAY                | http://crd.lbl.gov/~xiaoye/SuperLU            |
+| **SuperLU**   | Direct solution of sparse linear systems of equations                                    | MAY                | http://crd.lbl.gov/~xiaoye/SuperLU            |
 +---------------+------------------------------------------------------------------------------------------+--------------------+-----------------------------------------------+
 
 Change notification
