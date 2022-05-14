@@ -1,0 +1,177 @@
+
+## ref. https://hpcbios.readthedocs.io/en/latest/HPCBIOS_2012-90.html
+
+- hosts: all
+  tasks:
+  - name: HPCBIOS-01. unix shells
+    yum: name="{{ item }}" state=present
+    with_items:
+    - bash
+##    - sh
+    - tcsh
+    - ksh
+    - csh
+    - zsh
+  - name: HPCBIOS-02. editors / stream editors
+    yum: name="{{ item }}" state=present
+    with_items:
+    - vim
+    - emacs
+    - nano
+    - ed
+    - sed
+  - name: HPCBIOS-03. GNU variations of common Unix tools
+    yum: name="{{ item }}" state=present
+    with_items:
+    - coreutils
+    - bc
+##    - par
+    - grep
+    - gawk
+    - findutils
+    - parallel
+  - name: HPCBIOS-04. user interaction
+    yum: name="{{ item }}" state=present
+    with_items:
+##    - more
+    - util-linux
+    - less
+    - screen
+##    - script
+    - tmux
+  - name: HPCBIOS-05. online help
+    yum: name="{{ item }}" state=present
+    with_items:
+    - man
+    - help2man
+    - texinfo
+##    - par
+  - name: HPCBIOS-06. zlib/openssl are typically required allover
+    yum: name="{{ item }}" state=present
+    with_items:
+    - zlib
+    - openssl
+    - openssh
+  - name: HPCBIOS-07. downloaders / file fetchers
+    yum: name="{{ item }}" state=present
+    with_items:
+    - wget
+    - curl
+    - lynx
+    - links
+    - rsync
+    - unison
+    - ftp
+    - lftp
+ ##   - bbcp
+  - name: HPCBIOS-10. version control
+    yum: name="{{ item }}" state=present
+    with_items:
+    - subversion
+    - rcs
+    - cvs
+    - git
+  - name: HPCBIOS-11. system interconnection essentials
+    yum: name="{{ item }}" state=present
+    with_items:
+##     - ssh
+##    - ldap
+    - openldap-clients
+##    - nfs
+    - nscd
+    - telnet
+##    - netcat
+    - nc
+    - ntp
+    - ntpdate
+  - name: HPCBIOS-12. process & user inspection
+    yum: name="{{ item }}" state=present
+    with_items:
+    - strace
+    - ltrace
+    - lsof
+    - finger
+    - pwgen
+    - procps
+##    - fuser
+    - psmisc
+##    - who
+    - coreutils
+  - name: HPCBIOS-13. system inspection tools
+    yum: name="{{ item }}" state=present
+    with_items:
+    - dstat
+    - sysstat
+    - iotop
+    - htop
+##    - host
+    - bind-utils
+##    - ifconfig
+##    - arp
+    - net-tools
+##    - iptraf
+    - iptraf-ng
+  - name: HPCBIOS-14. network inspection tools
+    yum: name="{{ item }}" state=present
+    with_items:
+    - nmap
+    - tcpdump
+##    - dig
+    - bind-utils
+    - whois
+##    - icmpinfo
+  - name: HPCBIOS-15. network diagnostics - basics
+    yum: name="{{ item }}" state=present
+    with_items:
+##    - ping
+##    - ping6
+    - iputils
+    - traceroute
+##    - traceroute6
+    - paris-traceroute
+##    - tcptrace
+    - ndisc6
+    - mtr
+##    - ss
+  - name: HPCBIOS-16. network diagnostics - extras
+    yum: name="{{ item }}" state=present
+    with_items:
+    - iperf
+    - nuttcp
+##    - bwctl
+##    - ndp
+##    - ndt
+##    - thrulay
+    - vnstat
+  - name: HPCBIOS-17. patching & macros
+    yum: name="{{ item }}" state=present
+    with_items:
+    - patch
+##    - diff
+    - diffutils
+    - diffstat
+    - m4
+  - name: HPCBIOS-18. archivers
+    yum: name="{{ item }}" state=present
+    with_items:
+    - bzip2
+    - zip
+    - unzip
+    - pax
+##    - arc
+    - lzip
+##    - rzip
+    - cpio
+    - tar
+    - gzip
+  - name: HPCBIOS-19. hardware & devices inspection
+    yum: name="{{ item }}" state=present
+    with_items:
+    - dmidecode
+##    - lspci
+    - pciutils
+##    - blkid
+##    - fdisk
+    - util-linux
+    - hdparm
+    - ethtool
