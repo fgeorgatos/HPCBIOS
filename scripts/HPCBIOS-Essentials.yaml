@@ -2,6 +2,7 @@
 ## ref. https://hpcbios.readthedocs.io/en/latest/HPCBIOS_2012-90.html
 
 - hosts: all
+  connection: local
   tasks:
   - name: HPCBIOS-01. unix shells
     package: name="{{ item }}" state=present
@@ -25,7 +26,6 @@
     with_items:
     - coreutils
     - bc
-##    - par
     - grep
     - gawk
     - findutils
@@ -45,13 +45,14 @@
     - man
     - help2man
     - texinfo
-##    - par
+    - par
   - name: HPCBIOS-06. zlib/openssl are typically required allover
     package: name="{{ item }}" state=present
     with_items:
-    - zlib
+    - zlib1g
     - openssl
-    - openssh
+    - openssh-client
+    - zstd
   - name: HPCBIOS-07. downloaders / file fetchers
     package: name="{{ item }}" state=present
     with_items:
@@ -62,8 +63,7 @@
     - rsync
     - unison
     - ftp
-    - lftp
- ##   - bbcp
+    - lftp ##   - bbcp
   - name: HPCBIOS-10. version control
     package: name="{{ item }}" state=present
     with_items:
@@ -76,13 +76,13 @@
     with_items:
 ##    - ssh
 ##    - ldap
-    - openldap-clients
+##    - openldap-clients
 ##    - nfs
     - nscd
     - telnet
-##    - netcat
-    - nc
-    - ntp
+    - netcat-openbsd
+##    - nc
+##    - ntp
     - ntpdate
   - name: HPCBIOS-12. process & user inspection
     package: name="{{ item }}" state=present
@@ -105,7 +105,7 @@
     - iotop
     - htop
 ##    - host
-    - bind-utils
+    - bind9-utils
 ##    - ifconfig
 ##    - arp
     - net-tools
@@ -117,7 +117,7 @@
     - nmap
     - tcpdump
 ##    - dig
-    - bind-utils
+    - bind9-utils
     - whois
 ##    - icmpinfo
   - name: HPCBIOS-15. network diagnostics - basics
@@ -125,20 +125,20 @@
     with_items:
 ##    - ping
 ##    - ping6
-    - iputils
+    - inetutils-ping ## - iputils
     - traceroute
 ##    - traceroute6
-    - paris-traceroute
-##    - tcptrace
+##    - paris-traceroute
+    - tcptrace
     - ndisc6
     - mtr
 ##    - ss
   - name: HPCBIOS-16. network diagnostics - extras
     package: name="{{ item }}" state=present
     with_items:
-    - iperf
+    - iperf3 ## iperf
     - nuttcp
-##    - bwctl
+##    - bwctl ## bwctl-server bwctl-client
 ##    - ndp
 ##    - ndt
 ##    - thrulay
@@ -175,3 +175,10 @@
     - util-linux
     - hdparm
     - ethtool
+  - name: HPCBIOS-28. misc platform
+    package: name="{{ item }}" state=present
+    with_items:
+    - mc
+    - ncdu
+    - plocate
+    - btop
